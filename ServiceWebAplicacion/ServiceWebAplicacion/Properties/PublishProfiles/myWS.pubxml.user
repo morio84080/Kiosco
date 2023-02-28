@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\ejemploWS</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ServiceWebAplicacion.dll">
+      <publishTime>10/06/2015 15:30:53</publishTime>
+    </File>
+    <File Include="bin/ServiceWebAplicacion.pdb">
+      <publishTime>10/06/2015 15:30:53</publishTime>
+    </File>
+    <File Include="ServicioClientes.asmx">
+      <publishTime>06/27/2013 17:50:38</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/06/2015 15:30:54</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

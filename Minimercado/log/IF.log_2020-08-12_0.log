@@ -1,0 +1,24 @@
+12/08/2020 11:43:06|Comienza Facturacion B
+12/08/2020 11:43:43|Error iniciando Factura B --> Referencia a objeto no establecida como instancia de un objeto.
+12/08/2020 11:43:47|Conectando..
+12/08/2020 11:43:47|IP: 127.0.0.1 - Puerto: 6500
+12/08/2020 11:43:47|Conectado con éxito!!
+12/08/2020 12:41:26|Conectando..
+12/08/2020 12:41:26|IP: 127.0.0.1 - Puerto: 6500
+12/08/2020 12:41:27|Conectado con éxito!!
+12/08/2020 12:41:40|Comienza Facturacion B
+12/08/2020 12:41:43|DatosCliente B
+12/08/2020 12:41:47|AbrirComprobanteFiscal B
+12/08/2020 12:41:52|Articulo --> dove jab x90 exfoliacion
+12/08/2020 12:41:52|cantidadArt B --> 1
+12/08/2020 12:41:52|PrecVear --> 85
+12/08/2020 12:41:52|montoArt --> 70,2479338842975
+12/08/2020 12:41:52|ivaArt --> 21
+12/08/2020 12:41:52|hasarOCX.ImprimirItem --> OK
+12/08/2020 12:41:52|Cerrar Comprobante B:::
+12/08/2020 12:41:55|Obtiene nrocomp
+12/08/2020 12:41:56|nrocomp --> 1
+12/08/2020 12:41:56|Nro. de Comprobante ::: TFB ::: 1
+12/08/2020 20:51:22|Conectando..
+12/08/2020 20:51:22|IP: 127.0.0.1 - Puerto: 6500
+12/08/2020 20:51:23|Conectado con éxito!!

@@ -1,0 +1,15 @@
+08/06/2022 19:58:37|>>>>>>>>>>>>>>>>>>>>>INICIA ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+08/06/2022 19:58:37|>>>>>>>>>>>>>>>>>>>>>FIN ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+08/06/2022 19:58:40|>>>>>>>>>>>>>>>>>>>>>INICIA Create Files<<<<<<<<<<<<<<<<<<<<<<<<<
+08/06/2022 19:58:40|DETIENE PROCESO HASAR
+08/06/2022 19:58:45|C:\Perfumeria\GETxxxAR\getaudar.exe
+08/06/2022 19:58:45|-p 3  -i serial -a 220601 220607
+08/06/2022 19:58:45|********** COMIENZA A GENERAR ARCHIVOS AFIP ***********
+08/06/2022 20:02:39|********** FIN GENERAR ARCHIVOS AFIP ***********
+08/06/2022 20:02:39|>>>>>>>>>>>>>>>>>>>>>INICIO PROCESO EnviarEmail<<<<<<<<<<<<<<<<<<<<<<<<<
+08/06/2022 20:02:39|pathPrograma: C:\Perfumeria\GETxxxAR\
+08/06/2022 20:02:41|++++++++++++++++++ ERROR: Error enviando email -->El servidor SMTP requiere una conexión segura o el cliente no se autenticó. La respuesta del servidor fue: 5.7.0 Authentication Required. Learn more at
+08/06/2022 20:02:41|>>>>>>>>>>>>>>>>>>>>>FIN PROCESO EnviarEmail<<<<<<<<<<<<<<<<<<<<<<<<<
+08/06/2022 20:02:41|>>>>>>>>>>>>>>>>>>>>>FIN PROCESO Create Files<<<<<<<<<<<<<<<<<<<<<<<<<
+08/06/2022 20:03:48|>>>>>>>>>>>>>>>>>>>>>INICIA ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+08/06/2022 20:03:48|>>>>>>>>>>>>>>>>>>>>>FIN ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<

@@ -1,0 +1,10 @@
+27/06/2022 19:54:36|>>>>>>>>>>>>>>>>>>>>>INICIA ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+27/06/2022 19:54:36|>>>>>>>>>>>>>>>>>>>>>FIN ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+27/06/2022 19:56:36|>>>>>>>>>>>>>>>>>>>>>INICIA Create Files<<<<<<<<<<<<<<<<<<<<<<<<<
+27/06/2022 19:56:36|DETIENE PROCESO HASAR
+27/06/2022 19:56:41|C:\Perfumeria\GETxxxAR\getaudar.exe
+27/06/2022 19:56:41|-p 3  -i serial -a 220615 220621
+27/06/2022 19:56:41|********** COMIENZA A GENERAR ARCHIVOS AFIP ***********
+27/06/2022 19:59:26|********** FIN GENERAR ARCHIVOS AFIP ***********
+27/06/2022 19:59:26|++++++++++++++++++ ERROR: Error Moviendo archivo: C:\Perfumeria\afip.85 -->No se puede crear un archivo que ya existe.
+

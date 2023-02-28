@@ -1,0 +1,31 @@
+16/08/2021 9:42:47|>>>>>>>>>>>>>>>>>>>>>INICIA ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+16/08/2021 9:42:47|>>>>>>>>>>>>>>>>>>>>>FIN ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+16/08/2021 9:42:51|>>>>>>>>>>>>>>>>>>>>>INICIA Create Files<<<<<<<<<<<<<<<<<<<<<<<<<
+16/08/2021 9:42:51|DETIENE PROCESO HASAR
+16/08/2021 9:42:56|C:\Perfumeria\GETxxxAR\getaudar.exe
+16/08/2021 9:42:56|-p 3  -i serial -a 210808 210814
+16/08/2021 9:42:56|********** COMIENZA A GENERAR ARCHIVOS AFIP ***********
+16/08/2021 9:43:02|********** FIN GENERAR ARCHIVOS AFIP ***********
+16/08/2021 9:43:02|++++++++++++++++++ ERROR: Error Moviendo archivo: C:\Perfumeria\afip.85 -->No se pudo encontrar el archivo 'C:\Perfumeria\afip.85'.
+16/08/2021 9:59:44|>>>>>>>>>>>>>>>>>>>>>INICIA ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+16/08/2021 9:59:44|>>>>>>>>>>>>>>>>>>>>>FIN ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+16/08/2021 9:59:48|>>>>>>>>>>>>>>>>>>>>>INICIA Create Files<<<<<<<<<<<<<<<<<<<<<<<<<
+16/08/2021 9:59:48|DETIENE PROCESO HASAR
+16/08/2021 9:59:53|C:\Perfumeria\GETxxxAR\getaudar.exe
+16/08/2021 9:59:53|-p 3  -i serial -a 210808 210814
+16/08/2021 9:59:53|********** COMIENZA A GENERAR ARCHIVOS AFIP ***********
+16/08/2021 9:59:58|********** FIN GENERAR ARCHIVOS AFIP ***********
+16/08/2021 9:59:58|++++++++++++++++++ ERROR: Error Moviendo archivo: C:\Perfumeria\afip.85 -->No se pudo encontrar el archivo 'C:\Perfumeria\afip.85'.
+16/08/2021 10:02:42|>>>>>>>>>>>>>>>>>>>>>INICIA ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+16/08/2021 10:02:42|>>>>>>>>>>>>>>>>>>>>>FIN ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+16/08/2021 10:02:44|>>>>>>>>>>>>>>>>>>>>>INICIA Create Files<<<<<<<<<<<<<<<<<<<<<<<<<
+16/08/2021 10:02:44|DETIENE PROCESO HASAR
+16/08/2021 10:02:49|C:\Perfumeria\GETxxxAR\getaudar.exe
+16/08/2021 10:02:49|-p 3  -i serial -a 210808 210814
+16/08/2021 10:02:49|********** COMIENZA A GENERAR ARCHIVOS AFIP ***********
+16/08/2021 10:05:37|********** FIN GENERAR ARCHIVOS AFIP ***********
+16/08/2021 10:05:42|INICIA PROCESO HASAR
+16/08/2021 10:05:47|>>>>>>>>>>>>>>>>>>>>>INICIO PROCESO EnviarEmail<<<<<<<<<<<<<<<<<<<<<<<<<
+16/08/2021 10:05:47|pathPrograma: C:\Perfumeria\GETxxxAR\
+16/08/2021 10:05:54|>>>>>>>>>>>>>>>>>>>>>FIN PROCESO EnviarEmail<<<<<<<<<<<<<<<<<<<<<<<<<
+16/08/2021 10:05:54|>>>>>>>>>>>>>>>>>>>>>FIN PROCESO Create Files<<<<<<<<<<<<<<<<<<<<<<<<<

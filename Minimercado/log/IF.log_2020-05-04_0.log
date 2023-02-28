@@ -1,0 +1,728 @@
+04/05/2020 8:47:39|Conectando..
+04/05/2020 8:47:39|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 8:53:57|Conectando..
+04/05/2020 8:53:57|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 8:53:58|Conectado con éxito!!
+04/05/2020 9:02:30|Conectando..
+04/05/2020 9:02:30|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 9:02:31|Conectado con éxito!!
+04/05/2020 9:09:38|Conectando..
+04/05/2020 9:09:38|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 9:09:39|Conectado con éxito!!
+04/05/2020 9:33:10|Conectando..
+04/05/2020 9:33:10|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 9:33:11|Conectado con éxito!!
+04/05/2020 9:40:41|Comienza Facturacion B
+04/05/2020 9:40:41|DatosCliente B
+04/05/2020 9:40:44|AbrirComprobanteFiscal B
+04/05/2020 9:40:44|Articulo --> dove aero apx89 pepino te vde-6221
+04/05/2020 9:40:44|cantidadArt B --> 1
+04/05/2020 9:40:44|PrecVear --> 165
+04/05/2020 9:40:44|montoArt --> 136,363636363636
+04/05/2020 9:40:44|ivaArt --> 21
+04/05/2020 9:40:44|hasarOCX.ImprimirItem --> OK
+04/05/2020 9:40:44|Articulo --> goodmax maquina de afeitar x5 filos
+04/05/2020 9:40:44|cantidadArt B --> 2
+04/05/2020 9:40:44|PrecVear --> 55
+04/05/2020 9:40:44|montoArt --> 45,4545454545455
+04/05/2020 9:40:44|ivaArt --> 21
+04/05/2020 9:40:45|hasarOCX.ImprimirItem --> OK
+04/05/2020 9:40:45|Cerrar Comprobante B:::
+04/05/2020 9:40:48|Obtiene nrocomp
+04/05/2020 9:40:48|nrocomp --> 127
+04/05/2020 9:40:48|Nro. de Comprobante ::: TFB ::: 127
+04/05/2020 9:59:43|Conectando..
+04/05/2020 9:59:43|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 9:59:44|Conectado con éxito!!
+04/05/2020 10:11:46|Comienza Facturacion B
+04/05/2020 10:11:47|DatosCliente B
+04/05/2020 10:11:49|AbrirComprobanteFiscal B
+04/05/2020 10:11:49|Articulo --> pampers confortsec xgd 36+4
+04/05/2020 10:11:49|cantidadArt B --> 1
+04/05/2020 10:11:49|PrecVear --> 730
+04/05/2020 10:11:49|montoArt --> 603,305785123967
+04/05/2020 10:11:49|ivaArt --> 21
+04/05/2020 10:11:50|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:11:50|Articulo --> el coloso rollo cocx3 x 40paños
+04/05/2020 10:11:50|cantidadArt B --> 3
+04/05/2020 10:11:50|PrecVear --> 45
+04/05/2020 10:11:50|montoArt --> 37,1900826446281
+04/05/2020 10:11:50|ivaArt --> 21
+04/05/2020 10:11:50|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:11:50|Cerrar Comprobante B:::
+04/05/2020 10:11:53|Obtiene nrocomp
+04/05/2020 10:11:53|nrocomp --> 128
+04/05/2020 10:11:53|Nro. de Comprobante ::: TFB ::: 128
+04/05/2020 10:16:24|Conectando..
+04/05/2020 10:16:24|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 10:16:25|Conectado con éxito!!
+04/05/2020 10:18:04|Comienza Facturacion B
+04/05/2020 10:18:04|DatosCliente B
+04/05/2020 10:18:07|AbrirComprobanteFiscal B
+04/05/2020 10:18:07|Articulo --> el coloso rollo cocx3 x 40paños
+04/05/2020 10:18:07|cantidadArt B --> 1
+04/05/2020 10:18:07|PrecVear --> 45
+04/05/2020 10:18:07|montoArt --> 37,1900826446281
+04/05/2020 10:18:07|ivaArt --> 21
+04/05/2020 10:18:07|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:18:07|Articulo --> cif antig.dpx450 nva form -9492
+04/05/2020 10:18:07|cantidadArt B --> 1
+04/05/2020 10:18:07|PrecVear --> 58
+04/05/2020 10:18:07|montoArt --> 47,9338842975207
+04/05/2020 10:18:07|ivaArt --> 21
+04/05/2020 10:18:08|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:18:08|Articulo --> issue 4.65 cast.rojizo viola
+04/05/2020 10:18:08|cantidadArt B --> 1
+04/05/2020 10:18:08|PrecVear --> 120
+04/05/2020 10:18:08|montoArt --> 99,1735537190083
+04/05/2020 10:18:08|ivaArt --> 21
+04/05/2020 10:18:08|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:18:08|Cerrar Comprobante B:::
+04/05/2020 10:18:11|Obtiene nrocomp
+04/05/2020 10:18:11|nrocomp --> 129
+04/05/2020 10:18:11|Nro. de Comprobante ::: TFB ::: 129
+04/05/2020 10:20:19|Comienza Facturacion B
+04/05/2020 10:20:19|DatosCliente B
+04/05/2020 10:20:21|AbrirComprobanteFiscal B
+04/05/2020 10:20:21|Articulo --> adult care rop int extra grande 8 x 6
+04/05/2020 10:20:21|cantidadArt B --> 2
+04/05/2020 10:20:21|PrecVear --> 484
+04/05/2020 10:20:21|montoArt --> 400
+04/05/2020 10:20:21|ivaArt --> 21
+04/05/2020 10:20:22|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:20:22|Cerrar Comprobante B:::
+04/05/2020 10:20:25|Obtiene nrocomp
+04/05/2020 10:20:25|nrocomp --> 130
+04/05/2020 10:20:25|Nro. de Comprobante ::: TFB ::: 130
+04/05/2020 10:24:35|Comienza Facturacion B
+04/05/2020 10:24:35|DatosCliente B
+04/05/2020 10:24:38|AbrirComprobanteFiscal B
+04/05/2020 10:24:38|Articulo --> varios
+04/05/2020 10:24:38|cantidadArt B --> 1
+04/05/2020 10:24:38|PrecVear --> 270
+04/05/2020 10:24:38|montoArt --> 223,140495867769
+04/05/2020 10:24:38|ivaArt --> 21
+04/05/2020 10:24:38|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:24:38|Articulo --> kimbies ultrap xxl 6x30
+04/05/2020 10:24:38|cantidadArt B --> 1
+04/05/2020 10:24:38|PrecVear --> 400
+04/05/2020 10:24:38|montoArt --> 330,578512396694
+04/05/2020 10:24:38|ivaArt --> 21
+04/05/2020 10:24:38|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:24:38|Articulo --> issue 6 rubio oscuro
+04/05/2020 10:24:38|cantidadArt B --> 1
+04/05/2020 10:24:38|PrecVear --> 120
+04/05/2020 10:24:38|montoArt --> 99,1735537190083
+04/05/2020 10:24:38|ivaArt --> 21
+04/05/2020 10:24:39|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:24:39|Articulo --> prix guantes ultra chico
+04/05/2020 10:24:39|cantidadArt B --> 2
+04/05/2020 10:24:39|PrecVear --> 80
+04/05/2020 10:24:39|montoArt --> 66,1157024793389
+04/05/2020 10:24:39|ivaArt --> 21
+04/05/2020 10:24:39|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:24:39|Cerrar Comprobante B:::
+04/05/2020 10:24:42|Obtiene nrocomp
+04/05/2020 10:24:42|nrocomp --> 131
+04/05/2020 10:24:42|Nro. de Comprobante ::: TFB ::: 131
+04/05/2020 10:27:56|Conectando..
+04/05/2020 10:27:56|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 10:27:56|Conectado con éxito!!
+04/05/2020 10:28:28|Conectando..
+04/05/2020 10:28:28|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 10:28:29|Conectado con éxito!!
+04/05/2020 10:40:10|Comienza Facturacion B
+04/05/2020 10:40:10|DatosCliente B
+04/05/2020 10:40:13|AbrirComprobanteFiscal B
+04/05/2020 10:40:13|Articulo --> excellence 666 -z1371453#
+04/05/2020 10:40:13|cantidadArt B --> 1
+04/05/2020 10:40:13|PrecVear --> 550
+04/05/2020 10:40:13|montoArt --> 454,545454545455
+04/05/2020 10:40:13|ivaArt --> 21
+04/05/2020 10:40:13|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:40:13|Articulo --> excellence 634 h0177609#
+04/05/2020 10:40:13|cantidadArt B --> 1
+04/05/2020 10:40:13|PrecVear --> 550
+04/05/2020 10:40:13|montoArt --> 454,545454545455
+04/05/2020 10:40:13|ivaArt --> 21
+04/05/2020 10:40:14|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:40:14|Articulo --> excellence creme 4
+04/05/2020 10:40:14|cantidadArt B --> 1
+04/05/2020 10:40:14|PrecVear --> 550
+04/05/2020 10:40:14|montoArt --> 454,545454545455
+04/05/2020 10:40:14|ivaArt --> 21
+04/05/2020 10:40:14|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:40:14|Articulo --> excellence 5546  h1494801#
+04/05/2020 10:40:14|cantidadArt B --> 1
+04/05/2020 10:40:14|PrecVear --> 550
+04/05/2020 10:40:14|montoArt --> 454,545454545455
+04/05/2020 10:40:14|ivaArt --> 21
+04/05/2020 10:40:14|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:40:14|Articulo --> tresemme acondx400 liso keratina
+04/05/2020 10:40:14|cantidadArt B --> 1
+04/05/2020 10:40:14|PrecVear --> 260
+04/05/2020 10:40:14|montoArt --> 214,876033057851
+04/05/2020 10:40:14|ivaArt --> 21
+04/05/2020 10:40:15|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:40:15|Articulo --> 0155 estrella alcohol etilico 96  x 250 ml
+04/05/2020 10:40:15|cantidadArt B --> 4
+04/05/2020 10:40:15|PrecVear --> 95
+04/05/2020 10:40:15|montoArt --> 78,5123966942149
+04/05/2020 10:40:15|ivaArt --> 21
+04/05/2020 10:40:15|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:40:15|Cerrar Comprobante B:::
+04/05/2020 10:40:18|Obtiene nrocomp
+04/05/2020 10:40:18|nrocomp --> 132
+04/05/2020 10:40:18|Nro. de Comprobante ::: TFB ::: 132
+04/05/2020 10:43:23|Conectando..
+04/05/2020 10:43:23|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 10:43:23|Conectado con éxito!!
+04/05/2020 10:51:40|Conectando..
+04/05/2020 10:51:40|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 10:51:40|Conectado con éxito!!
+04/05/2020 10:52:35|Comienza Facturacion B
+04/05/2020 10:52:35|DatosCliente B
+04/05/2020 10:52:38|AbrirComprobanteFiscal B
+04/05/2020 10:52:38|Articulo --> varios
+04/05/2020 10:52:38|cantidadArt B --> 1
+04/05/2020 10:52:38|PrecVear --> 240
+04/05/2020 10:52:38|montoArt --> 198,347107438017
+04/05/2020 10:52:38|ivaArt --> 21
+04/05/2020 10:52:38|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:52:38|Articulo --> 30227493 huggies toallas húmedas limpieza total18 x48
+04/05/2020 10:52:38|cantidadArt B --> 1
+04/05/2020 10:52:38|PrecVear --> 230
+04/05/2020 10:52:38|montoArt --> 190,082644628099
+04/05/2020 10:52:38|ivaArt --> 21
+04/05/2020 10:52:38|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:52:38|Articulo --> babysec ultrasec xxg x 34 uni
+04/05/2020 10:52:38|cantidadArt B --> 1
+04/05/2020 10:52:38|PrecVear --> 470
+04/05/2020 10:52:38|montoArt --> 388,429752066116
+04/05/2020 10:52:38|ivaArt --> 21
+04/05/2020 10:52:39|hasarOCX.ImprimirItem --> OK
+04/05/2020 10:52:39|Cerrar Comprobante B:::
+04/05/2020 10:52:42|Obtiene nrocomp
+04/05/2020 10:52:42|nrocomp --> 133
+04/05/2020 10:52:42|Nro. de Comprobante ::: TFB ::: 133
+04/05/2020 11:05:29|Conectando..
+04/05/2020 11:05:29|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 11:05:30|Conectado con éxito!!
+04/05/2020 11:08:05|Comienza Facturacion B
+04/05/2020 11:08:05|DatosCliente B
+04/05/2020 11:08:08|AbrirComprobanteFiscal B
+04/05/2020 11:08:08|Articulo --> varios
+04/05/2020 11:08:08|cantidadArt B --> 1
+04/05/2020 11:08:08|PrecVear --> 40
+04/05/2020 11:08:08|montoArt --> 33,0578512396694
+04/05/2020 11:08:08|ivaArt --> 21
+04/05/2020 11:08:08|hasarOCX.ImprimirItem --> OK
+04/05/2020 11:08:08|Articulo --> minora prestobarbax 1 unidad
+04/05/2020 11:08:08|cantidadArt B --> 2
+04/05/2020 11:08:08|PrecVear --> 45
+04/05/2020 11:08:08|montoArt --> 37,1900826446281
+04/05/2020 11:08:08|ivaArt --> 21
+04/05/2020 11:08:08|hasarOCX.ImprimirItem --> OK
+04/05/2020 11:08:08|Articulo --> siempre libre serena toallx8 anatom con alas
+04/05/2020 11:08:08|cantidadArt B --> 2
+04/05/2020 11:08:08|PrecVear --> 55
+04/05/2020 11:08:08|montoArt --> 45,4545454545455
+04/05/2020 11:08:08|ivaArt --> 21
+04/05/2020 11:08:09|hasarOCX.ImprimirItem --> OK
+04/05/2020 11:08:09|Articulo --> el coloso det.pvox800 b.esp.blanq.
+04/05/2020 11:08:09|cantidadArt B --> 3
+04/05/2020 11:08:09|PrecVear --> 67
+04/05/2020 11:08:09|montoArt --> 55,3719008264463
+04/05/2020 11:08:09|ivaArt --> 21
+04/05/2020 11:08:09|hasarOCX.ImprimirItem --> OK
+04/05/2020 11:08:09|Articulo --> varios
+04/05/2020 11:08:09|cantidadArt B --> 1
+04/05/2020 11:08:09|PrecVear --> 105
+04/05/2020 11:08:09|montoArt --> 86,7768595041322
+04/05/2020 11:08:09|ivaArt --> 21
+04/05/2020 11:08:09|hasarOCX.ImprimirItem --> OK
+04/05/2020 11:08:09|Articulo --> varios
+04/05/2020 11:08:09|cantidadArt B --> 1
+04/05/2020 11:08:09|PrecVear --> 15
+04/05/2020 11:08:09|montoArt --> 12,396694214876
+04/05/2020 11:08:09|ivaArt --> 21
+04/05/2020 11:08:10|hasarOCX.ImprimirItem --> OK
+04/05/2020 11:08:10|Articulo --> calipso toall.tangax8 c/a-101590
+04/05/2020 11:08:10|cantidadArt B --> 2
+04/05/2020 11:08:10|PrecVear --> 55
+04/05/2020 11:08:10|montoArt --> 45,4545454545455
+04/05/2020 11:08:10|ivaArt --> 21
+04/05/2020 11:08:10|hasarOCX.ImprimirItem --> OK
+04/05/2020 11:08:10|Articulo --> goodmax cepillo dental
+04/05/2020 11:08:10|cantidadArt B --> 4
+04/05/2020 11:08:10|PrecVear --> 39
+04/05/2020 11:08:10|montoArt --> 32,2314049586777
+04/05/2020 11:08:10|ivaArt --> 21
+04/05/2020 11:08:10|hasarOCX.ImprimirItem --> OK
+04/05/2020 11:08:10|Articulo --> prix guantes ultra chico
+04/05/2020 11:08:10|cantidadArt B --> 1
+04/05/2020 11:08:10|PrecVear --> 80
+04/05/2020 11:08:10|montoArt --> 66,1157024793389
+04/05/2020 11:08:10|ivaArt --> 21
+04/05/2020 11:08:11|hasarOCX.ImprimirItem --> OK
+04/05/2020 11:08:11|Articulo --> el coloso hig.econ.bco.12x4 30mts
+04/05/2020 11:08:11|cantidadArt B --> 2
+04/05/2020 11:08:11|PrecVear --> 60
+04/05/2020 11:08:11|montoArt --> 49,5867768595041
+04/05/2020 11:08:11|ivaArt --> 21
+04/05/2020 11:08:11|hasarOCX.ImprimirItem --> OK
+04/05/2020 11:08:11|Articulo --> 7790299002306
+04/05/2020 11:08:11|cantidadArt B --> 1
+04/05/2020 11:08:11|PrecVear --> 230
+04/05/2020 11:08:11|montoArt --> 190,082644628099
+04/05/2020 11:08:11|ivaArt --> 21
+04/05/2020 11:08:12|hasarOCX.ImprimirItem --> OK
+04/05/2020 11:08:12|Cerrar Comprobante B:::
+04/05/2020 11:08:15|Obtiene nrocomp
+04/05/2020 11:08:15|nrocomp --> 134
+04/05/2020 11:08:15|Nro. de Comprobante ::: TFB ::: 134
+04/05/2020 11:16:28|Conectando..
+04/05/2020 11:16:28|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 11:16:29|Conectado con éxito!!
+04/05/2020 11:40:16|Conectando..
+04/05/2020 11:40:16|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 11:40:17|Conectado con éxito!!
+04/05/2020 11:42:18|Conectando..
+04/05/2020 11:42:18|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 11:42:19|Conectado con éxito!!
+04/05/2020 11:48:44|Conectando..
+04/05/2020 11:48:44|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 11:48:45|Conectado con éxito!!
+04/05/2020 11:52:20|Conectando..
+04/05/2020 11:52:20|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 11:52:21|Conectado con éxito!!
+04/05/2020 12:34:23|Conectando..
+04/05/2020 12:34:23|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 12:34:23|Conectado con éxito!!
+04/05/2020 15:05:48|Conectando..
+04/05/2020 15:05:48|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 15:17:25|Conectando..
+04/05/2020 15:17:25|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 15:26:57|Comienza Facturacion B
+04/05/2020 15:26:57|DatosCliente B
+04/05/2020 15:27:00|AbrirComprobanteFiscal B
+04/05/2020 15:27:00|Articulo --> higienol max manzanilla 4x80mtr1505
+04/05/2020 15:27:00|cantidadArt B --> 1
+04/05/2020 15:27:00|PrecVear --> 160
+04/05/2020 15:27:00|montoArt --> 132,231404958678
+04/05/2020 15:27:00|ivaArt --> 21
+04/05/2020 15:27:01|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:27:01|Articulo --> echo x450 dp clasico-646653
+04/05/2020 15:27:01|cantidadArt B --> 1
+04/05/2020 15:27:01|PrecVear --> 85
+04/05/2020 15:27:01|montoArt --> 70,2479338842975
+04/05/2020 15:27:01|ivaArt --> 21
+04/05/2020 15:27:01|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:27:01|Articulo --> colgate cr.trip.accionx90 xtr-638a
+04/05/2020 15:27:01|cantidadArt B --> 1
+04/05/2020 15:27:01|PrecVear --> 135
+04/05/2020 15:27:01|montoArt --> 111,570247933884
+04/05/2020 15:27:01|ivaArt --> 21
+04/05/2020 15:27:02|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:27:02|Articulo --> carefree protecx20 compact
+04/05/2020 15:27:02|cantidadArt B --> 1
+04/05/2020 15:27:02|PrecVear --> 85
+04/05/2020 15:27:02|montoArt --> 70,2479338842975
+04/05/2020 15:27:02|ivaArt --> 21
+04/05/2020 15:27:02|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:27:02|Articulo --> estrella algodon baby x100 grs.
+04/05/2020 15:27:02|cantidadArt B --> 1
+04/05/2020 15:27:02|PrecVear --> 100
+04/05/2020 15:27:02|montoArt --> 82,6446280991736
+04/05/2020 15:27:02|ivaArt --> 21
+04/05/2020 15:27:02|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:27:02|Cerrar Comprobante B:::
+04/05/2020 15:27:05|Obtiene nrocomp
+04/05/2020 15:27:06|nrocomp --> 135
+04/05/2020 15:27:06|Nro. de Comprobante ::: TFB ::: 135
+04/05/2020 15:30:59|Conectando..
+04/05/2020 15:30:59|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 15:31:00|Conectado con éxito!!
+04/05/2020 15:38:38|Conectando..
+04/05/2020 15:38:38|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 15:38:39|Conectado con éxito!!
+04/05/2020 15:42:52|Conectando..
+04/05/2020 15:42:52|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 15:42:53|Conectado con éxito!!
+04/05/2020 15:49:59|Comienza Facturacion B
+04/05/2020 15:49:59|DatosCliente B
+04/05/2020 15:50:02|AbrirComprobanteFiscal B
+04/05/2020 15:50:02|Articulo --> varios
+04/05/2020 15:50:02|cantidadArt B --> 1
+04/05/2020 15:50:02|PrecVear --> 45
+04/05/2020 15:50:02|montoArt --> 37,1900826446281
+04/05/2020 15:50:02|ivaArt --> 21
+04/05/2020 15:50:02|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:02|Articulo --> josmar escobillon
+04/05/2020 15:50:02|cantidadArt B --> 1
+04/05/2020 15:50:02|PrecVear --> 85
+04/05/2020 15:50:02|montoArt --> 70,2479338842975
+04/05/2020 15:50:02|ivaArt --> 21
+04/05/2020 15:50:02|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:02|Articulo --> fibran 48x60
+04/05/2020 15:50:02|cantidadArt B --> 1
+04/05/2020 15:50:02|PrecVear --> 60
+04/05/2020 15:50:02|montoArt --> 49,5867768595041
+04/05/2020 15:50:02|ivaArt --> 21
+04/05/2020 15:50:03|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:03|Articulo --> varios
+04/05/2020 15:50:03|cantidadArt B --> 1
+04/05/2020 15:50:03|PrecVear --> 120
+04/05/2020 15:50:03|montoArt --> 99,1735537190083
+04/05/2020 15:50:03|ivaArt --> 21
+04/05/2020 15:50:03|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:03|Articulo --> plusbelle jabx125 bellez rad
+04/05/2020 15:50:03|cantidadArt B --> 1
+04/05/2020 15:50:03|PrecVear --> 42
+04/05/2020 15:50:03|montoArt --> 34,7107438016529
+04/05/2020 15:50:03|ivaArt --> 21
+04/05/2020 15:50:03|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:03|Articulo --> plusbelle jabx125 sens.nutrit
+04/05/2020 15:50:03|cantidadArt B --> 1
+04/05/2020 15:50:03|PrecVear --> 42
+04/05/2020 15:50:03|montoArt --> 34,7107438016529
+04/05/2020 15:50:03|ivaArt --> 21
+04/05/2020 15:50:04|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:04|Articulo --> scotch brite sacapelusas rollo#
+04/05/2020 15:50:04|cantidadArt B --> 1
+04/05/2020 15:50:04|PrecVear --> 210
+04/05/2020 15:50:04|montoArt --> 173,553719008264
+04/05/2020 15:50:04|ivaArt --> 21
+04/05/2020 15:50:04|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:04|Articulo --> el coloso hig.bco max.10x4 80mts
+04/05/2020 15:50:04|cantidadArt B --> 2
+04/05/2020 15:50:04|PrecVear --> 130
+04/05/2020 15:50:04|montoArt --> 107,438016528926
+04/05/2020 15:50:04|ivaArt --> 21
+04/05/2020 15:50:04|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:04|Articulo --> ayudin lav.x1l tot.max.pureza-1028
+04/05/2020 15:50:04|cantidadArt B --> 1
+04/05/2020 15:50:04|PrecVear --> 53
+04/05/2020 15:50:04|montoArt --> 43,801652892562
+04/05/2020 15:50:04|ivaArt --> 21
+04/05/2020 15:50:05|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:05|Articulo --> ala ultrax500 glicerina-221113
+04/05/2020 15:50:05|cantidadArt B --> 1
+04/05/2020 15:50:05|PrecVear --> 98
+04/05/2020 15:50:05|montoArt --> 80,9917355371901
+04/05/2020 15:50:05|ivaArt --> 21
+04/05/2020 15:50:05|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:05|Articulo --> q-soft hisoposx100 estuche-4100
+04/05/2020 15:50:05|cantidadArt B --> 1
+04/05/2020 15:50:05|PrecVear --> 105
+04/05/2020 15:50:05|montoArt --> 86,7768595041322
+04/05/2020 15:50:05|ivaArt --> 21
+04/05/2020 15:50:06|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:06|Articulo --> querubin suav. x900 ml flores silv.
+04/05/2020 15:50:06|cantidadArt B --> 1
+04/05/2020 15:50:06|PrecVear --> 95
+04/05/2020 15:50:06|montoArt --> 78,5123966942149
+04/05/2020 15:50:06|ivaArt --> 21
+04/05/2020 15:50:06|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:06|Articulo --> varios
+04/05/2020 15:50:06|cantidadArt B --> 2
+04/05/2020 15:50:06|PrecVear --> 30
+04/05/2020 15:50:06|montoArt --> 24,7933884297521
+04/05/2020 15:50:06|ivaArt --> 21
+04/05/2020 15:50:06|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:06|Articulo --> kolynos cep.doctor med 2x1 -9171
+04/05/2020 15:50:06|cantidadArt B --> 1
+04/05/2020 15:50:06|PrecVear --> 70
+04/05/2020 15:50:06|montoArt --> 57,8512396694215
+04/05/2020 15:50:06|ivaArt --> 21
+04/05/2020 15:50:07|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:07|Articulo --> colgate cr.anticariesx180 -00549
+04/05/2020 15:50:07|cantidadArt B --> 2
+04/05/2020 15:50:07|PrecVear --> 185
+04/05/2020 15:50:07|montoArt --> 152,892561983471
+04/05/2020 15:50:07|ivaArt --> 21
+04/05/2020 15:50:07|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:07|Articulo --> espadol jabx90 skincare
+04/05/2020 15:50:07|cantidadArt B --> 1
+04/05/2020 15:50:07|PrecVear --> 75
+04/05/2020 15:50:07|montoArt --> 61,9834710743802
+04/05/2020 15:50:07|ivaArt --> 21
+04/05/2020 15:50:07|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:07|Articulo --> drive liqx3l dp rosas y lilas 4755
+04/05/2020 15:50:07|cantidadArt B --> 1
+04/05/2020 15:50:07|PrecVear --> 340
+04/05/2020 15:50:07|montoArt --> 280,99173553719
+04/05/2020 15:50:07|ivaArt --> 21
+04/05/2020 15:50:08|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:08|Articulo --> capilatis ortiga cabellos secos
+04/05/2020 15:50:08|cantidadArt B --> 1
+04/05/2020 15:50:08|PrecVear --> 340
+04/05/2020 15:50:08|montoArt --> 280,99173553719
+04/05/2020 15:50:08|ivaArt --> 21
+04/05/2020 15:50:08|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:08|Articulo --> estrella algodon  clasicox60
+04/05/2020 15:50:08|cantidadArt B --> 1
+04/05/2020 15:50:08|PrecVear --> 62
+04/05/2020 15:50:08|montoArt --> 51,2396694214876
+04/05/2020 15:50:08|ivaArt --> 21
+04/05/2020 15:50:08|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:08|Articulo --> match 3 cartucho x1 blister
+04/05/2020 15:50:08|cantidadArt B --> 2
+04/05/2020 15:50:08|PrecVear --> 165
+04/05/2020 15:50:08|montoArt --> 136,363636363636
+04/05/2020 15:50:08|ivaArt --> 21
+04/05/2020 15:50:09|hasarOCX.ImprimirItem --> OK
+04/05/2020 15:50:09|Cerrar Comprobante B:::
+04/05/2020 15:50:12|Obtiene nrocomp
+04/05/2020 15:50:12|nrocomp --> 136
+04/05/2020 15:50:12|Nro. de Comprobante ::: TFB ::: 136
+04/05/2020 15:50:48|Conectando..
+04/05/2020 15:50:48|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 15:50:49|Conectado con éxito!!
+04/05/2020 15:51:43|Conectando..
+04/05/2020 15:51:43|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 15:51:43|Conectado con éxito!!
+04/05/2020 15:56:42|Conectando..
+04/05/2020 15:56:42|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 15:56:43|Conectado con éxito!!
+04/05/2020 16:25:23|Comienza Facturacion B
+04/05/2020 16:25:24|DatosCliente B
+04/05/2020 16:25:26|AbrirComprobanteFiscal B
+04/05/2020 16:25:26|Articulo --> estrella algodon clasico 140
+04/05/2020 16:25:26|cantidadArt B --> 1
+04/05/2020 16:25:26|PrecVear --> 95
+04/05/2020 16:25:26|montoArt --> 78,5123966942149
+04/05/2020 16:25:26|ivaArt --> 21
+04/05/2020 16:25:27|hasarOCX.ImprimirItem --> OK
+04/05/2020 16:25:27|Articulo --> 60 segundos
+04/05/2020 16:25:27|cantidadArt B --> 1
+04/05/2020 16:25:27|PrecVear --> 48
+04/05/2020 16:25:27|montoArt --> 39,6694214876033
+04/05/2020 16:25:27|ivaArt --> 21
+04/05/2020 16:25:27|hasarOCX.ImprimirItem --> OK
+04/05/2020 16:25:27|Articulo --> dove baby sh cab cla h enr x200ml
+04/05/2020 16:25:27|cantidadArt B --> 1
+04/05/2020 16:25:27|PrecVear --> 165
+04/05/2020 16:25:27|montoArt --> 136,363636363636
+04/05/2020 16:25:27|ivaArt --> 21
+04/05/2020 16:25:27|hasarOCX.ImprimirItem --> OK
+04/05/2020 16:25:27|Articulo --> babysec ultrasec xg x 36
+04/05/2020 16:25:27|cantidadArt B --> 3
+04/05/2020 16:25:27|PrecVear --> 470
+04/05/2020 16:25:27|montoArt --> 388,429752066116
+04/05/2020 16:25:27|ivaArt --> 21
+04/05/2020 16:25:28|hasarOCX.ImprimirItem --> OK
+04/05/2020 16:25:28|Cerrar Comprobante B:::
+04/05/2020 16:25:31|Obtiene nrocomp
+04/05/2020 16:25:31|nrocomp --> 137
+04/05/2020 16:25:31|Nro. de Comprobante ::: TFB ::: 137
+04/05/2020 16:25:43|Conectando..
+04/05/2020 16:25:43|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 16:25:44|Conectado con éxito!!
+04/05/2020 16:37:52|Conectando..
+04/05/2020 16:37:52|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 16:37:53|Conectado con éxito!!
+04/05/2020 16:51:15|Comienza Facturacion B
+04/05/2020 16:51:15|DatosCliente B
+04/05/2020 16:51:17|AbrirComprobanteFiscal B
+04/05/2020 16:51:17|Articulo --> glade aerox360 e.l citrico
+04/05/2020 16:51:17|cantidadArt B --> 1
+04/05/2020 16:51:17|PrecVear --> 78
+04/05/2020 16:51:17|montoArt --> 64,4628099173554
+04/05/2020 16:51:17|ivaArt --> 21
+04/05/2020 16:51:18|hasarOCX.ImprimirItem --> OK
+04/05/2020 16:51:18|Articulo --> ayudin desinf.aerox332 fr.matinal37
+04/05/2020 16:51:18|cantidadArt B --> 1
+04/05/2020 16:51:18|PrecVear --> 138
+04/05/2020 16:51:18|montoArt --> 114,04958677686
+04/05/2020 16:51:18|ivaArt --> 21
+04/05/2020 16:51:18|hasarOCX.ImprimirItem --> OK
+04/05/2020 16:51:18|Articulo --> saeta mmm 360 ml
+04/05/2020 16:51:18|cantidadArt B --> 1
+04/05/2020 16:51:18|PrecVear --> 98
+04/05/2020 16:51:18|montoArt --> 80,9917355371901
+04/05/2020 16:51:18|ivaArt --> 21
+04/05/2020 16:51:19|hasarOCX.ImprimirItem --> OK
+04/05/2020 16:51:19|Articulo --> 0155 estrella alcohol etilico 96  x 250 ml
+04/05/2020 16:51:19|cantidadArt B --> 1
+04/05/2020 16:51:19|PrecVear --> 95
+04/05/2020 16:51:19|montoArt --> 78,5123966942149
+04/05/2020 16:51:19|ivaArt --> 21
+04/05/2020 16:51:19|hasarOCX.ImprimirItem --> OK
+04/05/2020 16:51:19|Cerrar Comprobante B:::
+04/05/2020 16:51:22|Obtiene nrocomp
+04/05/2020 16:51:22|nrocomp --> 138
+04/05/2020 16:51:22|Nro. de Comprobante ::: TFB ::: 138
+04/05/2020 17:00:21|Conectando..
+04/05/2020 17:00:21|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 17:00:22|Conectado con éxito!!
+04/05/2020 17:07:51|Conectando..
+04/05/2020 17:07:51|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 17:07:52|Conectado con éxito!!
+04/05/2020 17:14:13|Comienza Facturacion B
+04/05/2020 17:14:13|DatosCliente B
+04/05/2020 17:14:15|AbrirComprobanteFiscal B
+04/05/2020 17:14:15|Articulo --> jyj jab barra violeta
+04/05/2020 17:14:15|cantidadArt B --> 1
+04/05/2020 17:14:15|PrecVear --> 79
+04/05/2020 17:14:15|montoArt --> 65,2892561983471
+04/05/2020 17:14:15|ivaArt --> 21
+04/05/2020 17:14:16|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:14:16|Articulo --> lux jabx125 jazmin
+04/05/2020 17:14:16|cantidadArt B --> 1
+04/05/2020 17:14:16|PrecVear --> 43
+04/05/2020 17:14:16|montoArt --> 35,5371900826446
+04/05/2020 17:14:16|ivaArt --> 21
+04/05/2020 17:14:16|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:14:16|Articulo --> espadol jabx90 skincare
+04/05/2020 17:14:16|cantidadArt B --> 1
+04/05/2020 17:14:16|PrecVear --> 75
+04/05/2020 17:14:16|montoArt --> 61,9834710743802
+04/05/2020 17:14:16|ivaArt --> 21
+04/05/2020 17:14:16|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:14:16|Articulo --> rexona jabx125 bamboo fresh-5478
+04/05/2020 17:14:16|cantidadArt B --> 1
+04/05/2020 17:14:16|PrecVear --> 39
+04/05/2020 17:14:16|montoArt --> 32,2314049586777
+04/05/2020 17:14:16|ivaArt --> 21
+04/05/2020 17:14:17|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:14:17|Articulo --> off ext.duracion crx90 active-2150
+04/05/2020 17:14:17|cantidadArt B --> 1
+04/05/2020 17:14:17|PrecVear --> 398
+04/05/2020 17:14:17|montoArt --> 328,925619834711
+04/05/2020 17:14:17|ivaArt --> 21
+04/05/2020 17:14:17|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:14:17|Articulo --> 97246 j&j spray gotas de brillo 24x200ml (rosa)
+04/05/2020 17:14:17|cantidadArt B --> 1
+04/05/2020 17:14:17|PrecVear --> 295
+04/05/2020 17:14:17|montoArt --> 243,801652892562
+04/05/2020 17:14:17|ivaArt --> 21
+04/05/2020 17:14:18|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:14:18|Articulo --> el coloso jab.pan bco clas.1x150gr
+04/05/2020 17:14:18|cantidadArt B --> 2
+04/05/2020 17:14:18|PrecVear --> 35
+04/05/2020 17:14:18|montoArt --> 28,9256198347107
+04/05/2020 17:14:18|ivaArt --> 21
+04/05/2020 17:14:18|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:14:18|Articulo --> coloso alcohol. x250 ml
+04/05/2020 17:14:18|cantidadArt B --> 2
+04/05/2020 17:14:18|PrecVear --> 95
+04/05/2020 17:14:18|montoArt --> 78,5123966942149
+04/05/2020 17:14:18|ivaArt --> 21
+04/05/2020 17:14:18|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:14:18|Articulo --> raid aero mmm power shot
+04/05/2020 17:14:18|cantidadArt B --> 1
+04/05/2020 17:14:18|PrecVear --> 185
+04/05/2020 17:14:18|montoArt --> 152,892561983471
+04/05/2020 17:14:18|ivaArt --> 21
+04/05/2020 17:14:19|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:14:19|Articulo --> pamp pants premium care gde 30
+04/05/2020 17:14:19|cantidadArt B --> 1
+04/05/2020 17:14:19|PrecVear --> 540
+04/05/2020 17:14:19|montoArt --> 446,280991735537
+04/05/2020 17:14:19|ivaArt --> 21
+04/05/2020 17:14:19|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:14:19|Articulo --> 30227476 toa hum hugg limpieza cotidiana 18x96 (ama)
+04/05/2020 17:14:19|cantidadArt B --> 1
+04/05/2020 17:14:19|PrecVear --> 220
+04/05/2020 17:14:19|montoArt --> 181,818181818182
+04/05/2020 17:14:19|ivaArt --> 21
+04/05/2020 17:14:20|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:14:20|Articulo --> varios
+04/05/2020 17:14:20|cantidadArt B --> 1
+04/05/2020 17:14:20|PrecVear --> 95
+04/05/2020 17:14:20|montoArt --> 78,5123966942149
+04/05/2020 17:14:20|ivaArt --> 21
+04/05/2020 17:14:20|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:14:20|Cerrar Comprobante B:::
+04/05/2020 17:14:23|Obtiene nrocomp
+04/05/2020 17:14:23|nrocomp --> 139
+04/05/2020 17:14:23|Nro. de Comprobante ::: TFB ::: 139
+04/05/2020 17:22:05|Conectando..
+04/05/2020 17:22:05|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 17:22:06|Conectado con éxito!!
+04/05/2020 17:23:42|Conectando..
+04/05/2020 17:23:42|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 17:23:43|Conectado con éxito!!
+04/05/2020 17:26:47|Comienza Facturacion B
+04/05/2020 17:26:47|DatosCliente B
+04/05/2020 17:26:50|AbrirComprobanteFiscal B
+04/05/2020 17:26:50|Articulo --> saphirus sanitizante x250
+04/05/2020 17:26:50|cantidadArt B --> 4
+04/05/2020 17:26:50|PrecVear --> 160
+04/05/2020 17:26:50|montoArt --> 132,231404958678
+04/05/2020 17:26:50|ivaArt --> 21
+04/05/2020 17:26:50|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:26:50|Cerrar Comprobante B:::
+04/05/2020 17:26:53|Obtiene nrocomp
+04/05/2020 17:26:53|nrocomp --> 140
+04/05/2020 17:26:53|Nro. de Comprobante ::: TFB ::: 140
+04/05/2020 17:29:23|Conectando..
+04/05/2020 17:29:23|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 17:29:23|Conectado con éxito!!
+04/05/2020 17:33:58|Conectando..
+04/05/2020 17:33:58|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 17:33:59|Conectado con éxito!!
+04/05/2020 17:41:40|Comienza Facturacion B
+04/05/2020 17:41:40|DatosCliente B
+04/05/2020 17:41:43|AbrirComprobanteFiscal B
+04/05/2020 17:41:43|Articulo --> varios
+04/05/2020 17:41:43|cantidadArt B --> 1
+04/05/2020 17:41:43|PrecVear --> 100
+04/05/2020 17:41:43|montoArt --> 82,6446280991736
+04/05/2020 17:41:43|ivaArt --> 21
+04/05/2020 17:41:43|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:41:43|Articulo --> elvive acondx200 dream long
+04/05/2020 17:41:43|cantidadArt B --> 1
+04/05/2020 17:41:43|PrecVear --> 170
+04/05/2020 17:41:43|montoArt --> 140,495867768595
+04/05/2020 17:41:43|ivaArt --> 21
+04/05/2020 17:41:44|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:41:44|Articulo --> elvive chx200 dream long
+04/05/2020 17:41:44|cantidadArt B --> 1
+04/05/2020 17:41:44|PrecVear --> 170
+04/05/2020 17:41:44|montoArt --> 140,495867768595
+04/05/2020 17:41:44|ivaArt --> 21
+04/05/2020 17:41:44|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:41:44|Articulo --> glade canastax27.5gr 2frag.full brisa de mar
+04/05/2020 17:41:44|cantidadArt B --> 1
+04/05/2020 17:41:44|PrecVear --> 98
+04/05/2020 17:41:44|montoArt --> 80,9917355371901
+04/05/2020 17:41:44|ivaArt --> 21
+04/05/2020 17:41:44|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:41:44|Articulo --> goodmax maquina de afeitar x5 filos
+04/05/2020 17:41:44|cantidadArt B --> 2
+04/05/2020 17:41:44|PrecVear --> 55
+04/05/2020 17:41:44|montoArt --> 45,4545454545455
+04/05/2020 17:41:44|ivaArt --> 21
+04/05/2020 17:41:45|hasarOCX.ImprimirItem --> OK
+04/05/2020 17:41:45|Cerrar Comprobante B:::
+04/05/2020 17:41:48|Obtiene nrocomp
+04/05/2020 17:41:48|nrocomp --> 141
+04/05/2020 17:41:48|Nro. de Comprobante ::: TFB ::: 141
+04/05/2020 17:48:50|Conectando..
+04/05/2020 17:48:50|IP: 127.0.0.1 - Puerto: 6500
+04/05/2020 17:48:50|Conectado con éxito!!
+04/05/2020 18:01:36|*************COMIENZA Cierre  Z**********
+04/05/2020 18:01:45|CIERRE Z
+Cierre Z Nº =[13]
+Fecha del Cierre        =[04/05/2020 0:00:00]
+DF Emitidos             =[15]
+DF Cancelados           =[0]
+DF Total                =[1738900]
+DF Total Gravado        =[1437108]
+DF Total No Gravado     =[0]
+DF Total Exento         =[0]
+DF Total IVA            =[301792]
+DF Total Otros Tributos =[0]
+NC Emitidas             =[0]
+NC Canceladas           =[0]
+NC Total                =[0]
+NC Total Gravado        =[0]
+NC Total No Gravado     =[0]
+NC Total Exento         =[0]
+NC Total IVA            =[0]
+NC Total Otros Tributos =[0]
+DNFH Emitidos           =[0]
+DNFH Total              =[0]
+

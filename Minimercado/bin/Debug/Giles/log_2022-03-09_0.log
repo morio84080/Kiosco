@@ -1,0 +1,20 @@
+09/03/2022 17:39:53|>>>>>>>>>>>>>>>>>>>>>INICIA ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+09/03/2022 17:39:53|>>>>>>>>>>>>>>>>>>>>>FIN ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+09/03/2022 17:39:59|>>>>>>>>>>>>>>>>>>>>>INICIA Create Files<<<<<<<<<<<<<<<<<<<<<<<<<
+09/03/2022 17:39:59|DETIENE PROCESO HASAR
+09/03/2022 17:40:04|C:\Perfumeria\GETxxxAR\getaudar.exe
+09/03/2022 17:40:04|-p 3  -i serial -a 220301 220307
+09/03/2022 17:40:04|********** COMIENZA A GENERAR ARCHIVOS AFIP ***********
+09/03/2022 17:40:17|********** FIN GENERAR ARCHIVOS AFIP ***********
+09/03/2022 17:40:17|++++++++++++++++++ ERROR: Error Moviendo archivo: C:\Perfumeria\afip.85 -->No se puede crear un archivo que ya existe.
+
+09/03/2022 20:29:47|>>>>>>>>>>>>>>>>>>>>>INICIA ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+09/03/2022 20:29:47|>>>>>>>>>>>>>>>>>>>>>FIN ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+09/03/2022 20:29:49|>>>>>>>>>>>>>>>>>>>>>INICIA Create Files<<<<<<<<<<<<<<<<<<<<<<<<<
+09/03/2022 20:29:49|DETIENE PROCESO HASAR
+09/03/2022 20:29:54|C:\Perfumeria\GETxxxAR\getaudar.exe
+09/03/2022 20:29:54|-p 3  -i serial -a 220301 220307
+09/03/2022 20:29:54|********** COMIENZA A GENERAR ARCHIVOS AFIP ***********
+09/03/2022 20:30:06|********** FIN GENERAR ARCHIVOS AFIP ***********
+09/03/2022 20:30:06|++++++++++++++++++ ERROR: Error Moviendo archivo: C:\Perfumeria\afip.85 -->No se puede crear un archivo que ya existe.
+

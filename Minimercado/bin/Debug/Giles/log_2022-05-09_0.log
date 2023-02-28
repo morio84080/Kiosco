@@ -1,0 +1,9 @@
+09/05/2022 20:05:18|>>>>>>>>>>>>>>>>>>>>>INICIA ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+09/05/2022 20:05:18|>>>>>>>>>>>>>>>>>>>>>FIN ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+09/05/2022 20:05:20|>>>>>>>>>>>>>>>>>>>>>INICIA Create Files<<<<<<<<<<<<<<<<<<<<<<<<<
+09/05/2022 20:05:20|DETIENE PROCESO HASAR
+09/05/2022 20:05:25|C:\Perfumeria\GETxxxAR\getaudar.exe
+09/05/2022 20:05:25|-p 3  -i serial -a 220501 220507
+09/05/2022 20:05:25|********** COMIENZA A GENERAR ARCHIVOS AFIP ***********
+09/05/2022 20:05:37|********** FIN GENERAR ARCHIVOS AFIP ***********
+09/05/2022 20:05:37|++++++++++++++++++ ERROR: Error Moviendo archivo: C:\Perfumeria\afip.zip -->No se pudo encontrar el archivo 'C:\Perfumeria\afip.zip'.

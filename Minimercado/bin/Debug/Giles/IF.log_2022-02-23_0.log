@@ -1,0 +1,962 @@
+23/02/2022 8:36:34|Conectando..
+23/02/2022 8:36:34|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 8:40:27|Error Diagnostico..Tiempo de espera agotado
+23/02/2022 8:44:42|Error Diagnostico..Tiempo de espera agotado
+23/02/2022 9:20:28|cerrando pantalla venta
+23/02/2022 9:21:32|Conectando..
+23/02/2022 9:21:32|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 9:21:37|cerrando pantalla venta
+23/02/2022 9:54:41|Conectando..
+23/02/2022 9:54:41|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 9:55:07|cerrando pantalla venta
+23/02/2022 9:55:30|Conectando..
+23/02/2022 9:55:30|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 10:04:38|Comienza Facturacion B
+23/02/2022 10:04:40|Error iniciando Factura B --> Tiempo de espera agotado
+23/02/2022 10:04:42|Error Cerrando documento B --> Tiempo de espera agotado
+23/02/2022 10:04:42|Conectando..
+23/02/2022 10:04:42|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 10:04:49|Error Imprimiendo Factura B --> Tiempo de espera agotado
+23/02/2022 10:05:11|Ety.TicketFiscal: -1
+23/02/2022 10:05:13|Error Diagnostico..Tiempo de espera agotado
+23/02/2022 10:05:18|Comienza Facturacion B
+23/02/2022 10:05:20|Error iniciando Factura B --> Tiempo de espera agotado
+23/02/2022 10:05:22|Error Cerrando documento B --> Tiempo de espera agotado
+23/02/2022 10:05:22|Conectando..
+23/02/2022 10:05:22|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 10:05:27|Error Diagnostico..Anidamiento inválido de comandos
+23/02/2022 10:05:28|Error Imprimiendo Factura B --> Tiempo de espera agotado
+23/02/2022 10:05:30|Ety.TicketFiscal: -1
+23/02/2022 10:05:32|Error Diagnostico..Tiempo de espera agotado
+23/02/2022 10:10:47|cerrando pantalla venta
+23/02/2022 10:20:43|Conectando..
+23/02/2022 10:20:43|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 10:21:14|cerrando pantalla venta
+23/02/2022 10:22:33|Conectando..
+23/02/2022 10:22:33|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 10:22:56|cerrando pantalla venta
+23/02/2022 10:27:16|Conectando..
+23/02/2022 10:27:16|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 10:27:59|Error Diagnostico..Tiempo de espera agotado
+23/02/2022 10:28:00|cerrando pantalla venta
+23/02/2022 10:28:09|Conectando..
+23/02/2022 10:28:09|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 10:28:10|Conectado con éxito!!
+23/02/2022 10:29:50|Comienza Facturacion B
+23/02/2022 10:29:50|DatosCliente B
+23/02/2022 10:29:54|AbrirComprobanteFiscal B
+23/02/2022 10:29:54|Articulo --> loreal ht5 exp.ant.arru.55+ x50ml
+23/02/2022 10:29:54|cantidadArt B --> 1
+23/02/2022 10:29:54|PrecVear --> 1290
+23/02/2022 10:29:54|montoArt --> 1066,11570247934
+23/02/2022 10:29:54|ivaArt --> 21
+23/02/2022 10:29:54|hasarOCX.ImprimirItem --> OK
+23/02/2022 10:29:54|Articulo --> dove dp sh recons completa x180ml
+23/02/2022 10:29:54|cantidadArt B --> 2
+23/02/2022 10:29:54|PrecVear --> 160
+23/02/2022 10:29:54|montoArt --> 132,231404958678
+23/02/2022 10:29:54|ivaArt --> 21
+23/02/2022 10:29:54|hasarOCX.ImprimirItem --> OK
+23/02/2022 10:29:54|Articulo --> dove jabon x90 blanco
+23/02/2022 10:29:54|cantidadArt B --> 2
+23/02/2022 10:29:54|PrecVear --> 95
+23/02/2022 10:29:54|montoArt --> 78,5123966942149
+23/02/2022 10:29:54|ivaArt --> 21
+23/02/2022 10:29:55|hasarOCX.ImprimirItem --> OK
+23/02/2022 10:29:55|Articulo --> ogib clips largos x12
+23/02/2022 10:29:55|cantidadArt B --> 1
+23/02/2022 10:29:55|PrecVear --> 80
+23/02/2022 10:29:55|montoArt --> 66,1157024793389
+23/02/2022 10:29:55|ivaArt --> 21
+23/02/2022 10:29:55|hasarOCX.ImprimirItem --> OK
+23/02/2022 10:29:55|Articulo --> katalia polvo compacto
+23/02/2022 10:29:55|cantidadArt B --> 1
+23/02/2022 10:29:55|PrecVear --> 410
+23/02/2022 10:29:55|montoArt --> 338,842975206612
+23/02/2022 10:29:55|ivaArt --> 21
+23/02/2022 10:29:55|hasarOCX.ImprimirItem --> OK
+23/02/2022 10:29:55|Cerrar Comprobante B:::
+23/02/2022 10:29:59|Obtiene nrocomp
+23/02/2022 10:29:59|nrocomp --> 19365
+23/02/2022 10:29:59|Nro. de Comprobante ::: TFB ::: 19365
+23/02/2022 10:29:59|Ety.TicketFiscal: 19365
+23/02/2022 10:30:50|cerrando pantalla venta
+23/02/2022 10:37:45|Conectando..
+23/02/2022 10:37:45|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 10:37:46|Conectado con éxito!!
+23/02/2022 10:56:05|cerrando pantalla venta
+23/02/2022 11:01:21|Conectando..
+23/02/2022 11:01:21|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 11:01:22|Conectado con éxito!!
+23/02/2022 11:03:53|Comienza Facturacion B
+23/02/2022 11:03:54|DatosCliente B
+23/02/2022 11:03:56|AbrirComprobanteFiscal B
+23/02/2022 11:03:56|Articulo --> varios
+23/02/2022 11:03:56|cantidadArt B --> 1
+23/02/2022 11:03:56|PrecVear --> 120
+23/02/2022 11:03:56|montoArt --> 99,1735537190083
+23/02/2022 11:03:56|ivaArt --> 21
+23/02/2022 11:03:57|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:03:57|Articulo --> escobillon pampa
+23/02/2022 11:03:57|cantidadArt B --> 1
+23/02/2022 11:03:57|PrecVear --> 195
+23/02/2022 11:03:57|montoArt --> 161,157024793388
+23/02/2022 11:03:57|ivaArt --> 21
+23/02/2022 11:03:57|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:03:57|Articulo --> huggies trip xg 52
+23/02/2022 11:03:57|cantidadArt B --> 1
+23/02/2022 11:03:57|PrecVear --> 1340
+23/02/2022 11:03:57|montoArt --> 1107,43801652893
+23/02/2022 11:03:57|ivaArt --> 21
+23/02/2022 11:03:57|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:03:57|Articulo --> estrella algodon clasicox140
+23/02/2022 11:03:57|cantidadArt B --> 1
+23/02/2022 11:03:57|PrecVear --> 180
+23/02/2022 11:03:57|montoArt --> 148,760330578512
+23/02/2022 11:03:57|ivaArt --> 21
+23/02/2022 11:03:58|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:03:58|Articulo --> fuyi mmmx360 base acuosa-645085
+23/02/2022 11:03:58|cantidadArt B --> 1
+23/02/2022 11:03:58|PrecVear --> 210
+23/02/2022 11:03:58|montoArt --> 173,553719008264
+23/02/2022 11:03:58|ivaArt --> 21
+23/02/2022 11:03:58|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:03:58|Cerrar Comprobante B:::
+23/02/2022 11:04:01|Obtiene nrocomp
+23/02/2022 11:04:01|nrocomp --> 19366
+23/02/2022 11:04:01|Nro. de Comprobante ::: TFB ::: 19366
+23/02/2022 11:04:01|Ety.TicketFiscal: 19366
+23/02/2022 11:08:33|Comienza Facturacion B
+23/02/2022 11:08:34|DatosCliente B
+23/02/2022 11:08:36|AbrirComprobanteFiscal B
+23/02/2022 11:08:36|Articulo --> colgate cr kids x50 frutilla
+23/02/2022 11:08:36|cantidadArt B --> 1
+23/02/2022 11:08:36|PrecVear --> 80
+23/02/2022 11:08:36|montoArt --> 66,1157024793389
+23/02/2022 11:08:36|ivaArt --> 21
+23/02/2022 11:08:37|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:08:37|Articulo --> felpita bco 80 mts
+23/02/2022 11:08:37|cantidadArt B --> 1
+23/02/2022 11:08:37|PrecVear --> 280
+23/02/2022 11:08:37|montoArt --> 231,404958677686
+23/02/2022 11:08:37|ivaArt --> 21
+23/02/2022 11:08:37|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:08:37|Articulo --> crema de coco sh x20 g
+23/02/2022 11:08:37|cantidadArt B --> 1
+23/02/2022 11:08:37|PrecVear --> 100
+23/02/2022 11:08:37|montoArt --> 82,6446280991736
+23/02/2022 11:08:37|ivaArt --> 21
+23/02/2022 11:08:37|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:08:37|Articulo --> mary bosques 60 segundos
+23/02/2022 11:08:37|cantidadArt B --> 1
+23/02/2022 11:08:37|PrecVear --> 85
+23/02/2022 11:08:37|montoArt --> 70,2479338842975
+23/02/2022 11:08:37|ivaArt --> 21
+23/02/2022 11:08:38|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:08:38|Articulo --> plusbelle jabx125
+23/02/2022 11:08:38|cantidadArt B --> 1
+23/02/2022 11:08:38|PrecVear --> 75
+23/02/2022 11:08:38|montoArt --> 61,9834710743802
+23/02/2022 11:08:38|ivaArt --> 21
+23/02/2022 11:08:38|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:08:38|Articulo --> ala para diluir x500ml
+23/02/2022 11:08:38|cantidadArt B --> 1
+23/02/2022 11:08:38|PrecVear --> 580
+23/02/2022 11:08:38|montoArt --> 479,338842975207
+23/02/2022 11:08:38|ivaArt --> 21
+23/02/2022 11:08:38|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:08:38|Cerrar Comprobante B:::
+23/02/2022 11:08:41|Obtiene nrocomp
+23/02/2022 11:08:42|nrocomp --> 19367
+23/02/2022 11:08:42|Nro. de Comprobante ::: TFB ::: 19367
+23/02/2022 11:08:42|Ety.TicketFiscal: 19367
+23/02/2022 11:09:31|cerrando pantalla venta
+23/02/2022 11:11:02|Conectando..
+23/02/2022 11:11:02|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 11:11:03|Conectado con éxito!!
+23/02/2022 11:13:48|cerrando pantalla venta
+23/02/2022 11:30:58|Conectando..
+23/02/2022 11:30:58|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 11:30:59|Conectado con éxito!!
+23/02/2022 11:31:37|Comienza Facturacion B
+23/02/2022 11:31:37|DatosCliente B
+23/02/2022 11:31:39|AbrirComprobanteFiscal B
+23/02/2022 11:31:39|Articulo --> 21625  doncella toalla pocket tela suave ultrafinas duopack 25 x
+23/02/2022 11:31:39|cantidadArt B --> 1
+23/02/2022 11:31:39|PrecVear --> 150
+23/02/2022 11:31:39|montoArt --> 123,96694214876
+23/02/2022 11:31:39|ivaArt --> 21
+23/02/2022 11:31:40|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:31:40|Cerrar Comprobante B:::
+23/02/2022 11:31:43|Obtiene nrocomp
+23/02/2022 11:31:43|nrocomp --> 19368
+23/02/2022 11:31:43|Nro. de Comprobante ::: TFB ::: 19368
+23/02/2022 11:31:43|Ety.TicketFiscal: 19368
+23/02/2022 11:31:59|cerrando pantalla venta
+23/02/2022 11:40:12|Conectando..
+23/02/2022 11:40:12|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 11:40:13|Conectado con éxito!!
+23/02/2022 11:45:56|Comienza Facturacion B
+23/02/2022 11:45:57|DatosCliente B
+23/02/2022 11:45:59|AbrirComprobanteFiscal B
+23/02/2022 11:45:59|Articulo --> ceramicol liqx450 d.pack
+23/02/2022 11:45:59|cantidadArt B --> 1
+23/02/2022 11:45:59|PrecVear --> 170
+23/02/2022 11:45:59|montoArt --> 140,495867768595
+23/02/2022 11:45:59|ivaArt --> 21
+23/02/2022 11:46:00|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:46:00|Articulo --> suiza cera liqx425 roble oscuro
+23/02/2022 11:46:00|cantidadArt B --> 1
+23/02/2022 11:46:00|PrecVear --> 360
+23/02/2022 11:46:00|montoArt --> 297,520661157025
+23/02/2022 11:46:00|ivaArt --> 21
+23/02/2022 11:46:00|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:46:00|Articulo --> cif act.gelx300 citrica-35950
+23/02/2022 11:46:00|cantidadArt B --> 1
+23/02/2022 11:46:00|PrecVear --> 110
+23/02/2022 11:46:00|montoArt --> 90,9090909090909
+23/02/2022 11:46:00|ivaArt --> 21
+23/02/2022 11:46:00|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:46:00|Articulo --> querubin suavizante x3 l dp
+23/02/2022 11:46:00|cantidadArt B --> 1
+23/02/2022 11:46:00|PrecVear --> 570
+23/02/2022 11:46:00|montoArt --> 471,074380165289
+23/02/2022 11:46:00|ivaArt --> 21
+23/02/2022 11:46:01|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:46:01|Articulo --> trenet efect.espuma dpx400 -32289
+23/02/2022 11:46:01|cantidadArt B --> 1
+23/02/2022 11:46:01|PrecVear --> 160
+23/02/2022 11:46:01|montoArt --> 132,231404958678
+23/02/2022 11:46:01|ivaArt --> 21
+23/02/2022 11:46:01|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:46:01|Articulo --> mortimer esponja cuadriculada
+23/02/2022 11:46:01|cantidadArt B --> 2
+23/02/2022 11:46:01|PrecVear --> 60
+23/02/2022 11:46:01|montoArt --> 49,5867768595041
+23/02/2022 11:46:01|ivaArt --> 21
+23/02/2022 11:46:01|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:46:01|Articulo --> fosforos tres patitos x222
+23/02/2022 11:46:01|cantidadArt B --> 1
+23/02/2022 11:46:01|PrecVear --> 98
+23/02/2022 11:46:01|montoArt --> 80,9917355371901
+23/02/2022 11:46:01|ivaArt --> 21
+23/02/2022 11:46:02|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:46:02|Articulo --> raid casa y jardin ef.seg93
+23/02/2022 11:46:02|cantidadArt B --> 1
+23/02/2022 11:46:02|PrecVear --> 340
+23/02/2022 11:46:02|montoArt --> 280,99173553719
+23/02/2022 11:46:02|ivaArt --> 21
+23/02/2022 11:46:02|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:46:02|Articulo --> trenet a bolillax120 hyperactive313
+23/02/2022 11:46:02|cantidadArt B --> 1
+23/02/2022 11:46:02|PrecVear --> 195
+23/02/2022 11:46:02|montoArt --> 161,157024793388
+23/02/2022 11:46:02|ivaArt --> 21
+23/02/2022 11:46:03|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:46:03|Articulo --> sussex rollo cocx3 clas
+23/02/2022 11:46:03|cantidadArt B --> 1
+23/02/2022 11:46:03|PrecVear --> 130
+23/02/2022 11:46:03|montoArt --> 107,438016528926
+23/02/2022 11:46:03|ivaArt --> 21
+23/02/2022 11:46:03|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:46:03|Cerrar Comprobante B:::
+23/02/2022 11:46:06|Obtiene nrocomp
+23/02/2022 11:46:06|nrocomp --> 19369
+23/02/2022 11:46:06|Nro. de Comprobante ::: TFB ::: 19369
+23/02/2022 11:46:06|Ety.TicketFiscal: 19369
+23/02/2022 11:57:10|Comienza Facturacion B
+23/02/2022 11:57:10|DatosCliente B
+23/02/2022 11:57:12|AbrirComprobanteFiscal B
+23/02/2022 11:57:12|Articulo --> ayudin quitamanchas x650ml
+23/02/2022 11:57:12|cantidadArt B --> 1
+23/02/2022 11:57:12|PrecVear --> 250
+23/02/2022 11:57:12|montoArt --> 206,611570247934
+23/02/2022 11:57:12|ivaArt --> 21
+23/02/2022 11:57:13|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:57:13|Articulo --> virulana esponja antigrasa
+23/02/2022 11:57:13|cantidadArt B --> 1
+23/02/2022 11:57:13|PrecVear --> 65
+23/02/2022 11:57:13|montoArt --> 53,7190082644628
+23/02/2022 11:57:13|ivaArt --> 21
+23/02/2022 11:57:13|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:57:13|Articulo --> cif active gel x450 ml doy pack limon verde
+23/02/2022 11:57:13|cantidadArt B --> 1
+23/02/2022 11:57:13|PrecVear --> 185
+23/02/2022 11:57:13|montoArt --> 152,892561983471
+23/02/2022 11:57:13|ivaArt --> 21
+23/02/2022 11:57:14|hasarOCX.ImprimirItem --> OK
+23/02/2022 11:57:14|Cerrar Comprobante B:::
+23/02/2022 11:57:17|Obtiene nrocomp
+23/02/2022 11:57:17|nrocomp --> 19370
+23/02/2022 11:57:17|Nro. de Comprobante ::: TFB ::: 19370
+23/02/2022 11:57:17|Ety.TicketFiscal: 19370
+23/02/2022 12:00:55|cerrando pantalla venta
+23/02/2022 12:01:01|Conectando..
+23/02/2022 12:01:01|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 12:01:02|Conectado con éxito!!
+23/02/2022 12:13:03|Comienza Facturacion B
+23/02/2022 12:13:03|DatosCliente B
+23/02/2022 12:13:06|AbrirComprobanteFiscal B
+23/02/2022 12:13:06|Articulo --> querubin suavizante x3 l dp
+23/02/2022 12:13:06|cantidadArt B --> 2
+23/02/2022 12:13:06|PrecVear --> 570
+23/02/2022 12:13:06|montoArt --> 471,074380165289
+23/02/2022 12:13:06|ivaArt --> 21
+23/02/2022 12:13:06|hasarOCX.ImprimirItem --> OK
+23/02/2022 12:13:06|Articulo --> plusbelle jabx125
+23/02/2022 12:13:06|cantidadArt B --> 2
+23/02/2022 12:13:06|PrecVear --> 75
+23/02/2022 12:13:06|montoArt --> 61,9834710743802
+23/02/2022 12:13:06|ivaArt --> 21
+23/02/2022 12:13:06|hasarOCX.ImprimirItem --> OK
+23/02/2022 12:13:06|Articulo --> rexona oh en aerosol
+23/02/2022 12:13:06|cantidadArt B --> 2
+23/02/2022 12:13:06|PrecVear --> 140
+23/02/2022 12:13:06|montoArt --> 115,702479338843
+23/02/2022 12:13:06|ivaArt --> 21
+23/02/2022 12:13:07|hasarOCX.ImprimirItem --> OK
+23/02/2022 12:13:07|Articulo --> odex limpiador x4 l
+23/02/2022 12:13:07|cantidadArt B --> 1
+23/02/2022 12:13:07|PrecVear --> 440
+23/02/2022 12:13:07|montoArt --> 363,636363636364
+23/02/2022 12:13:07|ivaArt --> 21
+23/02/2022 12:13:07|hasarOCX.ImprimirItem --> OK
+23/02/2022 12:13:07|Articulo --> dove aero apx89 pepino te vde-6221
+23/02/2022 12:13:07|cantidadArt B --> 1
+23/02/2022 12:13:07|PrecVear --> 290
+23/02/2022 12:13:07|montoArt --> 239,669421487603
+23/02/2022 12:13:07|ivaArt --> 21
+23/02/2022 12:13:08|hasarOCX.ImprimirItem --> OK
+23/02/2022 12:13:08|Cerrar Comprobante B:::
+23/02/2022 12:13:11|Obtiene nrocomp
+23/02/2022 12:13:11|nrocomp --> 19371
+23/02/2022 12:13:11|Nro. de Comprobante ::: TFB ::: 19371
+23/02/2022 12:13:11|Ety.TicketFiscal: 19371
+23/02/2022 12:31:40|cerrando pantalla venta
+23/02/2022 12:32:39|Conectando..
+23/02/2022 12:32:39|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 12:32:40|Conectado con éxito!!
+23/02/2022 12:33:19|cerrando pantalla venta
+23/02/2022 12:33:21|Conectando..
+23/02/2022 12:33:21|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 12:33:21|Conectado con éxito!!
+23/02/2022 16:58:25|Comienza Facturacion B
+23/02/2022 16:58:26|DatosCliente B
+23/02/2022 16:58:28|AbrirComprobanteFiscal B
+23/02/2022 16:58:28|Articulo --> estrella algodon super x200g
+23/02/2022 16:58:28|cantidadArt B --> 1
+23/02/2022 16:58:28|PrecVear --> 270
+23/02/2022 16:58:28|montoArt --> 223,140495867769
+23/02/2022 16:58:28|ivaArt --> 21
+23/02/2022 16:58:29|hasarOCX.ImprimirItem --> OK
+23/02/2022 16:58:29|Articulo --> estrella pañal xg x58
+23/02/2022 16:58:29|cantidadArt B --> 1
+23/02/2022 16:58:29|PrecVear --> 1590
+23/02/2022 16:58:29|montoArt --> 1314,04958677686
+23/02/2022 16:58:29|ivaArt --> 21
+23/02/2022 16:58:29|hasarOCX.ImprimirItem --> OK
+23/02/2022 16:58:29|Articulo --> q soft toall. hum. aloe y vit. x50 u.
+23/02/2022 16:58:29|cantidadArt B --> 1
+23/02/2022 16:58:29|PrecVear --> 150
+23/02/2022 16:58:29|montoArt --> 123,96694214876
+23/02/2022 16:58:29|ivaArt --> 21
+23/02/2022 16:58:29|hasarOCX.ImprimirItem --> OK
+23/02/2022 16:58:29|Cerrar Comprobante B:::
+23/02/2022 16:58:32|Obtiene nrocomp
+23/02/2022 16:58:33|nrocomp --> 19372
+23/02/2022 16:58:33|Nro. de Comprobante ::: TFB ::: 19372
+23/02/2022 16:58:33|Ety.TicketFiscal: 19372
+23/02/2022 17:06:57|Comienza Facturacion B
+23/02/2022 17:06:57|DatosCliente B
+23/02/2022 17:06:59|AbrirComprobanteFiscal B
+23/02/2022 17:06:59|Articulo --> q soft toall. hum. aloe y vit. x50 u.
+23/02/2022 17:06:59|cantidadArt B --> 3
+23/02/2022 17:06:59|PrecVear --> 150
+23/02/2022 17:06:59|montoArt --> 123,96694214876
+23/02/2022 17:06:59|ivaArt --> 21
+23/02/2022 17:07:00|hasarOCX.ImprimirItem --> OK
+23/02/2022 17:07:00|Articulo --> poett desinfectante lavanda
+23/02/2022 17:07:00|cantidadArt B --> 2
+23/02/2022 17:07:00|PrecVear --> 99
+23/02/2022 17:07:00|montoArt --> 81,8181818181818
+23/02/2022 17:07:00|ivaArt --> 21
+23/02/2022 17:07:00|hasarOCX.ImprimirItem --> OK
+23/02/2022 17:07:00|Articulo --> poett aero lavanda
+23/02/2022 17:07:00|cantidadArt B --> 1
+23/02/2022 17:07:00|PrecVear --> 150
+23/02/2022 17:07:00|montoArt --> 123,96694214876
+23/02/2022 17:07:00|ivaArt --> 21
+23/02/2022 17:07:00|hasarOCX.ImprimirItem --> OK
+23/02/2022 17:07:00|Articulo --> babysec super premium xxgx 34
+23/02/2022 17:07:00|cantidadArt B --> 1
+23/02/2022 17:07:00|PrecVear --> 1470
+23/02/2022 17:07:00|montoArt --> 1214,87603305785
+23/02/2022 17:07:00|ivaArt --> 21
+23/02/2022 17:07:01|hasarOCX.ImprimirItem --> OK
+23/02/2022 17:07:01|Articulo --> estrella pañal junior x30u
+23/02/2022 17:07:01|cantidadArt B --> 1
+23/02/2022 17:07:01|PrecVear --> 970
+23/02/2022 17:07:01|montoArt --> 801,652892561984
+23/02/2022 17:07:01|ivaArt --> 21
+23/02/2022 17:07:01|hasarOCX.ImprimirItem --> OK
+23/02/2022 17:07:01|Cerrar Comprobante B:::
+23/02/2022 17:07:04|Obtiene nrocomp
+23/02/2022 17:07:04|nrocomp --> 19373
+23/02/2022 17:07:04|Nro. de Comprobante ::: TFB ::: 19373
+23/02/2022 17:07:04|Ety.TicketFiscal: 19373
+23/02/2022 17:57:01|Comienza Facturacion B
+23/02/2022 17:57:01|DatosCliente B
+23/02/2022 17:57:04|AbrirComprobanteFiscal B
+23/02/2022 17:57:04|Articulo --> rexona efficientx100 talco
+23/02/2022 17:57:04|cantidadArt B --> 1
+23/02/2022 17:57:04|PrecVear --> 170
+23/02/2022 17:57:04|montoArt --> 140,495867768595
+23/02/2022 17:57:04|ivaArt --> 21
+23/02/2022 17:57:04|hasarOCX.ImprimirItem --> OK
+23/02/2022 17:57:04|Articulo --> mary bosques 60 segundos
+23/02/2022 17:57:04|cantidadArt B --> 3
+23/02/2022 17:57:04|PrecVear --> 85
+23/02/2022 17:57:04|montoArt --> 70,2479338842975
+23/02/2022 17:57:04|ivaArt --> 21
+23/02/2022 17:57:05|hasarOCX.ImprimirItem --> OK
+23/02/2022 17:57:05|Articulo --> varios
+23/02/2022 17:57:05|cantidadArt B --> 1
+23/02/2022 17:57:05|PrecVear --> 240
+23/02/2022 17:57:05|montoArt --> 198,347107438017
+23/02/2022 17:57:05|ivaArt --> 21
+23/02/2022 17:57:05|hasarOCX.ImprimirItem --> OK
+23/02/2022 17:57:05|Articulo --> mary bosques rubios totales
+23/02/2022 17:57:05|cantidadArt B --> 2
+23/02/2022 17:57:05|PrecVear --> 100
+23/02/2022 17:57:05|montoArt --> 82,6446280991736
+23/02/2022 17:57:05|ivaArt --> 21
+23/02/2022 17:57:05|hasarOCX.ImprimirItem --> OK
+23/02/2022 17:57:05|Cerrar Comprobante B:::
+23/02/2022 17:57:08|Obtiene nrocomp
+23/02/2022 17:57:08|nrocomp --> 19374
+23/02/2022 17:57:08|Nro. de Comprobante ::: TFB ::: 19374
+23/02/2022 17:57:08|Ety.TicketFiscal: 19374
+23/02/2022 18:06:13|Comienza Facturacion B
+23/02/2022 18:06:13|DatosCliente B
+23/02/2022 18:06:16|AbrirComprobanteFiscal B
+23/02/2022 18:06:16|Articulo --> varios
+23/02/2022 18:06:16|cantidadArt B --> 1
+23/02/2022 18:06:16|PrecVear --> 900
+23/02/2022 18:06:16|montoArt --> 743,801652892562
+23/02/2022 18:06:16|ivaArt --> 21
+23/02/2022 18:06:16|hasarOCX.ImprimirItem --> OK
+23/02/2022 18:06:16|Cerrar Comprobante B:::
+23/02/2022 18:06:19|Obtiene nrocomp
+23/02/2022 18:06:20|nrocomp --> 19375
+23/02/2022 18:06:20|Nro. de Comprobante ::: TFB ::: 19375
+23/02/2022 18:06:20|Ety.TicketFiscal: 19375
+23/02/2022 18:15:12|Comienza Facturacion B
+23/02/2022 18:15:12|DatosCliente B
+23/02/2022 18:15:14|AbrirComprobanteFiscal B
+23/02/2022 18:15:14|Articulo --> mary bosques oleo laminante
+23/02/2022 18:15:14|cantidadArt B --> 2
+23/02/2022 18:15:14|PrecVear --> 345
+23/02/2022 18:15:14|montoArt --> 285,123966942149
+23/02/2022 18:15:14|ivaArt --> 21
+23/02/2022 18:15:15|hasarOCX.ImprimirItem --> OK
+23/02/2022 18:15:15|Articulo --> mary bosques 911 x60g
+23/02/2022 18:15:15|cantidadArt B --> 1
+23/02/2022 18:15:15|PrecVear --> 350
+23/02/2022 18:15:15|montoArt --> 289,256198347107
+23/02/2022 18:15:15|ivaArt --> 21
+23/02/2022 18:15:15|hasarOCX.ImprimirItem --> OK
+23/02/2022 18:15:15|Cerrar Comprobante B:::
+23/02/2022 18:15:18|Obtiene nrocomp
+23/02/2022 18:15:18|nrocomp --> 19376
+23/02/2022 18:15:18|Nro. de Comprobante ::: TFB ::: 19376
+23/02/2022 18:15:18|Ety.TicketFiscal: 19376
+23/02/2022 18:29:48|Comienza Facturacion B
+23/02/2022 18:29:48|DatosCliente B
+23/02/2022 18:29:50|AbrirComprobanteFiscal B
+23/02/2022 18:29:50|Articulo --> hs sh y ac x180ml
+23/02/2022 18:29:50|cantidadArt B --> 1
+23/02/2022 18:29:50|PrecVear --> 320
+23/02/2022 18:29:50|montoArt --> 264,462809917355
+23/02/2022 18:29:50|ivaArt --> 21
+23/02/2022 18:29:51|hasarOCX.ImprimirItem --> OK
+23/02/2022 18:29:51|Articulo --> beauty hands alcohol en gel
+23/02/2022 18:29:51|cantidadArt B --> 3
+23/02/2022 18:29:51|PrecVear --> 70
+23/02/2022 18:29:51|montoArt --> 57,8512396694215
+23/02/2022 18:29:51|ivaArt --> 21
+23/02/2022 18:29:51|hasarOCX.ImprimirItem --> OK
+23/02/2022 18:29:51|Cerrar Comprobante B:::
+23/02/2022 18:29:54|Obtiene nrocomp
+23/02/2022 18:29:54|nrocomp --> 19377
+23/02/2022 18:29:54|Nro. de Comprobante ::: TFB ::: 19377
+23/02/2022 18:29:54|Ety.TicketFiscal: 19377
+23/02/2022 18:38:12|Comienza Facturacion B
+23/02/2022 18:38:12|DatosCliente B
+23/02/2022 18:38:14|AbrirComprobanteFiscal B
+23/02/2022 18:38:14|Articulo --> cif crema multiuso x375 nvo
+23/02/2022 18:38:14|cantidadArt B --> 1
+23/02/2022 18:38:14|PrecVear --> 110
+23/02/2022 18:38:14|montoArt --> 90,9090909090909
+23/02/2022 18:38:14|ivaArt --> 21
+23/02/2022 18:38:15|hasarOCX.ImprimirItem --> OK
+23/02/2022 18:38:15|Articulo --> cif gelx250 2en1 orig-1933
+23/02/2022 18:38:15|cantidadArt B --> 1
+23/02/2022 18:38:15|PrecVear --> 120
+23/02/2022 18:38:15|montoArt --> 99,1735537190083
+23/02/2022 18:38:15|ivaArt --> 21
+23/02/2022 18:38:15|hasarOCX.ImprimirItem --> OK
+23/02/2022 18:38:15|Cerrar Comprobante B:::
+23/02/2022 18:38:18|Obtiene nrocomp
+23/02/2022 18:38:18|nrocomp --> 19378
+23/02/2022 18:38:18|Nro. de Comprobante ::: TFB ::: 19378
+23/02/2022 18:38:18|Ety.TicketFiscal: 19378
+23/02/2022 18:40:35|Comienza Facturacion B
+23/02/2022 18:40:35|DatosCliente B
+23/02/2022 18:40:38|AbrirComprobanteFiscal B
+23/02/2022 18:40:38|Articulo --> huggies supreme care xxg x50
+23/02/2022 18:40:38|cantidadArt B --> 1
+23/02/2022 18:40:38|PrecVear --> 1820
+23/02/2022 18:40:38|montoArt --> 1504,13223140496
+23/02/2022 18:40:38|ivaArt --> 21
+23/02/2022 18:40:38|hasarOCX.ImprimirItem --> OK
+23/02/2022 18:40:38|Articulo --> huggies toallitas amarillas x80
+23/02/2022 18:40:38|cantidadArt B --> 1
+23/02/2022 18:40:38|PrecVear --> 290
+23/02/2022 18:40:38|montoArt --> 239,669421487603
+23/02/2022 18:40:38|ivaArt --> 21
+23/02/2022 18:40:39|hasarOCX.ImprimirItem --> OK
+23/02/2022 18:40:39|Cerrar Comprobante B:::
+23/02/2022 18:40:42|Obtiene nrocomp
+23/02/2022 18:40:42|nrocomp --> 19379
+23/02/2022 18:40:42|Nro. de Comprobante ::: TFB ::: 19379
+23/02/2022 18:40:42|Ety.TicketFiscal: 19379
+23/02/2022 18:47:29|Comienza Facturacion B
+23/02/2022 18:47:29|DatosCliente B
+23/02/2022 18:47:32|AbrirComprobanteFiscal B
+23/02/2022 18:47:32|Articulo --> hennia aposito incontinencia plus
+23/02/2022 18:47:32|cantidadArt B --> 1
+23/02/2022 18:47:32|PrecVear --> 560
+23/02/2022 18:47:32|montoArt --> 462,809917355372
+23/02/2022 18:47:32|ivaArt --> 21
+23/02/2022 18:47:32|hasarOCX.ImprimirItem --> OK
+23/02/2022 18:47:32|Articulo --> hennia slip g x8
+23/02/2022 18:47:32|cantidadArt B --> 1
+23/02/2022 18:47:32|PrecVear --> 970
+23/02/2022 18:47:32|montoArt --> 801,652892561984
+23/02/2022 18:47:32|ivaArt --> 21
+23/02/2022 18:47:32|hasarOCX.ImprimirItem --> OK
+23/02/2022 18:47:32|Cerrar Comprobante B:::
+23/02/2022 18:47:35|Obtiene nrocomp
+23/02/2022 18:47:36|nrocomp --> 19380
+23/02/2022 18:47:36|Nro. de Comprobante ::: TFB ::: 19380
+23/02/2022 18:47:36|Ety.TicketFiscal: 19380
+23/02/2022 18:52:00|Comienza Facturacion B
+23/02/2022 18:52:00|DatosCliente B
+23/02/2022 18:52:02|AbrirComprobanteFiscal B
+23/02/2022 18:52:02|Articulo --> estrella paños algodon maxi baby 50u
+23/02/2022 18:52:02|cantidadArt B --> 1
+23/02/2022 18:52:02|PrecVear --> 390
+23/02/2022 18:52:02|montoArt --> 322,314049586777
+23/02/2022 18:52:02|ivaArt --> 21
+23/02/2022 18:52:03|hasarOCX.ImprimirItem --> OK
+23/02/2022 18:52:03|Articulo --> huggies supreme care rn34
+23/02/2022 18:52:03|cantidadArt B --> 1
+23/02/2022 18:52:03|PrecVear --> 1040
+23/02/2022 18:52:03|montoArt --> 859,504132231405
+23/02/2022 18:52:03|ivaArt --> 21
+23/02/2022 18:52:03|hasarOCX.ImprimirItem --> OK
+23/02/2022 18:52:03|Articulo --> gasa por unidad
+23/02/2022 18:52:03|cantidadArt B --> 5
+23/02/2022 18:52:03|PrecVear --> 15
+23/02/2022 18:52:03|montoArt --> 12,396694214876
+23/02/2022 18:52:03|ivaArt --> 21
+23/02/2022 18:52:03|hasarOCX.ImprimirItem --> OK
+23/02/2022 18:52:03|Cerrar Comprobante B:::
+23/02/2022 18:52:06|Obtiene nrocomp
+23/02/2022 18:52:07|nrocomp --> 19381
+23/02/2022 18:52:07|Nro. de Comprobante ::: TFB ::: 19381
+23/02/2022 18:52:07|Ety.TicketFiscal: 19381
+23/02/2022 19:02:29|Comienza Facturacion B
+23/02/2022 19:02:30|DatosCliente B
+23/02/2022 19:02:32|AbrirComprobanteFiscal B
+23/02/2022 19:02:32|Articulo --> varios
+23/02/2022 19:02:32|cantidadArt B --> 1
+23/02/2022 19:02:32|PrecVear --> 150
+23/02/2022 19:02:32|montoArt --> 123,96694214876
+23/02/2022 19:02:32|ivaArt --> 21
+23/02/2022 19:02:32|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:02:32|Articulo --> colgate cep.360º 2x1 suave
+23/02/2022 19:02:32|cantidadArt B --> 1
+23/02/2022 19:02:32|PrecVear --> 450
+23/02/2022 19:02:32|montoArt --> 371,900826446281
+23/02/2022 19:02:32|ivaArt --> 21
+23/02/2022 19:02:33|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:02:33|Articulo --> colgate cep smiles 0a2 años
+23/02/2022 19:02:33|cantidadArt B --> 1
+23/02/2022 19:02:33|PrecVear --> 250
+23/02/2022 19:02:33|montoArt --> 206,611570247934
+23/02/2022 19:02:33|ivaArt --> 21
+23/02/2022 19:02:33|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:02:33|Articulo --> q soft hisopos x100 tarrito
+23/02/2022 19:02:33|cantidadArt B --> 1
+23/02/2022 19:02:33|PrecVear --> 170
+23/02/2022 19:02:33|montoArt --> 140,495867768595
+23/02/2022 19:02:33|ivaArt --> 21
+23/02/2022 19:02:34|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:02:34|Articulo --> huggies toallas humedas con oleo x48
+23/02/2022 19:02:34|cantidadArt B --> 1
+23/02/2022 19:02:34|PrecVear --> 460
+23/02/2022 19:02:34|montoArt --> 380,165289256198
+23/02/2022 19:02:34|ivaArt --> 21
+23/02/2022 19:02:34|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:02:34|Articulo --> estrella paños algodon maxi baby 50u
+23/02/2022 19:02:34|cantidadArt B --> 2
+23/02/2022 19:02:34|PrecVear --> 390
+23/02/2022 19:02:34|montoArt --> 322,314049586777
+23/02/2022 19:02:34|ivaArt --> 21
+23/02/2022 19:02:34|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:02:34|Articulo --> varios
+23/02/2022 19:02:34|cantidadArt B --> 1
+23/02/2022 19:02:34|PrecVear --> 80
+23/02/2022 19:02:34|montoArt --> 66,1157024793389
+23/02/2022 19:02:34|ivaArt --> 21
+23/02/2022 19:02:35|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:02:35|Articulo --> mortimer esponja cuadriculada
+23/02/2022 19:02:35|cantidadArt B --> 1
+23/02/2022 19:02:35|PrecVear --> 60
+23/02/2022 19:02:35|montoArt --> 49,5867768595041
+23/02/2022 19:02:35|ivaArt --> 21
+23/02/2022 19:02:35|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:02:35|Articulo --> huggies supreme care xxg x50
+23/02/2022 19:02:35|cantidadArt B --> 2
+23/02/2022 19:02:35|PrecVear --> 1820
+23/02/2022 19:02:35|montoArt --> 1504,13223140496
+23/02/2022 19:02:35|ivaArt --> 21
+23/02/2022 19:02:35|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:02:35|Articulo --> raid tabletasx24 dob.accion
+23/02/2022 19:02:35|cantidadArt B --> 1
+23/02/2022 19:02:35|PrecVear --> 260
+23/02/2022 19:02:35|montoArt --> 214,876033057851
+23/02/2022 19:02:35|ivaArt --> 21
+23/02/2022 19:02:36|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:02:36|Articulo --> mr musculo vidrios dp
+23/02/2022 19:02:36|cantidadArt B --> 2
+23/02/2022 19:02:36|PrecVear --> 98
+23/02/2022 19:02:36|montoArt --> 80,9917355371901
+23/02/2022 19:02:36|ivaArt --> 21
+23/02/2022 19:02:36|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:02:36|Articulo --> dove jabon x90 blanco
+23/02/2022 19:02:36|cantidadArt B --> 2
+23/02/2022 19:02:36|PrecVear --> 95
+23/02/2022 19:02:36|montoArt --> 78,5123966942149
+23/02/2022 19:02:36|ivaArt --> 21
+23/02/2022 19:02:36|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:02:36|Articulo --> robin doy packx500
+23/02/2022 19:02:36|cantidadArt B --> 2
+23/02/2022 19:02:36|PrecVear --> 140
+23/02/2022 19:02:36|montoArt --> 115,702479338843
+23/02/2022 19:02:36|ivaArt --> 21
+23/02/2022 19:02:37|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:02:37|Articulo --> cif vidriosx450 dp
+23/02/2022 19:02:37|cantidadArt B --> 3
+23/02/2022 19:02:37|PrecVear --> 85
+23/02/2022 19:02:37|montoArt --> 70,2479338842975
+23/02/2022 19:02:37|ivaArt --> 21
+23/02/2022 19:02:37|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:02:37|Cerrar Comprobante B:::
+23/02/2022 19:02:40|Obtiene nrocomp
+23/02/2022 19:02:40|nrocomp --> 19382
+23/02/2022 19:02:40|Nro. de Comprobante ::: TFB ::: 19382
+23/02/2022 19:02:40|Ety.TicketFiscal: 19382
+23/02/2022 19:22:21|Comienza Facturacion B
+23/02/2022 19:22:21|DatosCliente B
+23/02/2022 19:22:23|AbrirComprobanteFiscal B
+23/02/2022 19:22:23|Articulo --> candy thum aloe vera
+23/02/2022 19:22:23|cantidadArt B --> 1
+23/02/2022 19:22:23|PrecVear --> 100
+23/02/2022 19:22:23|montoArt --> 82,6446280991736
+23/02/2022 19:22:23|ivaArt --> 21
+23/02/2022 19:22:24|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:22:24|Articulo --> estrella pañal xxg x56
+23/02/2022 19:22:24|cantidadArt B --> 1
+23/02/2022 19:22:24|PrecVear --> 1590
+23/02/2022 19:22:24|montoArt --> 1314,04958677686
+23/02/2022 19:22:24|ivaArt --> 21
+23/02/2022 19:22:24|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:22:24|Articulo --> colgate cep.clasico adult.med-18460
+23/02/2022 19:22:24|cantidadArt B --> 1
+23/02/2022 19:22:24|PrecVear --> 110
+23/02/2022 19:22:24|montoArt --> 90,9090909090909
+23/02/2022 19:22:24|ivaArt --> 21
+23/02/2022 19:22:25|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:22:25|Articulo --> dove baby ac x200ml
+23/02/2022 19:22:25|cantidadArt B --> 1
+23/02/2022 19:22:25|PrecVear --> 255
+23/02/2022 19:22:25|montoArt --> 210,743801652893
+23/02/2022 19:22:25|ivaArt --> 21
+23/02/2022 19:22:25|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:22:25|Articulo --> dove baby sh pelo riz h enr x200ml
+23/02/2022 19:22:25|cantidadArt B --> 1
+23/02/2022 19:22:25|PrecVear --> 270
+23/02/2022 19:22:25|montoArt --> 223,140495867769
+23/02/2022 19:22:25|ivaArt --> 21
+23/02/2022 19:22:25|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:22:25|Articulo --> algabo doy pack polvo de fecula baby x 200
+23/02/2022 19:22:25|cantidadArt B --> 1
+23/02/2022 19:22:25|PrecVear --> 170
+23/02/2022 19:22:25|montoArt --> 140,495867768595
+23/02/2022 19:22:25|ivaArt --> 21
+23/02/2022 19:22:26|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:22:26|Cerrar Comprobante B:::
+23/02/2022 19:22:29|Obtiene nrocomp
+23/02/2022 19:22:29|nrocomp --> 19383
+23/02/2022 19:22:29|Nro. de Comprobante ::: TFB ::: 19383
+23/02/2022 19:22:29|Ety.TicketFiscal: 19383
+23/02/2022 19:27:09|Comienza Facturacion B
+23/02/2022 19:27:09|DatosCliente B
+23/02/2022 19:27:12|AbrirComprobanteFiscal B
+23/02/2022 19:27:12|Articulo --> huggies supreme care xxg x50
+23/02/2022 19:27:12|cantidadArt B --> 2
+23/02/2022 19:27:12|PrecVear --> 1820
+23/02/2022 19:27:12|montoArt --> 1504,13223140496
+23/02/2022 19:27:12|ivaArt --> 21
+23/02/2022 19:27:12|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:27:12|Cerrar Comprobante B:::
+23/02/2022 19:27:15|Obtiene nrocomp
+23/02/2022 19:27:15|nrocomp --> 19384
+23/02/2022 19:27:15|Nro. de Comprobante ::: TFB ::: 19384
+23/02/2022 19:27:15|Ety.TicketFiscal: 19384
+23/02/2022 19:27:46|Comienza Facturacion B
+23/02/2022 19:27:46|DatosCliente B
+23/02/2022 19:27:49|AbrirComprobanteFiscal B
+23/02/2022 19:27:49|Articulo --> tijerita para bebe con mango de plastico
+23/02/2022 19:27:49|cantidadArt B --> 1
+23/02/2022 19:27:49|PrecVear --> 502
+23/02/2022 19:27:49|montoArt --> 414,876033057851
+23/02/2022 19:27:49|ivaArt --> 21
+23/02/2022 19:27:49|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:27:49|Articulo --> jyj talco dulces sueños purif 24x200gr (violeta)
+23/02/2022 19:27:49|cantidadArt B --> 1
+23/02/2022 19:27:49|PrecVear --> 420
+23/02/2022 19:27:49|montoArt --> 347,107438016529
+23/02/2022 19:27:49|ivaArt --> 21
+23/02/2022 19:27:49|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:27:49|Articulo --> downy concetrado x500 brisa de verano
+23/02/2022 19:27:49|cantidadArt B --> 1
+23/02/2022 19:27:49|PrecVear --> 330
+23/02/2022 19:27:49|montoArt --> 272,727272727273
+23/02/2022 19:27:49|ivaArt --> 21
+23/02/2022 19:27:50|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:27:50|Cerrar Comprobante B:::
+23/02/2022 19:27:53|Obtiene nrocomp
+23/02/2022 19:27:53|nrocomp --> 19385
+23/02/2022 19:27:53|Nro. de Comprobante ::: TFB ::: 19385
+23/02/2022 19:27:53|Ety.TicketFiscal: 19385
+23/02/2022 19:41:32|cerrando pantalla venta
+23/02/2022 19:41:46|Conectando..
+23/02/2022 19:41:46|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 19:41:47|Conectado con éxito!!
+23/02/2022 19:41:54|cerrando pantalla venta
+23/02/2022 19:41:57|Conectando..
+23/02/2022 19:41:57|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 19:41:58|Conectado con éxito!!
+23/02/2022 19:47:50|cerrando pantalla venta
+23/02/2022 19:48:10|Conectando..
+23/02/2022 19:48:10|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 19:48:10|Conectado con éxito!!
+23/02/2022 19:48:12|cerrando pantalla venta
+23/02/2022 19:48:16|Conectando..
+23/02/2022 19:48:16|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 19:48:17|Conectado con éxito!!
+23/02/2022 19:59:49|Comienza Facturacion B
+23/02/2022 19:59:49|DatosCliente B
+23/02/2022 19:59:52|AbrirComprobanteFiscal B
+23/02/2022 19:59:52|Articulo --> excellence creme 53#
+23/02/2022 19:59:52|cantidadArt B --> 1
+23/02/2022 19:59:52|PrecVear --> 1190
+23/02/2022 19:59:52|montoArt --> 983,471074380165
+23/02/2022 19:59:52|ivaArt --> 21
+23/02/2022 19:59:52|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:59:52|Articulo --> veritas polvox120 prot.fresca
+23/02/2022 19:59:52|cantidadArt B --> 1
+23/02/2022 19:59:52|PrecVear --> 180
+23/02/2022 19:59:52|montoArt --> 148,760330578512
+23/02/2022 19:59:52|ivaArt --> 21
+23/02/2022 19:59:53|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:59:53|Articulo --> lux jabx125 flor vainilla
+23/02/2022 19:59:53|cantidadArt B --> 1
+23/02/2022 19:59:53|PrecVear --> 78
+23/02/2022 19:59:53|montoArt --> 64,4628099173554
+23/02/2022 19:59:53|ivaArt --> 21
+23/02/2022 19:59:53|hasarOCX.ImprimirItem --> OK
+23/02/2022 19:59:53|Cerrar Comprobante B:::
+23/02/2022 19:59:56|Obtiene nrocomp
+23/02/2022 19:59:56|nrocomp --> 19386
+23/02/2022 19:59:56|Nro. de Comprobante ::: TFB ::: 19386
+23/02/2022 19:59:56|Ety.TicketFiscal: 19386
+23/02/2022 20:05:10|Comienza Facturacion B
+23/02/2022 20:05:10|DatosCliente B
+23/02/2022 20:05:13|AbrirComprobanteFiscal B
+23/02/2022 20:05:13|Articulo --> felpita pañuelos x6
+23/02/2022 20:05:13|cantidadArt B --> 1
+23/02/2022 20:05:13|PrecVear --> 75
+23/02/2022 20:05:13|montoArt --> 61,9834710743802
+23/02/2022 20:05:13|ivaArt --> 21
+23/02/2022 20:05:13|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:05:13|Articulo --> varios
+23/02/2022 20:05:13|cantidadArt B --> 1
+23/02/2022 20:05:13|PrecVear --> 68
+23/02/2022 20:05:13|montoArt --> 56,198347107438
+23/02/2022 20:05:13|ivaArt --> 21
+23/02/2022 20:05:13|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:05:13|Articulo --> rexona jab liq dp original
+23/02/2022 20:05:13|cantidadArt B --> 2
+23/02/2022 20:05:13|PrecVear --> 180
+23/02/2022 20:05:13|montoArt --> 148,760330578512
+23/02/2022 20:05:13|ivaArt --> 21
+23/02/2022 20:05:14|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:05:14|Articulo --> cutex quitaesmalte hipo x50ml
+23/02/2022 20:05:14|cantidadArt B --> 1
+23/02/2022 20:05:14|PrecVear --> 120
+23/02/2022 20:05:14|montoArt --> 99,1735537190083
+23/02/2022 20:05:14|ivaArt --> 21
+23/02/2022 20:05:14|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:05:14|Articulo --> dove jabon x90 blanco
+23/02/2022 20:05:14|cantidadArt B --> 8
+23/02/2022 20:05:14|PrecVear --> 95
+23/02/2022 20:05:14|montoArt --> 78,5123966942149
+23/02/2022 20:05:14|ivaArt --> 21
+23/02/2022 20:05:14|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:05:14|Articulo --> colgate smiles justice league
+23/02/2022 20:05:14|cantidadArt B --> 1
+23/02/2022 20:05:14|PrecVear --> 230
+23/02/2022 20:05:14|montoArt --> 190,082644628099
+23/02/2022 20:05:14|ivaArt --> 21
+23/02/2022 20:05:15|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:05:15|Articulo --> pantene acx400 pro v brillo
+23/02/2022 20:05:15|cantidadArt B --> 2
+23/02/2022 20:05:15|PrecVear --> 440
+23/02/2022 20:05:15|montoArt --> 363,636363636364
+23/02/2022 20:05:15|ivaArt --> 21
+23/02/2022 20:05:15|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:05:15|Articulo --> colgate total 12 clean mint x140 g
+23/02/2022 20:05:15|cantidadArt B --> 1
+23/02/2022 20:05:15|PrecVear --> 530
+23/02/2022 20:05:15|montoArt --> 438,01652892562
+23/02/2022 20:05:15|ivaArt --> 21
+23/02/2022 20:05:16|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:05:16|Articulo --> calipso pd rosa x50
+23/02/2022 20:05:16|cantidadArt B --> 1
+23/02/2022 20:05:16|PrecVear --> 220
+23/02/2022 20:05:16|montoArt --> 181,818181818182
+23/02/2022 20:05:16|ivaArt --> 21
+23/02/2022 20:05:16|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:05:16|Articulo --> felpita bco 80 mts
+23/02/2022 20:05:16|cantidadArt B --> 1
+23/02/2022 20:05:16|PrecVear --> 280
+23/02/2022 20:05:16|montoArt --> 231,404958677686
+23/02/2022 20:05:16|ivaArt --> 21
+23/02/2022 20:05:16|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:05:16|Articulo --> maybelline labial color sensational
+23/02/2022 20:05:16|cantidadArt B --> 1
+23/02/2022 20:05:16|PrecVear --> 950
+23/02/2022 20:05:16|montoArt --> 785,123966942149
+23/02/2022 20:05:16|ivaArt --> 21
+23/02/2022 20:05:17|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:05:17|Articulo --> pelliza cisne latx redondo
+23/02/2022 20:05:17|cantidadArt B --> 1
+23/02/2022 20:05:17|PrecVear --> 90
+23/02/2022 20:05:17|montoArt --> 74,3801652892562
+23/02/2022 20:05:17|ivaArt --> 21
+23/02/2022 20:05:17|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:05:17|Cerrar Comprobante B:::
+23/02/2022 20:05:20|Obtiene nrocomp
+23/02/2022 20:05:20|nrocomp --> 19387
+23/02/2022 20:05:20|Nro. de Comprobante ::: TFB ::: 19387
+23/02/2022 20:05:20|Ety.TicketFiscal: 19387
+23/02/2022 20:16:10|cerrando pantalla venta
+23/02/2022 20:16:12|Conectando..
+23/02/2022 20:16:12|IP: 127.0.0.1 - Puerto: 6500
+23/02/2022 20:16:13|Conectado con éxito!!
+23/02/2022 20:21:24|Comienza Facturacion B
+23/02/2022 20:21:24|DatosCliente B
+23/02/2022 20:21:26|AbrirComprobanteFiscal B
+23/02/2022 20:21:26|Articulo --> calipso pd colaless x20
+23/02/2022 20:21:26|cantidadArt B --> 1
+23/02/2022 20:21:26|PrecVear --> 140
+23/02/2022 20:21:26|montoArt --> 115,702479338843
+23/02/2022 20:21:26|ivaArt --> 21
+23/02/2022 20:21:27|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:21:27|Articulo --> calipso pd colaless x20
+23/02/2022 20:21:27|cantidadArt B --> 1
+23/02/2022 20:21:27|PrecVear --> 140
+23/02/2022 20:21:27|montoArt --> 115,702479338843
+23/02/2022 20:21:27|ivaArt --> 21
+23/02/2022 20:21:27|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:21:27|Articulo --> estrella pañal junior x30u
+23/02/2022 20:21:27|cantidadArt B --> 1
+23/02/2022 20:21:27|PrecVear --> 970
+23/02/2022 20:21:27|montoArt --> 801,652892561984
+23/02/2022 20:21:27|ivaArt --> 21
+23/02/2022 20:21:28|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:21:28|Cerrar Comprobante B:::
+23/02/2022 20:21:31|Obtiene nrocomp
+23/02/2022 20:21:31|nrocomp --> 19388
+23/02/2022 20:21:31|Nro. de Comprobante ::: TFB ::: 19388
+23/02/2022 20:21:31|Ety.TicketFiscal: 19388
+23/02/2022 20:24:29|Comienza Facturacion B
+23/02/2022 20:24:29|DatosCliente B
+23/02/2022 20:24:31|AbrirComprobanteFiscal B
+23/02/2022 20:24:31|Articulo --> bolsas de residuos 45*60
+23/02/2022 20:24:31|cantidadArt B --> 1
+23/02/2022 20:24:31|PrecVear --> 75
+23/02/2022 20:24:31|montoArt --> 61,9834710743802
+23/02/2022 20:24:31|ivaArt --> 21
+23/02/2022 20:24:32|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:24:32|Articulo --> varios
+23/02/2022 20:24:32|cantidadArt B --> 1
+23/02/2022 20:24:32|PrecVear --> 460
+23/02/2022 20:24:32|montoArt --> 380,165289256198
+23/02/2022 20:24:32|ivaArt --> 21
+23/02/2022 20:24:32|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:24:32|Articulo --> escudo mmm
+23/02/2022 20:24:32|cantidadArt B --> 1
+23/02/2022 20:24:32|PrecVear --> 150
+23/02/2022 20:24:32|montoArt --> 123,96694214876
+23/02/2022 20:24:32|ivaArt --> 21
+23/02/2022 20:24:32|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:24:32|Articulo --> el coloso hig.ecolog x4
+23/02/2022 20:24:32|cantidadArt B --> 1
+23/02/2022 20:24:32|PrecVear --> 90
+23/02/2022 20:24:32|montoArt --> 74,3801652892562
+23/02/2022 20:24:32|ivaArt --> 21
+23/02/2022 20:24:33|hasarOCX.ImprimirItem --> OK
+23/02/2022 20:24:33|Cerrar Comprobante B:::
+23/02/2022 20:24:36|Obtiene nrocomp
+23/02/2022 20:24:36|nrocomp --> 19389
+23/02/2022 20:24:36|Nro. de Comprobante ::: TFB ::: 19389
+23/02/2022 20:24:36|Ety.TicketFiscal: 19389
+23/02/2022 20:29:31|cerrando pantalla venta
+23/02/2022 20:29:38|*************COMIENZA Cierre  Z**********
+23/02/2022 20:29:46|CIERRE Z
+Cierre Z Nº =[639]
+Fecha del Cierre        =[23/02/2022 0:00:00]
+DF Emitidos             =[25]
+DF Cancelados           =[0]
+DF Total                =[4734005]
+DF Total Gravado        =[3912397]
+DF Total No Gravado     =[0]
+DF Total Exento         =[0]
+DF Total IVA            =[821608]
+DF Total Otros Tributos =[0]
+NC Emitidas             =[0]
+NC Canceladas           =[0]
+NC Total                =[0]
+NC Total Gravado        =[0]
+NC Total No Gravado     =[0]
+NC Total Exento         =[0]
+NC Total IVA            =[0]
+NC Total Otros Tributos =[0]
+DNFH Emitidos           =[0]
+DNFH Total              =[0]
+

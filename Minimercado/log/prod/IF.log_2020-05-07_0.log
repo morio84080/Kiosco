@@ -1,0 +1,39 @@
+07/05/2020 8:45:12|Conectando..
+07/05/2020 8:45:12|IP: 127.0.0.1 - Puerto: 6500
+07/05/2020 8:46:37|Comienza Facturacion B
+07/05/2020 8:46:39|Error iniciando Factura B --> Tiempo de espera agotado
+07/05/2020 8:46:39|Conectando..
+07/05/2020 8:46:39|IP: 127.0.0.1 - Puerto: 6500
+07/05/2020 8:46:50|Error Imprimiendo Factura B --> Tiempo de espera agotado
+07/05/2020 8:46:54|Error Diagnostico..Tiempo de espera agotado
+07/05/2020 8:47:47|Comienza Facturacion B
+07/05/2020 8:47:49|Error iniciando Factura B --> Tiempo de espera agotado
+07/05/2020 8:47:49|Conectando..
+07/05/2020 8:47:49|IP: 127.0.0.1 - Puerto: 6500
+07/05/2020 8:49:03|Error Imprimiendo Factura B --> Tiempo de espera agotado
+07/05/2020 8:49:06|Error Diagnostico..Tiempo de espera agotado
+07/05/2020 8:50:11|Conectando..
+07/05/2020 8:50:11|IP: 127.0.0.1 - Puerto: 6500
+07/05/2020 8:55:29|Conectando..
+07/05/2020 8:55:29|IP: 127.0.0.1 - Puerto: 6500
+07/05/2020 8:56:27|Conectando..
+07/05/2020 8:56:27|IP: 127.0.0.1 - Puerto: 6500
+07/05/2020 8:56:28|Conectado con éxito!!
+07/05/2020 8:56:43|Comienza Facturacion B
+07/05/2020 8:56:43|DatosCliente B
+07/05/2020 8:56:47|AbrirComprobanteFiscal B
+07/05/2020 8:56:47|Articulo --> varios
+07/05/2020 8:56:47|cantidadArt B --> 1
+07/05/2020 8:56:47|PrecVear --> 2220
+07/05/2020 8:56:47|montoArt --> 1834,71074380165
+07/05/2020 8:56:47|ivaArt --> 21
+07/05/2020 8:56:48|hasarOCX.ImprimirItem --> OK
+07/05/2020 8:56:48|Cerrar Comprobante B:::
+07/05/2020 8:56:51|Obtiene nrocomp
+07/05/2020 8:56:51|nrocomp --> 197
+07/05/2020 8:56:51|Nro. de Comprobante ::: TFB ::: 197
+07/05/2020 9:01:50|Conectando..
+07/05/2020 9:01:50|IP: 127.0.0.1 - Puerto: 6500
+07/05/2020 9:01:50|Conectado con éxito!!
+07/05/2020 9:02:33|Error Imprimiendo Factura A --> Debe Seleccionar un cliente
+07/05/2020 9:02:42|Error Imprimiendo Factura A --> Debe Seleccionar un cliente

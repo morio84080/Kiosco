@@ -1,0 +1,1191 @@
+09/07/2021 08:51:17|Conectando..
+09/07/2021 08:51:17|IP: 127.0.0.1 - Puerto: 6500
+09/07/2021 08:51:18|Conectado con éxito!!
+09/07/2021 08:51:42|Comienza Facturacion B
+09/07/2021 08:51:42|DatosCliente B
+09/07/2021 08:51:43|AbrirComprobanteFiscal B
+09/07/2021 08:51:43|Articulo --> pitusas vainilla
+09/07/2021 08:51:43|cantidadArt B --> 3
+09/07/2021 08:51:43|PrecVear --> 65
+09/07/2021 08:51:43|montoArt --> 53,7190082644628
+09/07/2021 08:51:43|ivaArt --> 21
+09/07/2021 08:51:44|hasarOCX.ImprimirItem --> OK
+09/07/2021 08:51:44|Articulo --> gall. cracker sin tac
+09/07/2021 08:51:44|cantidadArt B --> 1
+09/07/2021 08:51:44|PrecVear --> 150
+09/07/2021 08:51:44|montoArt --> 123,96694214876
+09/07/2021 08:51:44|ivaArt --> 21
+09/07/2021 08:51:44|hasarOCX.ImprimirItem --> OK
+09/07/2021 08:51:44|Articulo --> gall. surtido bagley
+09/07/2021 08:51:44|cantidadArt B --> 1
+09/07/2021 08:51:44|PrecVear --> 170
+09/07/2021 08:51:44|montoArt --> 140,495867768595
+09/07/2021 08:51:44|ivaArt --> 21
+09/07/2021 08:51:44|hasarOCX.ImprimirItem --> OK
+09/07/2021 08:51:44|Articulo --> viña de balbo x 1 250 ml
+09/07/2021 08:51:44|cantidadArt B --> 1
+09/07/2021 08:51:44|PrecVear --> 195
+09/07/2021 08:51:44|montoArt --> 161,157024793388
+09/07/2021 08:51:44|ivaArt --> 21
+09/07/2021 08:51:45|hasarOCX.ImprimirItem --> OK
+09/07/2021 08:51:45|Articulo --> panaderia
+09/07/2021 08:51:45|cantidadArt B --> 1
+09/07/2021 08:51:45|PrecVear --> 160
+09/07/2021 08:51:45|montoArt --> 132,231404958678
+09/07/2021 08:51:45|ivaArt --> 21
+09/07/2021 08:51:45|hasarOCX.ImprimirItem --> OK
+09/07/2021 08:51:45|Articulo --> gaseosa manos x 3 l
+09/07/2021 08:51:45|cantidadArt B --> 2
+09/07/2021 08:51:45|PrecVear --> 95
+09/07/2021 08:51:45|montoArt --> 78,5123966942149
+09/07/2021 08:51:45|ivaArt --> 21
+09/07/2021 08:51:45|hasarOCX.ImprimirItem --> OK
+09/07/2021 08:51:45|Cerrar Comprobante B:::
+09/07/2021 08:51:48|Obtiene nrocomp
+09/07/2021 08:51:49|nrocomp --> 10356
+09/07/2021 08:51:49|Nro. de Comprobante ::: TFB ::: 10356
+09/07/2021 08:54:11|Comienza Facturacion B
+09/07/2021 08:54:11|DatosCliente B
+09/07/2021 08:54:13|AbrirComprobanteFiscal B
+09/07/2021 08:54:13|Articulo --> manteca suipachense x 200
+09/07/2021 08:54:13|cantidadArt B --> 3
+09/07/2021 08:54:13|PrecVear --> 106
+09/07/2021 08:54:13|montoArt --> 87,603305785124
+09/07/2021 08:54:13|ivaArt --> 21
+09/07/2021 08:54:13|hasarOCX.ImprimirItem --> OK
+09/07/2021 08:54:13|Articulo --> glade aero  edicion limitada
+09/07/2021 08:54:13|cantidadArt B --> 2
+09/07/2021 08:54:13|PrecVear --> 140
+09/07/2021 08:54:13|montoArt --> 115,702479338843
+09/07/2021 08:54:13|ivaArt --> 21
+09/07/2021 08:54:13|hasarOCX.ImprimirItem --> OK
+09/07/2021 08:54:13|Articulo --> alcohol x 500
+09/07/2021 08:54:13|cantidadArt B --> 1
+09/07/2021 08:54:13|PrecVear --> 130
+09/07/2021 08:54:13|montoArt --> 107,438016528926
+09/07/2021 08:54:13|ivaArt --> 21
+09/07/2021 08:54:14|hasarOCX.ImprimirItem --> OK
+09/07/2021 08:54:14|Articulo --> tomate triturado x 970
+09/07/2021 08:54:14|cantidadArt B --> 1
+09/07/2021 08:54:14|PrecVear --> 148
+09/07/2021 08:54:14|montoArt --> 122,314049586777
+09/07/2021 08:54:14|ivaArt --> 21
+09/07/2021 08:54:14|hasarOCX.ImprimirItem --> OK
+09/07/2021 08:54:14|Cerrar Comprobante B:::
+09/07/2021 08:54:17|Obtiene nrocomp
+09/07/2021 08:54:17|nrocomp --> 10357
+09/07/2021 08:54:17|Nro. de Comprobante ::: TFB ::: 10357
+09/07/2021 09:04:40|cerrando pantalla venta
+09/07/2021 09:06:30|Conectando..
+09/07/2021 09:06:30|IP: 127.0.0.1 - Puerto: 6500
+09/07/2021 09:06:31|Conectado con éxito!!
+09/07/2021 10:13:48|Comienza Facturacion B
+09/07/2021 10:13:48|DatosCliente B
+09/07/2021 10:13:49|AbrirComprobanteFiscal B
+09/07/2021 10:13:49|Articulo --> bolsas 50 x 70
+09/07/2021 10:13:49|cantidadArt B --> 2
+09/07/2021 10:13:49|PrecVear --> 65
+09/07/2021 10:13:49|montoArt --> 53,7190082644628
+09/07/2021 10:13:49|ivaArt --> 21
+09/07/2021 10:13:50|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:13:50|Articulo --> caramelos / gomitas
+09/07/2021 10:13:50|cantidadArt B --> 1
+09/07/2021 10:13:50|PrecVear --> 480
+09/07/2021 10:13:50|montoArt --> 396,694214876033
+09/07/2021 10:13:50|ivaArt --> 21
+09/07/2021 10:13:50|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:13:50|Articulo --> bocadito bonafide
+09/07/2021 10:13:50|cantidadArt B --> 10
+09/07/2021 10:13:50|PrecVear --> 30
+09/07/2021 10:13:50|montoArt --> 24,7933884297521
+09/07/2021 10:13:50|ivaArt --> 21
+09/07/2021 10:13:51|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:13:51|Articulo --> lenguetazo
+09/07/2021 10:13:51|cantidadArt B --> 10
+09/07/2021 10:13:51|PrecVear --> 26
+09/07/2021 10:13:51|montoArt --> 21,4876033057851
+09/07/2021 10:13:51|ivaArt --> 21
+09/07/2021 10:13:51|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:13:51|Articulo --> guaymallen blanco
+09/07/2021 10:13:51|cantidadArt B --> 10
+09/07/2021 10:13:51|PrecVear --> 20
+09/07/2021 10:13:51|montoArt --> 16,5289256198347
+09/07/2021 10:13:51|ivaArt --> 21
+09/07/2021 10:13:51|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:13:51|Articulo --> chocolatin
+09/07/2021 10:13:51|cantidadArt B --> 10
+09/07/2021 10:13:51|PrecVear --> 18
+09/07/2021 10:13:51|montoArt --> 14,8760330578512
+09/07/2021 10:13:51|ivaArt --> 21
+09/07/2021 10:13:52|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:13:52|Articulo --> verduras
+09/07/2021 10:13:52|cantidadArt B --> 1
+09/07/2021 10:13:52|PrecVear --> 90
+09/07/2021 10:13:52|montoArt --> 74,3801652892562
+09/07/2021 10:13:52|ivaArt --> 21
+09/07/2021 10:13:52|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:13:52|Articulo --> cerveza corona x 6
+09/07/2021 10:13:52|cantidadArt B --> 2
+09/07/2021 10:13:52|PrecVear --> 825
+09/07/2021 10:13:52|montoArt --> 681,818181818182
+09/07/2021 10:13:52|ivaArt --> 21
+09/07/2021 10:13:52|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:13:52|Articulo --> art. varios
+09/07/2021 10:13:52|cantidadArt B --> 1
+09/07/2021 10:13:52|PrecVear --> 180
+09/07/2021 10:13:52|montoArt --> 148,760330578512
+09/07/2021 10:13:52|ivaArt --> 21
+09/07/2021 10:13:53|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:13:53|Cerrar Comprobante B:::
+09/07/2021 10:13:56|Obtiene nrocomp
+09/07/2021 10:13:56|nrocomp --> 10358
+09/07/2021 10:13:56|Nro. de Comprobante ::: TFB ::: 10358
+09/07/2021 10:16:39|Comienza Facturacion B
+09/07/2021 10:16:39|DatosCliente B
+09/07/2021 10:16:41|AbrirComprobanteFiscal B
+09/07/2021 10:16:41|Articulo --> relleno block
+09/07/2021 10:16:41|cantidadArt B --> 1
+09/07/2021 10:16:41|PrecVear --> 275
+09/07/2021 10:16:41|montoArt --> 227,272727272727
+09/07/2021 10:16:41|ivaArt --> 21
+09/07/2021 10:16:41|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:16:41|Articulo --> panaderia
+09/07/2021 10:16:41|cantidadArt B --> 1
+09/07/2021 10:16:41|PrecVear --> 170
+09/07/2021 10:16:41|montoArt --> 140,495867768595
+09/07/2021 10:16:41|ivaArt --> 21
+09/07/2021 10:16:41|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:16:41|Articulo --> panaderia
+09/07/2021 10:16:41|cantidadArt B --> 1
+09/07/2021 10:16:41|PrecVear --> 110
+09/07/2021 10:16:41|montoArt --> 90,9090909090909
+09/07/2021 10:16:41|ivaArt --> 21
+09/07/2021 10:16:42|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:16:42|Articulo --> hellmanns light x 250 grs
+09/07/2021 10:16:42|cantidadArt B --> 1
+09/07/2021 10:16:42|PrecVear --> 68
+09/07/2021 10:16:42|montoArt --> 56,198347107438
+09/07/2021 10:16:42|ivaArt --> 21
+09/07/2021 10:16:42|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:16:42|Articulo --> art. varios
+09/07/2021 10:16:42|cantidadArt B --> 1
+09/07/2021 10:16:42|PrecVear --> 120
+09/07/2021 10:16:42|montoArt --> 99,1735537190083
+09/07/2021 10:16:42|ivaArt --> 21
+09/07/2021 10:16:42|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:16:42|Cerrar Comprobante B:::
+09/07/2021 10:16:45|Obtiene nrocomp
+09/07/2021 10:16:46|nrocomp --> 10359
+09/07/2021 10:16:46|Nro. de Comprobante ::: TFB ::: 10359
+09/07/2021 10:22:32|Comienza Facturacion B
+09/07/2021 10:22:32|DatosCliente B
+09/07/2021 10:22:34|AbrirComprobanteFiscal B
+09/07/2021 10:22:34|Articulo --> colgate anticaries x 70  grs
+09/07/2021 10:22:34|cantidadArt B --> 1
+09/07/2021 10:22:34|PrecVear --> 105
+09/07/2021 10:22:34|montoArt --> 86,7768595041322
+09/07/2021 10:22:34|ivaArt --> 21
+09/07/2021 10:22:34|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:22:34|Articulo --> manteca suip x 100
+09/07/2021 10:22:34|cantidadArt B --> 2
+09/07/2021 10:22:34|PrecVear --> 71
+09/07/2021 10:22:34|montoArt --> 58,6776859504132
+09/07/2021 10:22:34|ivaArt --> 21
+09/07/2021 10:22:34|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:22:34|Articulo --> pure la huerta x 530 grs
+09/07/2021 10:22:34|cantidadArt B --> 2
+09/07/2021 10:22:34|PrecVear --> 70
+09/07/2021 10:22:34|montoArt --> 57,8512396694215
+09/07/2021 10:22:34|ivaArt --> 21
+09/07/2021 10:22:35|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:22:35|Articulo --> green hills te x 25
+09/07/2021 10:22:35|cantidadArt B --> 1
+09/07/2021 10:22:35|PrecVear --> 72
+09/07/2021 10:22:35|montoArt --> 59,504132231405
+09/07/2021 10:22:35|ivaArt --> 21
+09/07/2021 10:22:35|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:22:35|Articulo --> gallo oro bolsa x 1 k
+09/07/2021 10:22:35|cantidadArt B --> 1
+09/07/2021 10:22:35|PrecVear --> 192
+09/07/2021 10:22:35|montoArt --> 158,677685950413
+09/07/2021 10:22:35|ivaArt --> 21
+09/07/2021 10:22:35|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:22:35|Articulo --> cafe saquito la morenita x 20 unid
+09/07/2021 10:22:35|cantidadArt B --> 1
+09/07/2021 10:22:35|PrecVear --> 235
+09/07/2021 10:22:35|montoArt --> 194,214876033058
+09/07/2021 10:22:35|ivaArt --> 21
+09/07/2021 10:22:36|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:22:36|Articulo --> manaos x 3 litros
+09/07/2021 10:22:36|cantidadArt B --> 2
+09/07/2021 10:22:36|PrecVear --> 95
+09/07/2021 10:22:36|montoArt --> 78,5123966942149
+09/07/2021 10:22:36|ivaArt --> 21
+09/07/2021 10:22:36|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:22:36|Cerrar Comprobante B:::
+09/07/2021 10:22:39|Obtiene nrocomp
+09/07/2021 10:22:39|nrocomp --> 10360
+09/07/2021 10:22:39|Nro. de Comprobante ::: TFB ::: 10360
+09/07/2021 10:27:31|cerrando pantalla venta
+09/07/2021 10:28:27|Conectando..
+09/07/2021 10:28:27|IP: 127.0.0.1 - Puerto: 6500
+09/07/2021 10:28:28|Conectado con éxito!!
+09/07/2021 10:29:25|Comienza Facturacion B
+09/07/2021 10:29:25|DatosCliente B
+09/07/2021 10:29:26|AbrirComprobanteFiscal B
+09/07/2021 10:29:26|Articulo --> ravioles carlitos
+09/07/2021 10:29:26|cantidadArt B --> 3
+09/07/2021 10:29:26|PrecVear --> 175
+09/07/2021 10:29:26|montoArt --> 144,628099173554
+09/07/2021 10:29:26|ivaArt --> 21
+09/07/2021 10:29:26|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:29:26|Articulo --> queso crema suipachense
+09/07/2021 10:29:26|cantidadArt B --> 1
+09/07/2021 10:29:26|PrecVear --> 93
+09/07/2021 10:29:26|montoArt --> 76,8595041322314
+09/07/2021 10:29:26|ivaArt --> 21
+09/07/2021 10:29:27|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:29:27|Articulo --> crema x 350
+09/07/2021 10:29:27|cantidadArt B --> 1
+09/07/2021 10:29:27|PrecVear --> 122
+09/07/2021 10:29:27|montoArt --> 100,826446280992
+09/07/2021 10:29:27|ivaArt --> 21
+09/07/2021 10:29:27|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:29:27|Articulo --> gaseosa manos x 3 l
+09/07/2021 10:29:27|cantidadArt B --> 1
+09/07/2021 10:29:27|PrecVear --> 95
+09/07/2021 10:29:27|montoArt --> 78,5123966942149
+09/07/2021 10:29:27|ivaArt --> 21
+09/07/2021 10:29:27|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:29:27|Articulo --> yog. con cereal suipachense
+09/07/2021 10:29:27|cantidadArt B --> 4
+09/07/2021 10:29:27|PrecVear --> 44
+09/07/2021 10:29:27|montoArt --> 36,3636363636364
+09/07/2021 10:29:27|ivaArt --> 21
+09/07/2021 10:29:28|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:29:28|Articulo --> salchichas fela x 6 unid.
+09/07/2021 10:29:28|cantidadArt B --> 2
+09/07/2021 10:29:28|PrecVear --> 70
+09/07/2021 10:29:28|montoArt --> 57,8512396694215
+09/07/2021 10:29:28|ivaArt --> 21
+09/07/2021 10:29:28|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:29:28|Articulo --> polenta lata arcor
+09/07/2021 10:29:28|cantidadArt B --> 1
+09/07/2021 10:29:28|PrecVear --> 680
+09/07/2021 10:29:28|montoArt --> 561,98347107438
+09/07/2021 10:29:28|ivaArt --> 21
+09/07/2021 10:29:29|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:29:29|Articulo --> art. varios
+09/07/2021 10:29:29|cantidadArt B --> 1
+09/07/2021 10:29:29|PrecVear --> 836
+09/07/2021 10:29:29|montoArt --> 690,909090909091
+09/07/2021 10:29:29|ivaArt --> 21
+09/07/2021 10:29:29|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:29:29|Cerrar Comprobante B:::
+09/07/2021 10:29:32|Obtiene nrocomp
+09/07/2021 10:29:32|nrocomp --> 10361
+09/07/2021 10:29:32|Nro. de Comprobante ::: TFB ::: 10361
+09/07/2021 10:29:57|Comienza Facturacion B
+09/07/2021 10:29:57|DatosCliente B
+09/07/2021 10:29:58|AbrirComprobanteFiscal B
+09/07/2021 10:29:58|Articulo --> cepillo inodoro c deposito
+09/07/2021 10:29:58|cantidadArt B --> 1
+09/07/2021 10:29:58|PrecVear --> 290
+09/07/2021 10:29:58|montoArt --> 239,669421487603
+09/07/2021 10:29:58|ivaArt --> 21
+09/07/2021 10:29:59|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:29:59|Cerrar Comprobante B:::
+09/07/2021 10:30:02|Obtiene nrocomp
+09/07/2021 10:30:02|nrocomp --> 10362
+09/07/2021 10:30:02|Nro. de Comprobante ::: TFB ::: 10362
+09/07/2021 10:32:23|cerrando pantalla venta
+09/07/2021 10:32:57|Conectando..
+09/07/2021 10:32:57|IP: 127.0.0.1 - Puerto: 6500
+09/07/2021 10:32:58|Conectado con éxito!!
+09/07/2021 10:34:24|Comienza Facturacion B
+09/07/2021 10:34:24|DatosCliente B
+09/07/2021 10:34:25|AbrirComprobanteFiscal B
+09/07/2021 10:34:25|Articulo --> philips morris box
+09/07/2021 10:34:25|cantidadArt B --> 2
+09/07/2021 10:34:25|PrecVear --> 230
+09/07/2021 10:34:25|montoArt --> 190,082644628099
+09/07/2021 10:34:25|ivaArt --> 21
+09/07/2021 10:34:26|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:34:26|Articulo --> prestobarba ultra grip
+09/07/2021 10:34:26|cantidadArt B --> 1
+09/07/2021 10:34:26|PrecVear --> 95
+09/07/2021 10:34:26|montoArt --> 78,5123966942149
+09/07/2021 10:34:26|ivaArt --> 21
+09/07/2021 10:34:26|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:34:26|Articulo --> brahma x1 l
+09/07/2021 10:34:26|cantidadArt B --> 3
+09/07/2021 10:34:26|PrecVear --> 160
+09/07/2021 10:34:26|montoArt --> 132,231404958678
+09/07/2021 10:34:26|ivaArt --> 21
+09/07/2021 10:34:26|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:34:26|Articulo --> cbse naranja x 500 grs
+09/07/2021 10:34:26|cantidadArt B --> 1
+09/07/2021 10:34:26|PrecVear --> 198
+09/07/2021 10:34:26|montoArt --> 163,636363636364
+09/07/2021 10:34:26|ivaArt --> 21
+09/07/2021 10:34:27|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:34:27|Articulo --> panaderia
+09/07/2021 10:34:27|cantidadArt B --> 1
+09/07/2021 10:34:27|PrecVear --> 45
+09/07/2021 10:34:27|montoArt --> 37,1900826446281
+09/07/2021 10:34:27|ivaArt --> 21
+09/07/2021 10:34:27|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:34:27|Articulo --> magistral x 300
+09/07/2021 10:34:27|cantidadArt B --> 1
+09/07/2021 10:34:27|PrecVear --> 102
+09/07/2021 10:34:27|montoArt --> 84,297520661157
+09/07/2021 10:34:27|ivaArt --> 21
+09/07/2021 10:34:27|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:34:27|Articulo --> paty finitas x 2
+09/07/2021 10:34:27|cantidadArt B --> 2
+09/07/2021 10:34:27|PrecVear --> 102
+09/07/2021 10:34:27|montoArt --> 84,297520661157
+09/07/2021 10:34:27|ivaArt --> 21
+09/07/2021 10:34:28|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:34:28|Articulo --> fiambres - quesos -dulces
+09/07/2021 10:34:28|cantidadArt B --> 1
+09/07/2021 10:34:28|PrecVear --> 288
+09/07/2021 10:34:28|montoArt --> 238,01652892562
+09/07/2021 10:34:28|ivaArt --> 21
+09/07/2021 10:34:28|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:34:28|Articulo --> oblea cofler block
+09/07/2021 10:34:28|cantidadArt B --> 1
+09/07/2021 10:34:28|PrecVear --> 87
+09/07/2021 10:34:28|montoArt --> 71,900826446281
+09/07/2021 10:34:28|ivaArt --> 21
+09/07/2021 10:34:29|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:34:29|Articulo --> natura aceite x 1.5 litro
+09/07/2021 10:34:29|cantidadArt B --> 1
+09/07/2021 10:34:29|PrecVear --> 380
+09/07/2021 10:34:29|montoArt --> 314,04958677686
+09/07/2021 10:34:29|ivaArt --> 21
+09/07/2021 10:34:29|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:34:29|Cerrar Comprobante B:::
+09/07/2021 10:34:32|Obtiene nrocomp
+09/07/2021 10:34:32|nrocomp --> 10363
+09/07/2021 10:34:32|Nro. de Comprobante ::: TFB ::: 10363
+09/07/2021 10:39:15|Comienza Facturacion B
+09/07/2021 10:39:15|DatosCliente B
+09/07/2021 10:39:16|AbrirComprobanteFiscal B
+09/07/2021 10:39:16|Articulo --> agua de la misiones x 1500 ml
+09/07/2021 10:39:16|cantidadArt B --> 1
+09/07/2021 10:39:16|PrecVear --> 72
+09/07/2021 10:39:16|montoArt --> 59,504132231405
+09/07/2021 10:39:16|ivaArt --> 21
+09/07/2021 10:39:17|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:39:17|Articulo --> alfaj. fantoche x 6
+09/07/2021 10:39:17|cantidadArt B --> 1
+09/07/2021 10:39:17|PrecVear --> 105
+09/07/2021 10:39:17|montoArt --> 86,7768595041322
+09/07/2021 10:39:17|ivaArt --> 21
+09/07/2021 10:39:17|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:39:17|Cerrar Comprobante B:::
+09/07/2021 10:39:20|Obtiene nrocomp
+09/07/2021 10:39:20|nrocomp --> 10364
+09/07/2021 10:39:20|Nro. de Comprobante ::: TFB ::: 10364
+09/07/2021 10:41:53|cerrando pantalla venta
+09/07/2021 10:43:01|Conectando..
+09/07/2021 10:43:01|IP: 127.0.0.1 - Puerto: 6500
+09/07/2021 10:43:02|Conectado con éxito!!
+09/07/2021 10:43:31|Comienza Facturacion B
+09/07/2021 10:43:31|DatosCliente B
+09/07/2021 10:43:33|AbrirComprobanteFiscal B
+09/07/2021 10:43:33|Articulo --> kotex nocturna x 16
+09/07/2021 10:43:33|cantidadArt B --> 1
+09/07/2021 10:43:33|PrecVear --> 380
+09/07/2021 10:43:33|montoArt --> 314,04958677686
+09/07/2021 10:43:33|ivaArt --> 21
+09/07/2021 10:43:33|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:43:33|Articulo --> doncella algodonx 75 grs
+09/07/2021 10:43:33|cantidadArt B --> 1
+09/07/2021 10:43:33|PrecVear --> 65
+09/07/2021 10:43:33|montoArt --> 53,7190082644628
+09/07/2021 10:43:33|ivaArt --> 21
+09/07/2021 10:43:33|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:43:33|Articulo --> yog. sancor x 2
+09/07/2021 10:43:33|cantidadArt B --> 1
+09/07/2021 10:43:33|PrecVear --> 95
+09/07/2021 10:43:33|montoArt --> 78,5123966942149
+09/07/2021 10:43:33|ivaArt --> 21
+09/07/2021 10:43:34|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:43:34|Articulo --> det. ala x 300
+09/07/2021 10:43:34|cantidadArt B --> 1
+09/07/2021 10:43:34|PrecVear --> 72
+09/07/2021 10:43:34|montoArt --> 59,504132231405
+09/07/2021 10:43:34|ivaArt --> 21
+09/07/2021 10:43:34|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:43:34|Articulo --> bagio nar. x 200
+09/07/2021 10:43:34|cantidadArt B --> 1
+09/07/2021 10:43:34|PrecVear --> 30
+09/07/2021 10:43:34|montoArt --> 24,7933884297521
+09/07/2021 10:43:34|ivaArt --> 21
+09/07/2021 10:43:34|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:43:34|Cerrar Comprobante B:::
+09/07/2021 10:43:37|Obtiene nrocomp
+09/07/2021 10:43:38|nrocomp --> 10365
+09/07/2021 10:43:38|Nro. de Comprobante ::: TFB ::: 10365
+09/07/2021 10:51:21|Comienza Facturacion B
+09/07/2021 10:51:21|DatosCliente B
+09/07/2021 10:51:22|AbrirComprobanteFiscal B
+09/07/2021 10:51:22|Articulo --> minora ii plus
+09/07/2021 10:51:22|cantidadArt B --> 2
+09/07/2021 10:51:22|PrecVear --> 65
+09/07/2021 10:51:22|montoArt --> 53,7190082644628
+09/07/2021 10:51:22|ivaArt --> 21
+09/07/2021 10:51:23|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:23|Articulo --> jugo clight
+09/07/2021 10:51:23|cantidadArt B --> 5
+09/07/2021 10:51:23|PrecVear --> 24
+09/07/2021 10:51:23|montoArt --> 19,8347107438017
+09/07/2021 10:51:23|ivaArt --> 21
+09/07/2021 10:51:23|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:23|Articulo --> odorono rexona
+09/07/2021 10:51:23|cantidadArt B --> 1
+09/07/2021 10:51:23|PrecVear --> 125
+09/07/2021 10:51:23|montoArt --> 103,305785123967
+09/07/2021 10:51:23|ivaArt --> 21
+09/07/2021 10:51:24|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:24|Articulo --> mortimer cuadriculada
+09/07/2021 10:51:24|cantidadArt B --> 1
+09/07/2021 10:51:24|PrecVear --> 30
+09/07/2021 10:51:24|montoArt --> 24,7933884297521
+09/07/2021 10:51:24|ivaArt --> 21
+09/07/2021 10:51:24|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:24|Articulo --> colgate anticaries x 70  grs
+09/07/2021 10:51:24|cantidadArt B --> 1
+09/07/2021 10:51:24|PrecVear --> 105
+09/07/2021 10:51:24|montoArt --> 86,7768595041322
+09/07/2021 10:51:24|ivaArt --> 21
+09/07/2021 10:51:24|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:24|Articulo --> arlistan  x 50 grs
+09/07/2021 10:51:24|cantidadArt B --> 1
+09/07/2021 10:51:24|PrecVear --> 138
+09/07/2021 10:51:24|montoArt --> 114,04958677686
+09/07/2021 10:51:24|ivaArt --> 21
+09/07/2021 10:51:25|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:25|Articulo --> talco rexona x 100
+09/07/2021 10:51:25|cantidadArt B --> 1
+09/07/2021 10:51:25|PrecVear --> 140
+09/07/2021 10:51:25|montoArt --> 115,702479338843
+09/07/2021 10:51:25|ivaArt --> 21
+09/07/2021 10:51:25|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:25|Articulo --> jabon gramby liq. x 800 ml
+09/07/2021 10:51:25|cantidadArt B --> 1
+09/07/2021 10:51:25|PrecVear --> 95
+09/07/2021 10:51:25|montoArt --> 78,5123966942149
+09/07/2021 10:51:25|ivaArt --> 21
+09/07/2021 10:51:25|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:25|Articulo --> dicha rollo cocina x 3
+09/07/2021 10:51:25|cantidadArt B --> 1
+09/07/2021 10:51:25|PrecVear --> 75
+09/07/2021 10:51:25|montoArt --> 61,9834710743802
+09/07/2021 10:51:25|ivaArt --> 21
+09/07/2021 10:51:26|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:26|Articulo --> calipso protectores
+09/07/2021 10:51:26|cantidadArt B --> 1
+09/07/2021 10:51:26|PrecVear --> 57
+09/07/2021 10:51:26|montoArt --> 47,1074380165289
+09/07/2021 10:51:26|ivaArt --> 21
+09/07/2021 10:51:26|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:26|Articulo --> jabon suave x 3 unid.
+09/07/2021 10:51:26|cantidadArt B --> 1
+09/07/2021 10:51:26|PrecVear --> 88
+09/07/2021 10:51:26|montoArt --> 72,7272727272727
+09/07/2021 10:51:26|ivaArt --> 21
+09/07/2021 10:51:26|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:26|Articulo --> alcohol frau x  250 ml
+09/07/2021 10:51:26|cantidadArt B --> 1
+09/07/2021 10:51:26|PrecVear --> 78
+09/07/2021 10:51:26|montoArt --> 64,4628099173554
+09/07/2021 10:51:26|ivaArt --> 21
+09/07/2021 10:51:27|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:27|Articulo --> shampoo sedal cerami.x 300 ml
+09/07/2021 10:51:27|cantidadArt B --> 1
+09/07/2021 10:51:27|PrecVear --> 130
+09/07/2021 10:51:27|montoArt --> 107,438016528926
+09/07/2021 10:51:27|ivaArt --> 21
+09/07/2021 10:51:27|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:27|Articulo --> leche suipachense l vida
+09/07/2021 10:51:27|cantidadArt B --> 2
+09/07/2021 10:51:27|PrecVear --> 70
+09/07/2021 10:51:27|montoArt --> 57,8512396694215
+09/07/2021 10:51:27|ivaArt --> 21
+09/07/2021 10:51:27|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:27|Articulo --> gall. surtido bagley
+09/07/2021 10:51:27|cantidadArt B --> 1
+09/07/2021 10:51:27|PrecVear --> 170
+09/07/2021 10:51:27|montoArt --> 140,495867768595
+09/07/2021 10:51:27|ivaArt --> 21
+09/07/2021 10:51:28|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:28|Articulo --> galletas  ns tradicional
+09/07/2021 10:51:28|cantidadArt B --> 1
+09/07/2021 10:51:28|PrecVear --> 90
+09/07/2021 10:51:28|montoArt --> 74,3801652892562
+09/07/2021 10:51:28|ivaArt --> 21
+09/07/2021 10:51:28|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:28|Articulo --> tostadas riera light
+09/07/2021 10:51:28|cantidadArt B --> 1
+09/07/2021 10:51:28|PrecVear --> 94
+09/07/2021 10:51:28|montoArt --> 77,6859504132231
+09/07/2021 10:51:28|ivaArt --> 21
+09/07/2021 10:51:28|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:28|Articulo --> pure de tomastes arcor x 1050
+09/07/2021 10:51:28|cantidadArt B --> 1
+09/07/2021 10:51:28|PrecVear --> 116
+09/07/2021 10:51:28|montoArt --> 95,8677685950413
+09/07/2021 10:51:28|ivaArt --> 21
+09/07/2021 10:51:29|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:29|Articulo --> talitas don satur x 140 grs
+09/07/2021 10:51:29|cantidadArt B --> 1
+09/07/2021 10:51:29|PrecVear --> 95
+09/07/2021 10:51:29|montoArt --> 78,5123966942149
+09/07/2021 10:51:29|ivaArt --> 21
+09/07/2021 10:51:29|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:29|Articulo --> azucar muñeca
+09/07/2021 10:51:29|cantidadArt B --> 1
+09/07/2021 10:51:29|PrecVear --> 62
+09/07/2021 10:51:29|montoArt --> 51,2396694214876
+09/07/2021 10:51:29|ivaArt --> 21
+09/07/2021 10:51:30|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:30|Articulo --> sal fina bolsa x 500 dos anclas
+09/07/2021 10:51:30|cantidadArt B --> 1
+09/07/2021 10:51:30|PrecVear --> 44
+09/07/2021 10:51:30|montoArt --> 36,3636363636364
+09/07/2021 10:51:30|ivaArt --> 21
+09/07/2021 10:51:30|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:51:30|Cerrar Comprobante B:::
+09/07/2021 10:51:33|Obtiene nrocomp
+09/07/2021 10:51:33|nrocomp --> 10366
+09/07/2021 10:51:33|Nro. de Comprobante ::: TFB ::: 10366
+09/07/2021 10:58:47|Comienza Facturacion B
+09/07/2021 10:58:47|DatosCliente B
+09/07/2021 10:58:48|AbrirComprobanteFiscal B
+09/07/2021 10:58:48|Articulo --> gall. surtido x 300
+09/07/2021 10:58:48|cantidadArt B --> 1
+09/07/2021 10:58:48|PrecVear --> 60
+09/07/2021 10:58:48|montoArt --> 49,5867768595041
+09/07/2021 10:58:48|ivaArt --> 21
+09/07/2021 10:58:49|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:49|Articulo --> okebon girotondo x 250 g
+09/07/2021 10:58:49|cantidadArt B --> 1
+09/07/2021 10:58:49|PrecVear --> 85
+09/07/2021 10:58:49|montoArt --> 70,2479338842975
+09/07/2021 10:58:49|ivaArt --> 21
+09/07/2021 10:58:49|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:49|Articulo --> coca cola zero x 2.25 litro
+09/07/2021 10:58:49|cantidadArt B --> 1
+09/07/2021 10:58:49|PrecVear --> 195
+09/07/2021 10:58:49|montoArt --> 161,157024793388
+09/07/2021 10:58:49|ivaArt --> 21
+09/07/2021 10:58:50|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:50|Articulo --> gall. surtido diversion
+09/07/2021 10:58:50|cantidadArt B --> 1
+09/07/2021 10:58:50|PrecVear --> 95
+09/07/2021 10:58:50|montoArt --> 78,5123966942149
+09/07/2021 10:58:50|ivaArt --> 21
+09/07/2021 10:58:50|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:50|Articulo --> paseo 5 semillas x 300 grs
+09/07/2021 10:58:50|cantidadArt B --> 1
+09/07/2021 10:58:50|PrecVear --> 96
+09/07/2021 10:58:50|montoArt --> 79,3388429752066
+09/07/2021 10:58:50|ivaArt --> 21
+09/07/2021 10:58:50|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:50|Articulo --> okebon clasicas x273
+09/07/2021 10:58:50|cantidadArt B --> 1
+09/07/2021 10:58:50|PrecVear --> 80
+09/07/2021 10:58:50|montoArt --> 66,1157024793389
+09/07/2021 10:58:50|ivaArt --> 21
+09/07/2021 10:58:51|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:51|Articulo --> talitas don satur x 140 grs
+09/07/2021 10:58:51|cantidadArt B --> 1
+09/07/2021 10:58:51|PrecVear --> 95
+09/07/2021 10:58:51|montoArt --> 78,5123966942149
+09/07/2021 10:58:51|ivaArt --> 21
+09/07/2021 10:58:51|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:51|Articulo --> casancrem x 480
+09/07/2021 10:58:51|cantidadArt B --> 1
+09/07/2021 10:58:51|PrecVear --> 310
+09/07/2021 10:58:51|montoArt --> 256,198347107438
+09/07/2021 10:58:51|ivaArt --> 21
+09/07/2021 10:58:51|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:51|Articulo --> cañoncitos kokis x 500 grs
+09/07/2021 10:58:51|cantidadArt B --> 1
+09/07/2021 10:58:51|PrecVear --> 164
+09/07/2021 10:58:51|montoArt --> 135,537190082645
+09/07/2021 10:58:51|ivaArt --> 21
+09/07/2021 10:58:52|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:52|Articulo --> membrillitos kokis  x 500 grs
+09/07/2021 10:58:52|cantidadArt B --> 1
+09/07/2021 10:58:52|PrecVear --> 164
+09/07/2021 10:58:52|montoArt --> 135,537190082645
+09/07/2021 10:58:52|ivaArt --> 21
+09/07/2021 10:58:52|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:52|Articulo --> yerba playadito
+09/07/2021 10:58:52|cantidadArt B --> 1
+09/07/2021 10:58:52|PrecVear --> 220
+09/07/2021 10:58:52|montoArt --> 181,818181818182
+09/07/2021 10:58:52|ivaArt --> 21
+09/07/2021 10:58:53|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:53|Articulo --> express clasicas x 3 unid.
+09/07/2021 10:58:53|cantidadArt B --> 1
+09/07/2021 10:58:53|PrecVear --> 128
+09/07/2021 10:58:53|montoArt --> 105,785123966942
+09/07/2021 10:58:53|ivaArt --> 21
+09/07/2021 10:58:53|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:53|Articulo --> tostadas riera light
+09/07/2021 10:58:53|cantidadArt B --> 1
+09/07/2021 10:58:53|PrecVear --> 94
+09/07/2021 10:58:53|montoArt --> 77,6859504132231
+09/07/2021 10:58:53|ivaArt --> 21
+09/07/2021 10:58:53|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:53|Articulo --> salchichas fela x 6 unid.
+09/07/2021 10:58:53|cantidadArt B --> 3
+09/07/2021 10:58:53|PrecVear --> 70
+09/07/2021 10:58:53|montoArt --> 57,8512396694215
+09/07/2021 10:58:53|ivaArt --> 21
+09/07/2021 10:58:54|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:54|Articulo --> ravioles carlitos
+09/07/2021 10:58:54|cantidadArt B --> 2
+09/07/2021 10:58:54|PrecVear --> 175
+09/07/2021 10:58:54|montoArt --> 144,628099173554
+09/07/2021 10:58:54|ivaArt --> 21
+09/07/2021 10:58:54|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:54|Articulo --> fosforos tres patitos
+09/07/2021 10:58:54|cantidadArt B --> 1
+09/07/2021 10:58:54|PrecVear --> 46
+09/07/2021 10:58:54|montoArt --> 38,0165289256198
+09/07/2021 10:58:54|ivaArt --> 21
+09/07/2021 10:58:54|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:54|Articulo --> impulse
+09/07/2021 10:58:54|cantidadArt B --> 1
+09/07/2021 10:58:54|PrecVear --> 225
+09/07/2021 10:58:54|montoArt --> 185,950413223141
+09/07/2021 10:58:54|ivaArt --> 21
+09/07/2021 10:58:55|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:55|Articulo --> lord cheseline amarillo
+09/07/2021 10:58:55|cantidadArt B --> 1
+09/07/2021 10:58:55|PrecVear --> 150
+09/07/2021 10:58:55|montoArt --> 123,96694214876
+09/07/2021 10:58:55|ivaArt --> 21
+09/07/2021 10:58:55|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:55|Articulo --> mayonesa bc x 500 grs
+09/07/2021 10:58:55|cantidadArt B --> 2
+09/07/2021 10:58:55|PrecVear --> 146
+09/07/2021 10:58:55|montoArt --> 120,661157024793
+09/07/2021 10:58:55|ivaArt --> 21
+09/07/2021 10:58:55|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:55|Articulo --> jabon suave x 3 unid.
+09/07/2021 10:58:55|cantidadArt B --> 2
+09/07/2021 10:58:55|PrecVear --> 88
+09/07/2021 10:58:55|montoArt --> 72,7272727272727
+09/07/2021 10:58:55|ivaArt --> 21
+09/07/2021 10:58:56|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:56|Articulo --> cbse naranja x 500 grs
+09/07/2021 10:58:56|cantidadArt B --> 1
+09/07/2021 10:58:56|PrecVear --> 198
+09/07/2021 10:58:56|montoArt --> 163,636363636364
+09/07/2021 10:58:56|ivaArt --> 21
+09/07/2021 10:58:56|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:56|Articulo --> aceite ideal x 900 ml
+09/07/2021 10:58:56|cantidadArt B --> 2
+09/07/2021 10:58:56|PrecVear --> 155
+09/07/2021 10:58:56|montoArt --> 128,099173553719
+09/07/2021 10:58:56|ivaArt --> 21
+09/07/2021 10:58:57|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:57|Articulo --> pan rallado favorita
+09/07/2021 10:58:57|cantidadArt B --> 3
+09/07/2021 10:58:57|PrecVear --> 62
+09/07/2021 10:58:57|montoArt --> 51,2396694214876
+09/07/2021 10:58:57|ivaArt --> 21
+09/07/2021 10:58:57|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:57|Articulo --> soda manaos x2l
+09/07/2021 10:58:57|cantidadArt B --> 1
+09/07/2021 10:58:57|PrecVear --> 95
+09/07/2021 10:58:57|montoArt --> 78,5123966942149
+09/07/2021 10:58:57|ivaArt --> 21
+09/07/2021 10:58:57|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:57|Articulo --> panaderia
+09/07/2021 10:58:57|cantidadArt B --> 1
+09/07/2021 10:58:57|PrecVear --> 80
+09/07/2021 10:58:57|montoArt --> 66,1157024793389
+09/07/2021 10:58:57|ivaArt --> 21
+09/07/2021 10:58:58|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:58|Articulo --> dicha rollo cocina x 3
+09/07/2021 10:58:58|cantidadArt B --> 1
+09/07/2021 10:58:58|PrecVear --> 75
+09/07/2021 10:58:58|montoArt --> 61,9834710743802
+09/07/2021 10:58:58|ivaArt --> 21
+09/07/2021 10:58:58|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:58|Articulo --> fiambres - quesos -dulces
+09/07/2021 10:58:58|cantidadArt B --> 1
+09/07/2021 10:58:58|PrecVear --> 290
+09/07/2021 10:58:58|montoArt --> 239,669421487603
+09/07/2021 10:58:58|ivaArt --> 21
+09/07/2021 10:58:58|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:58|Articulo --> verduras
+09/07/2021 10:58:58|cantidadArt B --> 1
+09/07/2021 10:58:58|PrecVear --> 85
+09/07/2021 10:58:58|montoArt --> 70,2479338842975
+09/07/2021 10:58:58|ivaArt --> 21
+09/07/2021 10:58:59|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:59|Articulo --> verduras
+09/07/2021 10:58:59|cantidadArt B --> 1
+09/07/2021 10:58:59|PrecVear --> 80
+09/07/2021 10:58:59|montoArt --> 66,1157024793389
+09/07/2021 10:58:59|ivaArt --> 21
+09/07/2021 10:58:59|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:59|Articulo --> verduras
+09/07/2021 10:58:59|cantidadArt B --> 1
+09/07/2021 10:58:59|PrecVear --> 210
+09/07/2021 10:58:59|montoArt --> 173,553719008264
+09/07/2021 10:58:59|ivaArt --> 21
+09/07/2021 10:58:59|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:58:59|Articulo --> verduras
+09/07/2021 10:58:59|cantidadArt B --> 1
+09/07/2021 10:58:59|PrecVear --> 38
+09/07/2021 10:58:59|montoArt --> 31,404958677686
+09/07/2021 10:58:59|ivaArt --> 21
+09/07/2021 10:59:00|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:59:00|Articulo --> verduras
+09/07/2021 10:59:00|cantidadArt B --> 1
+09/07/2021 10:59:00|PrecVear --> 240
+09/07/2021 10:59:00|montoArt --> 198,347107438017
+09/07/2021 10:59:00|ivaArt --> 21
+09/07/2021 10:59:00|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:59:00|Articulo --> verduras
+09/07/2021 10:59:00|cantidadArt B --> 3
+09/07/2021 10:59:00|PrecVear --> 120
+09/07/2021 10:59:00|montoArt --> 99,1735537190083
+09/07/2021 10:59:00|ivaArt --> 21
+09/07/2021 10:59:00|hasarOCX.ImprimirItem --> OK
+09/07/2021 10:59:00|Cerrar Comprobante B:::
+09/07/2021 10:59:03|Obtiene nrocomp
+09/07/2021 10:59:04|nrocomp --> 10367
+09/07/2021 10:59:04|Nro. de Comprobante ::: TFB ::: 10367
+09/07/2021 11:00:05|cerrando pantalla venta
+09/07/2021 11:01:44|Conectando..
+09/07/2021 11:01:44|IP: 127.0.0.1 - Puerto: 6500
+09/07/2021 11:01:45|Conectado con éxito!!
+09/07/2021 11:02:13|Comienza Facturacion B
+09/07/2021 11:02:14|DatosCliente B
+09/07/2021 11:02:15|AbrirComprobanteFiscal B
+09/07/2021 11:02:15|Articulo --> panaderia
+09/07/2021 11:02:15|cantidadArt B --> 1
+09/07/2021 11:02:15|PrecVear --> 135
+09/07/2021 11:02:15|montoArt --> 111,570247933884
+09/07/2021 11:02:15|ivaArt --> 21
+09/07/2021 11:02:15|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:02:15|Articulo --> fiambres - quesos -dulces
+09/07/2021 11:02:15|cantidadArt B --> 1
+09/07/2021 11:02:15|PrecVear --> 110
+09/07/2021 11:02:15|montoArt --> 90,9090909090909
+09/07/2021 11:02:15|ivaArt --> 21
+09/07/2021 11:02:16|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:02:16|Articulo --> fiambres - quesos -dulces
+09/07/2021 11:02:16|cantidadArt B --> 1
+09/07/2021 11:02:16|PrecVear --> 200
+09/07/2021 11:02:16|montoArt --> 165,289256198347
+09/07/2021 11:02:16|ivaArt --> 21
+09/07/2021 11:02:16|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:02:16|Articulo --> bolsas residuos 60/90
+09/07/2021 11:02:16|cantidadArt B --> 1
+09/07/2021 11:02:16|PrecVear --> 85
+09/07/2021 11:02:16|montoArt --> 70,2479338842975
+09/07/2021 11:02:16|ivaArt --> 21
+09/07/2021 11:02:16|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:02:16|Articulo --> 7up x1.5
+09/07/2021 11:02:16|cantidadArt B --> 1
+09/07/2021 11:02:16|PrecVear --> 155
+09/07/2021 11:02:16|montoArt --> 128,099173553719
+09/07/2021 11:02:16|ivaArt --> 21
+09/07/2021 11:02:17|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:02:17|Articulo --> ayudin lavandina  en gel  x 700 ml
+09/07/2021 11:02:17|cantidadArt B --> 1
+09/07/2021 11:02:17|PrecVear --> 145
+09/07/2021 11:02:17|montoArt --> 119,834710743802
+09/07/2021 11:02:17|ivaArt --> 21
+09/07/2021 11:02:17|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:02:17|Articulo --> regilla don bosco
+09/07/2021 11:02:17|cantidadArt B --> 3
+09/07/2021 11:02:17|PrecVear --> 60
+09/07/2021 11:02:17|montoArt --> 49,5867768595041
+09/07/2021 11:02:17|ivaArt --> 21
+09/07/2021 11:02:18|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:02:18|Cerrar Comprobante B:::
+09/07/2021 11:02:21|Obtiene nrocomp
+09/07/2021 11:02:21|nrocomp --> 10368
+09/07/2021 11:02:21|Nro. de Comprobante ::: TFB ::: 10368
+09/07/2021 11:09:18|cerrando pantalla venta
+09/07/2021 11:09:40|Conectando..
+09/07/2021 11:09:40|IP: 127.0.0.1 - Puerto: 6500
+09/07/2021 11:09:41|Conectado con éxito!!
+09/07/2021 11:11:08|Comienza Facturacion B
+09/07/2021 11:11:08|DatosCliente B
+09/07/2021 11:11:09|AbrirComprobanteFiscal B
+09/07/2021 11:11:09|Articulo --> jugo clight
+09/07/2021 11:11:09|cantidadArt B --> 16
+09/07/2021 11:11:09|PrecVear --> 22
+09/07/2021 11:11:09|montoArt --> 18,1818181818182
+09/07/2021 11:11:09|ivaArt --> 21
+09/07/2021 11:11:10|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:10|Articulo --> gall. oreo x 3
+09/07/2021 11:11:10|cantidadArt B --> 1
+09/07/2021 11:11:10|PrecVear --> 290
+09/07/2021 11:11:10|montoArt --> 239,669421487603
+09/07/2021 11:11:10|ivaArt --> 21
+09/07/2021 11:11:10|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:10|Articulo --> 7up sin azucar x  2.250 ml
+09/07/2021 11:11:10|cantidadArt B --> 1
+09/07/2021 11:11:10|PrecVear --> 190
+09/07/2021 11:11:10|montoArt --> 157,02479338843
+09/07/2021 11:11:10|ivaArt --> 21
+09/07/2021 11:11:10|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:10|Articulo --> te cedron
+09/07/2021 11:11:10|cantidadArt B --> 1
+09/07/2021 11:11:10|PrecVear --> 145
+09/07/2021 11:11:10|montoArt --> 119,834710743802
+09/07/2021 11:11:10|ivaArt --> 21
+09/07/2021 11:11:11|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:11|Articulo --> te tilo
+09/07/2021 11:11:11|cantidadArt B --> 1
+09/07/2021 11:11:11|PrecVear --> 205
+09/07/2021 11:11:11|montoArt --> 169,421487603306
+09/07/2021 11:11:11|ivaArt --> 21
+09/07/2021 11:11:11|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:11|Articulo --> caldo knorr x 12
+09/07/2021 11:11:11|cantidadArt B --> 1
+09/07/2021 11:11:11|PrecVear --> 112
+09/07/2021 11:11:11|montoArt --> 92,5619834710744
+09/07/2021 11:11:11|ivaArt --> 21
+09/07/2021 11:11:11|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:11|Articulo --> verduras
+09/07/2021 11:11:11|cantidadArt B --> 1
+09/07/2021 11:11:11|PrecVear --> 61
+09/07/2021 11:11:11|montoArt --> 50,4132231404959
+09/07/2021 11:11:11|ivaArt --> 21
+09/07/2021 11:11:12|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:12|Articulo --> verduras
+09/07/2021 11:11:12|cantidadArt B --> 1
+09/07/2021 11:11:12|PrecVear --> 28
+09/07/2021 11:11:12|montoArt --> 23,1404958677686
+09/07/2021 11:11:12|ivaArt --> 21
+09/07/2021 11:11:12|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:12|Articulo --> verduras
+09/07/2021 11:11:12|cantidadArt B --> 1
+09/07/2021 11:11:12|PrecVear --> 55
+09/07/2021 11:11:12|montoArt --> 45,4545454545455
+09/07/2021 11:11:12|ivaArt --> 21
+09/07/2021 11:11:12|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:12|Articulo --> mayones bc  x 1 kgr
+09/07/2021 11:11:12|cantidadArt B --> 1
+09/07/2021 11:11:12|PrecVear --> 292
+09/07/2021 11:11:12|montoArt --> 241,322314049587
+09/07/2021 11:11:12|ivaArt --> 21
+09/07/2021 11:11:13|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:13|Articulo --> cond.p/pizza x 25 g l/campg.
+09/07/2021 11:11:13|cantidadArt B --> 1
+09/07/2021 11:11:13|PrecVear --> 52
+09/07/2021 11:11:13|montoArt --> 42,9752066115703
+09/07/2021 11:11:13|ivaArt --> 21
+09/07/2021 11:11:13|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:13|Articulo --> alder  fontina
+09/07/2021 11:11:13|cantidadArt B --> 1
+09/07/2021 11:11:13|PrecVear --> 140
+09/07/2021 11:11:13|montoArt --> 115,702479338843
+09/07/2021 11:11:13|ivaArt --> 21
+09/07/2021 11:11:13|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:13|Articulo --> bolsas residuos 60/90
+09/07/2021 11:11:13|cantidadArt B --> 1
+09/07/2021 11:11:13|PrecVear --> 85
+09/07/2021 11:11:13|montoArt --> 70,2479338842975
+09/07/2021 11:11:13|ivaArt --> 21
+09/07/2021 11:11:14|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:14|Articulo --> esponja dea
+09/07/2021 11:11:14|cantidadArt B --> 1
+09/07/2021 11:11:14|PrecVear --> 70
+09/07/2021 11:11:14|montoArt --> 57,8512396694215
+09/07/2021 11:11:14|ivaArt --> 21
+09/07/2021 11:11:14|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:14|Articulo --> adler  light
+09/07/2021 11:11:14|cantidadArt B --> 1
+09/07/2021 11:11:14|PrecVear --> 140
+09/07/2021 11:11:14|montoArt --> 115,702479338843
+09/07/2021 11:11:14|ivaArt --> 21
+09/07/2021 11:11:15|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:15|Articulo --> philips box mentol
+09/07/2021 11:11:15|cantidadArt B --> 2
+09/07/2021 11:11:15|PrecVear --> 230
+09/07/2021 11:11:15|montoArt --> 190,082644628099
+09/07/2021 11:11:15|ivaArt --> 21
+09/07/2021 11:11:15|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:15|Articulo --> verduras
+09/07/2021 11:11:15|cantidadArt B --> 1
+09/07/2021 11:11:15|PrecVear --> 90
+09/07/2021 11:11:15|montoArt --> 74,3801652892562
+09/07/2021 11:11:15|ivaArt --> 21
+09/07/2021 11:11:15|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:15|Articulo --> guantes  schez  m
+09/07/2021 11:11:15|cantidadArt B --> 1
+09/07/2021 11:11:15|PrecVear --> 165
+09/07/2021 11:11:15|montoArt --> 136,363636363636
+09/07/2021 11:11:15|ivaArt --> 21
+09/07/2021 11:11:16|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:11:16|Cerrar Comprobante B:::
+09/07/2021 11:11:19|Obtiene nrocomp
+09/07/2021 11:11:19|nrocomp --> 10369
+09/07/2021 11:11:19|Nro. de Comprobante ::: TFB ::: 10369
+09/07/2021 11:21:41|Comienza Facturacion B
+09/07/2021 11:21:42|DatosCliente B
+09/07/2021 11:21:43|AbrirComprobanteFiscal B
+09/07/2021 11:21:43|Articulo --> art. varios
+09/07/2021 11:21:43|cantidadArt B --> 1
+09/07/2021 11:21:43|PrecVear --> 100
+09/07/2021 11:21:43|montoArt --> 82,6446280991736
+09/07/2021 11:21:43|ivaArt --> 21
+09/07/2021 11:21:43|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:21:43|Articulo --> phlips x 10 mentolado
+09/07/2021 11:21:43|cantidadArt B --> 1
+09/07/2021 11:21:43|PrecVear --> 120
+09/07/2021 11:21:43|montoArt --> 99,1735537190083
+09/07/2021 11:21:43|ivaArt --> 21
+09/07/2021 11:21:44|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:21:44|Articulo --> art. varios
+09/07/2021 11:21:44|cantidadArt B --> 2
+09/07/2021 11:21:44|PrecVear --> 65
+09/07/2021 11:21:44|montoArt --> 53,7190082644628
+09/07/2021 11:21:44|ivaArt --> 21
+09/07/2021 11:21:44|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:21:44|Articulo --> caramelos / gomitas
+09/07/2021 11:21:44|cantidadArt B --> 1
+09/07/2021 11:21:44|PrecVear --> 70
+09/07/2021 11:21:44|montoArt --> 57,8512396694215
+09/07/2021 11:21:44|ivaArt --> 21
+09/07/2021 11:21:44|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:21:44|Articulo --> hrg tapas empanadas
+09/07/2021 11:21:44|cantidadArt B --> 1
+09/07/2021 11:21:44|PrecVear --> 86
+09/07/2021 11:21:44|montoArt --> 71,0743801652893
+09/07/2021 11:21:44|ivaArt --> 21
+09/07/2021 11:21:45|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:21:45|Articulo --> riera dulce x 200 grs
+09/07/2021 11:21:45|cantidadArt B --> 1
+09/07/2021 11:21:45|PrecVear --> 84
+09/07/2021 11:21:45|montoArt --> 69,4214876033058
+09/07/2021 11:21:45|ivaArt --> 21
+09/07/2021 11:21:45|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:21:45|Articulo --> yog. firme x 180
+09/07/2021 11:21:45|cantidadArt B --> 2
+09/07/2021 11:21:45|PrecVear --> 36
+09/07/2021 11:21:45|montoArt --> 29,7520661157025
+09/07/2021 11:21:45|ivaArt --> 21
+09/07/2021 11:21:45|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:21:45|Articulo --> carcassonne clasico
+09/07/2021 11:21:45|cantidadArt B --> 1
+09/07/2021 11:21:45|PrecVear --> 175
+09/07/2021 11:21:45|montoArt --> 144,628099173554
+09/07/2021 11:21:45|ivaArt --> 21
+09/07/2021 11:21:46|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:21:46|Articulo --> panaderia
+09/07/2021 11:21:46|cantidadArt B --> 1
+09/07/2021 11:21:46|PrecVear --> 80
+09/07/2021 11:21:46|montoArt --> 66,1157024793389
+09/07/2021 11:21:46|ivaArt --> 21
+09/07/2021 11:21:46|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:21:46|Cerrar Comprobante B:::
+09/07/2021 11:21:49|Obtiene nrocomp
+09/07/2021 11:21:49|nrocomp --> 10370
+09/07/2021 11:21:49|Nro. de Comprobante ::: TFB ::: 10370
+09/07/2021 11:27:07|Comienza Facturacion B
+09/07/2021 11:27:07|DatosCliente B
+09/07/2021 11:27:10|AbrirComprobanteFiscal B
+09/07/2021 11:27:10|Articulo --> fiambres - quesos -dulces
+09/07/2021 11:27:10|cantidadArt B --> 1
+09/07/2021 11:27:10|PrecVear --> 300
+09/07/2021 11:27:10|montoArt --> 247,933884297521
+09/07/2021 11:27:10|ivaArt --> 21
+09/07/2021 11:27:10|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:27:10|Articulo --> talitas don satur x 140 grs
+09/07/2021 11:27:10|cantidadArt B --> 1
+09/07/2021 11:27:10|PrecVear --> 95
+09/07/2021 11:27:10|montoArt --> 78,5123966942149
+09/07/2021 11:27:10|ivaArt --> 21
+09/07/2021 11:27:11|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:27:11|Articulo --> aceite ideal x 900 ml
+09/07/2021 11:27:11|cantidadArt B --> 1
+09/07/2021 11:27:11|PrecVear --> 155
+09/07/2021 11:27:11|montoArt --> 128,099173553719
+09/07/2021 11:27:11|ivaArt --> 21
+09/07/2021 11:27:11|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:27:11|Articulo --> mana rellena
+09/07/2021 11:27:11|cantidadArt B --> 1
+09/07/2021 11:27:11|PrecVear --> 80
+09/07/2021 11:27:11|montoArt --> 66,1157024793389
+09/07/2021 11:27:11|ivaArt --> 21
+09/07/2021 11:27:11|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:27:11|Articulo --> azucar ledesma  x 1 kgr
+09/07/2021 11:27:11|cantidadArt B --> 1
+09/07/2021 11:27:11|PrecVear --> 90
+09/07/2021 11:27:11|montoArt --> 74,3801652892562
+09/07/2021 11:27:11|ivaArt --> 21
+09/07/2021 11:27:12|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:27:12|Articulo --> panaderia
+09/07/2021 11:27:12|cantidadArt B --> 1
+09/07/2021 11:27:12|PrecVear --> 80
+09/07/2021 11:27:12|montoArt --> 66,1157024793389
+09/07/2021 11:27:12|ivaArt --> 21
+09/07/2021 11:27:12|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:27:12|Articulo --> lav. x 5 l blanca nieves
+09/07/2021 11:27:12|cantidadArt B --> 1
+09/07/2021 11:27:12|PrecVear --> 220
+09/07/2021 11:27:12|montoArt --> 181,818181818182
+09/07/2021 11:27:12|ivaArt --> 21
+09/07/2021 11:27:12|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:27:12|Cerrar Comprobante B:::
+09/07/2021 11:27:15|Obtiene nrocomp
+09/07/2021 11:27:16|nrocomp --> 10371
+09/07/2021 11:27:16|Nro. de Comprobante ::: TFB ::: 10371
+09/07/2021 11:33:25|Comienza Facturacion B
+09/07/2021 11:33:26|DatosCliente B
+09/07/2021 11:33:27|AbrirComprobanteFiscal B
+09/07/2021 11:33:27|Articulo --> verduras
+09/07/2021 11:33:27|cantidadArt B --> 1
+09/07/2021 11:33:27|PrecVear --> 90
+09/07/2021 11:33:27|montoArt --> 74,3801652892562
+09/07/2021 11:33:27|ivaArt --> 21
+09/07/2021 11:33:27|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:33:27|Articulo --> fiambres - quesos -dulces
+09/07/2021 11:33:27|cantidadArt B --> 1
+09/07/2021 11:33:27|PrecVear --> 330
+09/07/2021 11:33:27|montoArt --> 272,727272727273
+09/07/2021 11:33:27|ivaArt --> 21
+09/07/2021 11:33:27|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:33:27|Articulo --> andresito yerba x 500  grs
+09/07/2021 11:33:27|cantidadArt B --> 1
+09/07/2021 11:33:27|PrecVear --> 185
+09/07/2021 11:33:27|montoArt --> 152,892561983471
+09/07/2021 11:33:27|ivaArt --> 21
+09/07/2021 11:33:28|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:33:28|Articulo --> verduras
+09/07/2021 11:33:28|cantidadArt B --> 1
+09/07/2021 11:33:28|PrecVear --> 80
+09/07/2021 11:33:28|montoArt --> 66,1157024793389
+09/07/2021 11:33:28|ivaArt --> 21
+09/07/2021 11:33:28|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:33:28|Articulo --> huevos blancos
+09/07/2021 11:33:28|cantidadArt B --> 1
+09/07/2021 11:33:28|PrecVear --> 65
+09/07/2021 11:33:28|montoArt --> 53,7190082644628
+09/07/2021 11:33:28|ivaArt --> 21
+09/07/2021 11:33:28|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:33:28|Cerrar Comprobante B:::
+09/07/2021 11:33:32|Obtiene nrocomp
+09/07/2021 11:33:32|nrocomp --> 10372
+09/07/2021 11:33:32|Nro. de Comprobante ::: TFB ::: 10372
+09/07/2021 11:35:48|Comienza Facturacion B
+09/07/2021 11:35:48|DatosCliente B
+09/07/2021 11:35:49|AbrirComprobanteFiscal B
+09/07/2021 11:35:49|Articulo --> quento papas  x 90 g
+09/07/2021 11:35:49|cantidadArt B --> 1
+09/07/2021 11:35:49|PrecVear --> 101
+09/07/2021 11:35:49|montoArt --> 83,4710743801653
+09/07/2021 11:35:49|ivaArt --> 21
+09/07/2021 11:35:50|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:35:50|Articulo --> spa cera depilatoria
+09/07/2021 11:35:50|cantidadArt B --> 1
+09/07/2021 11:35:50|PrecVear --> 300
+09/07/2021 11:35:50|montoArt --> 247,933884297521
+09/07/2021 11:35:50|ivaArt --> 21
+09/07/2021 11:35:50|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:35:50|Articulo --> querubin suavizante x 900 ml
+09/07/2021 11:35:50|cantidadArt B --> 1
+09/07/2021 11:35:50|PrecVear --> 135
+09/07/2021 11:35:50|montoArt --> 111,570247933884
+09/07/2021 11:35:50|ivaArt --> 21
+09/07/2021 11:35:50|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:35:50|Articulo --> nestum multicereal
+09/07/2021 11:35:50|cantidadArt B --> 1
+09/07/2021 11:35:50|PrecVear --> 155
+09/07/2021 11:35:50|montoArt --> 128,099173553719
+09/07/2021 11:35:50|ivaArt --> 21
+09/07/2021 11:35:51|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:35:51|Articulo --> magistral x 300
+09/07/2021 11:35:51|cantidadArt B --> 1
+09/07/2021 11:35:51|PrecVear --> 102
+09/07/2021 11:35:51|montoArt --> 84,297520661157
+09/07/2021 11:35:51|ivaArt --> 21
+09/07/2021 11:35:51|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:35:51|Articulo --> talco efecient x 200
+09/07/2021 11:35:51|cantidadArt B --> 1
+09/07/2021 11:35:51|PrecVear --> 202
+09/07/2021 11:35:51|montoArt --> 166,942148760331
+09/07/2021 11:35:51|ivaArt --> 21
+09/07/2021 11:35:51|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:35:51|Articulo --> dove acond x 200 ml
+09/07/2021 11:35:51|cantidadArt B --> 1
+09/07/2021 11:35:51|PrecVear --> 158
+09/07/2021 11:35:51|montoArt --> 130,578512396694
+09/07/2021 11:35:51|ivaArt --> 21
+09/07/2021 11:35:52|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:35:52|Articulo --> jabon rexona x 125 grs
+09/07/2021 11:35:52|cantidadArt B --> 1
+09/07/2021 11:35:52|PrecVear --> 54
+09/07/2021 11:35:52|montoArt --> 44,6280991735537
+09/07/2021 11:35:52|ivaArt --> 21
+09/07/2021 11:35:52|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:35:52|Articulo --> jabon rexona x 125 grs
+09/07/2021 11:35:52|cantidadArt B --> 1
+09/07/2021 11:35:52|PrecVear --> 54
+09/07/2021 11:35:52|montoArt --> 44,6280991735537
+09/07/2021 11:35:52|ivaArt --> 21
+09/07/2021 11:35:53|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:35:53|Articulo --> pasta dental colgate x 180
+09/07/2021 11:35:53|cantidadArt B --> 1
+09/07/2021 11:35:53|PrecVear --> 218
+09/07/2021 11:35:53|montoArt --> 180,165289256198
+09/07/2021 11:35:53|ivaArt --> 21
+09/07/2021 11:35:53|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:35:53|Articulo --> natura  mayonesa x 250 grs
+09/07/2021 11:35:53|cantidadArt B --> 1
+09/07/2021 11:35:53|PrecVear --> 89
+09/07/2021 11:35:53|montoArt --> 73,5537190082645
+09/07/2021 11:35:53|ivaArt --> 21
+09/07/2021 11:35:53|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:35:53|Articulo --> gancia americano x 1 litro
+09/07/2021 11:35:53|cantidadArt B --> 1
+09/07/2021 11:35:53|PrecVear --> 299
+09/07/2021 11:35:53|montoArt --> 247,107438016529
+09/07/2021 11:35:53|ivaArt --> 21
+09/07/2021 11:35:54|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:35:54|Articulo --> ariel liq.doy pack x 800 ml
+09/07/2021 11:35:54|cantidadArt B --> 1
+09/07/2021 11:35:54|PrecVear --> 170
+09/07/2021 11:35:54|montoArt --> 140,495867768595
+09/07/2021 11:35:54|ivaArt --> 21
+09/07/2021 11:35:54|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:35:54|Articulo --> paladini leber  x 250  grs
+09/07/2021 11:35:54|cantidadArt B --> 1
+09/07/2021 11:35:54|PrecVear --> 150
+09/07/2021 11:35:54|montoArt --> 123,96694214876
+09/07/2021 11:35:54|ivaArt --> 21
+09/07/2021 11:35:54|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:35:54|Articulo --> verduras
+09/07/2021 11:35:54|cantidadArt B --> 1
+09/07/2021 11:35:54|PrecVear --> 67
+09/07/2021 11:35:54|montoArt --> 55,3719008264463
+09/07/2021 11:35:54|ivaArt --> 21
+09/07/2021 11:35:55|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:35:55|Articulo --> fiambres - quesos -dulces
+09/07/2021 11:35:55|cantidadArt B --> 1
+09/07/2021 11:35:55|PrecVear --> 100
+09/07/2021 11:35:55|montoArt --> 82,6446280991736
+09/07/2021 11:35:55|ivaArt --> 21
+09/07/2021 11:35:55|hasarOCX.ImprimirItem --> OK
+09/07/2021 11:35:55|Cerrar Comprobante B:::
+09/07/2021 11:35:58|Obtiene nrocomp
+09/07/2021 11:35:58|nrocomp --> 10373
+09/07/2021 11:35:58|Nro. de Comprobante ::: TFB ::: 10373

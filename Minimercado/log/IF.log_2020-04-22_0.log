@@ -1,0 +1,39 @@
+22/04/2020 09:45:31|Comienza Facturacion B
+22/04/2020 09:45:34|DatosCliente B
+22/04/2020 09:45:40|AbrirComprobanteFiscal B
+22/04/2020 09:45:46|Articulo --> 69055 j&j shampoo  manzanilla cabello claro 12x200 (verde)
+22/04/2020 09:45:46|cantidadArt B --> 1
+22/04/2020 09:45:46|PrecVear --> 174,45
+22/04/2020 09:45:46|montoArt --> 144,173553719008
+22/04/2020 09:45:47|ivaArt --> 21
+22/04/2020 09:45:49|hasarOCX.ImprimirItem --> OK
+22/04/2020 09:45:52|Cerrar Comprobante B:::
+22/04/2020 09:45:58|Obtiene nrocomp
+22/04/2020 09:46:18|nrocomp --> 0
+22/04/2020 09:46:18|Nro. de Comprobante ::: TFB ::: 0
+22/04/2020 15:58:53|Comienza Facturacion B
+22/04/2020 15:58:53|DatosCliente B
+22/04/2020 15:58:56|AbrirComprobanteFiscal B
+22/04/2020 15:58:56|Articulo --> 69055 j&j shampoo  manzanilla cabello claro 12x200 (verde)
+22/04/2020 15:58:56|cantidadArt B --> 1
+22/04/2020 15:58:56|PrecVear --> 50
+22/04/2020 15:58:56|montoArt --> 41,3223140495868
+22/04/2020 15:58:56|ivaArt --> 21
+22/04/2020 15:58:56|hasarOCX.ImprimirItem --> OK
+22/04/2020 15:58:56|Cerrar Comprobante B:::
+22/04/2020 15:58:59|Obtiene nrocomp
+22/04/2020 15:58:59|nrocomp --> 4
+22/04/2020 15:58:59|Nro. de Comprobante ::: TFB ::: 4
+22/04/2020 16:10:30|Comienza NOTA DE CREDITO B
+22/04/2020 16:10:30|DatosCliente B
+22/04/2020 16:10:33|Abrir NOTA DE CREDITO B
+22/04/2020 16:10:33|Articulo --> 69055 j&j shampoo  manzanilla cabello claro 12x200 (verde)
+22/04/2020 16:10:33|cantidadArt B --> 1
+22/04/2020 16:10:33|PrecVear --> 50
+22/04/2020 16:10:33|montoArt --> 41,3223140495868
+22/04/2020 16:10:33|ivaArt --> 21
+22/04/2020 16:10:33|hasarOCX.ImprimirItem --> OK
+22/04/2020 16:10:33|Cerrar Comprobante B:::
+22/04/2020 16:10:36|Obtiene nrocomp
+22/04/2020 16:10:37|nrocomp --> 2
+22/04/2020 16:10:37|Nro. de Comprobante ::: TFB ::: 2

@@ -1,0 +1,75 @@
+24/04/2020 17:46:10|Comienza Facturacion B
+24/04/2020 17:46:10|Error iniciando Factura B --> Referencia a objeto no establecida como instancia de un objeto.
+24/04/2020 17:46:19|Error Imprimiendo Factura B --> Tiempo de espera agotado
+24/04/2020 17:47:51|Comienza Facturacion B
+24/04/2020 17:47:51|Error iniciando Factura B --> Referencia a objeto no establecida como instancia de un objeto.
+24/04/2020 17:48:01|Error Imprimiendo Factura B --> Tiempo de espera agotado
+24/04/2020 17:48:26|Comienza Facturacion B
+24/04/2020 17:48:28|Error iniciando Factura B --> Tiempo de espera agotado
+24/04/2020 17:48:34|Error Imprimiendo Factura B --> Tiempo de espera agotado
+24/04/2020 18:03:55|*************COMIENZA Cierre  Z**********
+24/04/2020 18:04:04|CIERRE Z
+Cierre Z Nº =[6]
+Fecha del Cierre        =[24/04/2020 0:00:00]
+DF Emitidos             =[0]
+DF Cancelados           =[0]
+DF Total                =[0]
+DF Total Gravado        =[0]
+DF Total No Gravado     =[0]
+DF Total Exento         =[0]
+DF Total IVA            =[0]
+DF Total Otros Tributos =[0]
+NC Emitidas             =[0]
+NC Canceladas           =[0]
+NC Total                =[0]
+NC Total Gravado        =[0]
+NC Total No Gravado     =[0]
+NC Total Exento         =[0]
+NC Total IVA            =[0]
+NC Total Otros Tributos =[0]
+DNFH Emitidos           =[0]
+DNFH Total              =[0]
+
+24/04/2020 18:05:16|Comienza Facturacion B
+24/04/2020 18:05:16|Error iniciando Factura B --> Referencia a objeto no establecida como instancia de un objeto.
+24/04/2020 18:05:18|DatosCliente B
+24/04/2020 18:05:20|AbrirComprobanteFiscal B
+24/04/2020 18:05:20|Articulo --> mary bosques  ablandador de canas
+24/04/2020 18:05:20|cantidadArt B --> 1
+24/04/2020 18:05:20|PrecVear --> 40
+24/04/2020 18:05:20|montoArt --> 33,0578512396694
+24/04/2020 18:05:20|ivaArt --> 21
+24/04/2020 18:05:21|hasarOCX.ImprimirItem --> OK
+24/04/2020 18:05:21|Articulo --> mary bosques  oleo keratina y argan
+24/04/2020 18:05:21|cantidadArt B --> 1
+24/04/2020 18:05:21|PrecVear --> 50
+24/04/2020 18:05:21|montoArt --> 41,3223140495868
+24/04/2020 18:05:21|ivaArt --> 21
+24/04/2020 18:05:21|hasarOCX.ImprimirItem --> OK
+24/04/2020 18:05:21|Cerrar Comprobante B:::
+24/04/2020 18:05:24|Obtiene nrocomp
+24/04/2020 18:05:25|nrocomp --> 5
+24/04/2020 18:05:25|Nro. de Comprobante ::: TFB ::: 5
+24/04/2020 18:06:19|*************COMIENZA Cierre  Z**********
+24/04/2020 18:06:27|CIERRE Z
+Cierre Z Nº =[7]
+Fecha del Cierre        =[24/04/2020 0:00:00]
+DF Emitidos             =[1]
+DF Cancelados           =[0]
+DF Total                =[9000]
+DF Total Gravado        =[7438]
+DF Total No Gravado     =[0]
+DF Total Exento         =[0]
+DF Total IVA            =[1562]
+DF Total Otros Tributos =[0]
+NC Emitidas             =[0]
+NC Canceladas           =[0]
+NC Total                =[0]
+NC Total Gravado        =[0]
+NC Total No Gravado     =[0]
+NC Total Exento         =[0]
+NC Total IVA            =[0]
+NC Total Otros Tributos =[0]
+DNFH Emitidos           =[0]
+DNFH Total              =[0]
+

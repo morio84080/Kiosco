@@ -1,0 +1,17 @@
+08/07/2021 08:50:36|>>>>>>>>>>>>>>>>>>>>>INICIA ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+08/07/2021 08:50:36|>>>>>>>>>>>>>>>>>>>>>FIN ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+08/07/2021 08:50:43|>>>>>>>>>>>>>>>>>>>>>INICIA Create Files<<<<<<<<<<<<<<<<<<<<<<<<<
+08/07/2021 08:50:43|DETIENE PROCESO HASAR
+08/07/2021 08:50:48|C:\Minimercado\GETxxxAR\getaudar.exe
+08/07/2021 08:50:48|-p 3  -i serial -a 210701 210707
+08/07/2021 08:50:48|********** COMIENZA A GENERAR ARCHIVOS AFIP ***********
+08/07/2021 08:56:24|********** FIN GENERAR ARCHIVOS AFIP ***********
+08/07/2021 08:56:24|>>>>>>>>>>>>>>>>>>>>>INICIO PROCESO EnviarEmail<<<<<<<<<<<<<<<<<<<<<<<<<
+08/07/2021 08:56:24|pathPrograma: C:\Minimercado\GETxxxAR\
+08/07/2021 08:56:26|++++++++++++++++++ ERROR: Error enviando email -->El servidor SMTP requiere una conexión segura o el cliente no se autenticó. La respuesta del servidor fue: 5.7.0 Authentication Required. Learn more at
+08/07/2021 08:56:26|>>>>>>>>>>>>>>>>>>>>>FIN PROCESO EnviarEmail<<<<<<<<<<<<<<<<<<<<<<<<<
+08/07/2021 08:56:26|>>>>>>>>>>>>>>>>>>>>>FIN PROCESO Create Files<<<<<<<<<<<<<<<<<<<<<<<<<
+08/07/2021 09:08:34|>>>>>>>>>>>>>>>>>>>>>INICIA ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+08/07/2021 09:08:34|>>>>>>>>>>>>>>>>>>>>>FIN ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+08/07/2021 09:12:06|>>>>>>>>>>>>>>>>>>>>>INICIA ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+08/07/2021 09:12:06|>>>>>>>>>>>>>>>>>>>>>FIN ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<

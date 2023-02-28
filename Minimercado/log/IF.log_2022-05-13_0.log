@@ -1,0 +1,11 @@
+13/05/2022 16:06:39|cerrando pantalla venta
+13/05/2022 16:07:32|Insert Venta. Tipo Vta: False --> Error generando Factura Electrónica FEB --> Code: 600 --> ValidacionDeToken: Error al verificar hash: VerificacionDeHash: No validó la firma digital. 
+13/05/2022 16:08:17|Insert Venta. Tipo Vta: False --> Error generando Factura Electrónica FEB --> [Process]***EXCEPCION AL OBTENER TICKET: [ObtenerLoginTicketResponse]***Error INVOCANDO al servicio WSAA : Certificado expirado
+13/05/2022 16:13:16|Ety.TicketFiscal: 19
+13/05/2022 16:13:20|Insert Venta. Tipo Vta: False --> Los datos de cadena o binarios se truncarían.
+Se terminó la instrucción.
+13/05/2022 16:14:27|Ety.TicketFiscal: 20
+13/05/2022 16:14:53|Insert Venta. Tipo Vta: False --> Los datos de cadena o binarios se truncarían.
+Se terminó la instrucción.
+13/05/2022 16:15:39|Ety.TicketFiscal: 21
+13/05/2022 16:15:40|cerrando pantalla venta

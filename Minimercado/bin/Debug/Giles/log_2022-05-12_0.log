@@ -1,0 +1,30 @@
+12/05/2022 8:37:09|>>>>>>>>>>>>>>>>>>>>>INICIA ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+12/05/2022 8:37:09|>>>>>>>>>>>>>>>>>>>>>FIN ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+12/05/2022 8:37:13|>>>>>>>>>>>>>>>>>>>>>INICIA Create Files<<<<<<<<<<<<<<<<<<<<<<<<<
+12/05/2022 8:37:13|DETIENE PROCESO HASAR
+12/05/2022 8:37:18|C:\Perfumeria\GETxxxAR\getaudar.exe
+12/05/2022 8:37:18|-p 3  -i serial -a 220501 220507
+12/05/2022 8:37:18|********** COMIENZA A GENERAR ARCHIVOS AFIP ***********
+12/05/2022 8:37:31|********** FIN GENERAR ARCHIVOS AFIP ***********
+12/05/2022 8:37:31|++++++++++++++++++ ERROR: Error Moviendo archivo: C:\Perfumeria\afip.85 -->No se puede crear un archivo que ya existe.
+
+12/05/2022 8:38:04|>>>>>>>>>>>>>>>>>>>>>INICIA ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+12/05/2022 8:38:04|>>>>>>>>>>>>>>>>>>>>>FIN ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+12/05/2022 8:38:15|>>>>>>>>>>>>>>>>>>>>>INICIA Create Files<<<<<<<<<<<<<<<<<<<<<<<<<
+12/05/2022 8:38:15|DETIENE PROCESO HASAR
+12/05/2022 8:38:20|C:\Perfumeria\GETxxxAR\getaudar.exe
+12/05/2022 8:38:20|-p 3  -i serial -a 220501 220507
+12/05/2022 8:38:20|********** COMIENZA A GENERAR ARCHIVOS AFIP ***********
+12/05/2022 8:38:33|********** FIN GENERAR ARCHIVOS AFIP ***********
+12/05/2022 8:38:33|++++++++++++++++++ ERROR: Error Moviendo archivo: C:\Perfumeria\afip.85 -->No se puede crear un archivo que ya existe.
+
+12/05/2022 19:57:42|>>>>>>>>>>>>>>>>>>>>>INICIA ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+12/05/2022 19:57:42|>>>>>>>>>>>>>>>>>>>>>FIN ProcessFiles<<<<<<<<<<<<<<<<<<<<<<<<<
+12/05/2022 19:57:45|>>>>>>>>>>>>>>>>>>>>>INICIA Create Files<<<<<<<<<<<<<<<<<<<<<<<<<
+12/05/2022 19:57:45|DETIENE PROCESO HASAR
+12/05/2022 19:57:50|C:\Perfumeria\GETxxxAR\getaudar.exe
+12/05/2022 19:57:50|-p 3  -i serial -a 220501 220507
+12/05/2022 19:57:50|********** COMIENZA A GENERAR ARCHIVOS AFIP ***********
+12/05/2022 19:58:03|********** FIN GENERAR ARCHIVOS AFIP ***********
+12/05/2022 19:58:03|++++++++++++++++++ ERROR: Error Moviendo archivo: C:\Perfumeria\afip.85 -->No se puede crear un archivo que ya existe.
+

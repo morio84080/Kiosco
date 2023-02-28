@@ -1,0 +1,14 @@
+26/08/2020 20:21:44|Insert Venta. Tipo Vta: True --> El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+26/08/2020 20:22:20|Insert Venta. Tipo Vta: True --> El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+26/08/2020 20:48:07|Insert Venta. Tipo Vta: True --> Infracción de la restricción PRIMARY KEY 'PK_VENTA_TIPOPAGO'. No se puede insertar una clave duplicada en el objeto 'dbo.VENTA_TIPOPAGO'. El valor de la clave duplicada es (3182, 1).
+Se terminó la instrucción.
+26/08/2020 20:49:43|Insert Venta. Tipo Vta: True --> Infracción de la restricción PRIMARY KEY 'PK_VENTA_TIPOPAGO'. No se puede insertar una clave duplicada en el objeto 'dbo.VENTA_TIPOPAGO'. El valor de la clave duplicada es (3183, 1).
+Se terminó la instrucción.
+26/08/2020 22:03:47|Insert Venta. Tipo Vta: True --> Infracción de la restricción PRIMARY KEY 'PK_VENTA_TIPOPAGO'. No se puede insertar una clave duplicada en el objeto 'dbo.VENTA_TIPOPAGO'. El valor de la clave duplicada es (3184, 1).
+Se terminó la instrucción.
+26/08/2020 22:06:30|Insert Venta. Tipo Vta: True --> Infracción de la restricción PRIMARY KEY 'PK_VENTA_TIPOPAGO'. No se puede insertar una clave duplicada en el objeto 'dbo.VENTA_TIPOPAGO'. El valor de la clave duplicada es (3185, 1).
+Se terminó la instrucción.
+26/08/2020 22:18:07|Insert Venta. Tipo Vta: True --> Infracción de la restricción PRIMARY KEY 'PK_VENTA_TIPOPAGO'. No se puede insertar una clave duplicada en el objeto 'dbo.VENTA_TIPOPAGO'. El valor de la clave duplicada es (3186, 1).
+Se terminó la instrucción.

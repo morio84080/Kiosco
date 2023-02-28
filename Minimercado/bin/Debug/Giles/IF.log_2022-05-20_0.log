@@ -1,0 +1,396 @@
+20/05/2022 8:46:13|Conectando..
+20/05/2022 8:46:13|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 8:50:03|Comienza Facturacion B
+20/05/2022 8:50:05|Error iniciando Factura B --> Tiempo de espera agotado
+20/05/2022 8:50:06|Comienza Facturacion B
+20/05/2022 8:50:06|Error iniciando Factura B --> Anidamiento inválido de comandos
+20/05/2022 8:50:07|Error Cerrando documento B --> Anidamiento inválido de comandos
+20/05/2022 8:50:07|Conectando..
+20/05/2022 8:50:07|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 8:50:12|Error Imprimiendo Factura B --> Tiempo de espera agotado
+20/05/2022 8:50:17|Ety.TicketFiscal: -1
+20/05/2022 8:50:19|Error Diagnostico..Tiempo de espera agotado
+20/05/2022 8:50:19|Error Cerrando documento B --> Tiempo de espera agotado
+20/05/2022 8:50:19|Conectando..
+20/05/2022 8:50:19|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 8:50:24|Error Imprimiendo Factura B --> Tiempo de espera agotado
+20/05/2022 8:50:26|Ety.TicketFiscal: -1
+20/05/2022 8:50:28|Error Diagnostico..Tiempo de espera agotado
+20/05/2022 8:50:34|cerrando pantalla venta
+20/05/2022 8:50:35|Error Diagnostico..Tiempo de espera agotado
+20/05/2022 8:50:48|Conectando..
+20/05/2022 8:50:48|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 8:50:54|cerrando pantalla venta
+20/05/2022 8:51:17|Conectando..
+20/05/2022 8:51:17|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 8:51:29|cerrando pantalla venta
+20/05/2022 8:51:37|Conectando..
+20/05/2022 8:51:37|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 8:52:54|Error Diagnostico..Tiempo de espera agotado
+20/05/2022 8:55:04|Error Diagnostico..Tiempo de espera agotado
+20/05/2022 9:00:01|Error Diagnostico..Tiempo de espera agotado
+20/05/2022 9:01:36|Error Diagnostico..Tiempo de espera agotado
+20/05/2022 9:11:41|Error Diagnostico..Tiempo de espera agotado
+20/05/2022 9:34:08|cerrando pantalla venta
+20/05/2022 9:34:16|Conectando..
+20/05/2022 9:34:16|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 9:34:21|cerrando pantalla venta
+20/05/2022 9:34:31|Conectando..
+20/05/2022 9:34:31|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 9:34:34|cerrando pantalla venta
+20/05/2022 9:34:52|Conectando..
+20/05/2022 9:34:52|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 9:34:57|cerrando pantalla venta
+20/05/2022 9:35:09|Conectando..
+20/05/2022 9:35:09|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 9:35:22|cerrando pantalla venta
+20/05/2022 9:35:34|Conectando..
+20/05/2022 9:35:34|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 9:35:42|cerrando pantalla venta
+20/05/2022 9:36:14|Conectando..
+20/05/2022 9:36:14|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 9:36:35|Error Diagnostico..Tiempo de espera agotado
+20/05/2022 9:37:18|Comienza Facturacion B
+20/05/2022 9:37:20|Error iniciando Factura B --> Tiempo de espera agotado
+20/05/2022 9:37:22|Error Cerrando documento B --> Tiempo de espera agotado
+20/05/2022 9:37:22|Conectando..
+20/05/2022 9:37:22|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 9:37:28|Error Imprimiendo Factura B --> Tiempo de espera agotado
+20/05/2022 9:37:30|Ety.TicketFiscal: -1
+20/05/2022 9:37:32|Error Diagnostico..Tiempo de espera agotado
+20/05/2022 9:37:42|Error Diagnostico..Tiempo de espera agotado
+20/05/2022 9:37:44|cerrando pantalla venta
+20/05/2022 9:38:31|Conectando..
+20/05/2022 9:38:31|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 9:38:31|Conectado con éxito!!
+20/05/2022 9:43:14|Comienza Facturacion B
+20/05/2022 9:43:14|DatosCliente B
+20/05/2022 9:43:17|AbrirComprobanteFiscal B
+20/05/2022 9:43:17|Articulo --> ciel noir deo.aerox186 1543/6
+20/05/2022 9:43:17|cantidadArt B --> 1
+20/05/2022 9:43:17|PrecVear --> 480
+20/05/2022 9:43:17|montoArt --> 396,694214876033
+20/05/2022 9:43:17|ivaArt --> 21
+20/05/2022 9:43:17|hasarOCX.ImprimirItem --> OK
+20/05/2022 9:43:17|Articulo --> champú manzanilla x200ml % Dto: 20
+20/05/2022 9:43:17|cantidadArt B --> 1
+20/05/2022 9:43:17|PrecVear --> 537
+20/05/2022 9:43:17|montoArt --> 443,801652892562
+20/05/2022 9:43:17|ivaArt --> 21
+20/05/2022 9:43:18|hasarOCX.ImprimirItem --> OK
+20/05/2022 9:43:18|Articulo --> balsam con manzanilla x200ml % Dto: 20
+20/05/2022 9:43:18|cantidadArt B --> 1
+20/05/2022 9:43:18|PrecVear --> 537
+20/05/2022 9:43:18|montoArt --> 443,801652892562
+20/05/2022 9:43:18|ivaArt --> 21
+20/05/2022 9:43:18|hasarOCX.ImprimirItem --> OK
+20/05/2022 9:43:18|Articulo --> alb.vo5 chx790 lacio luminoso
+20/05/2022 9:43:18|cantidadArt B --> 1
+20/05/2022 9:43:18|PrecVear --> 280
+20/05/2022 9:43:18|montoArt --> 231,404958677686
+20/05/2022 9:43:18|ivaArt --> 21
+20/05/2022 9:43:18|hasarOCX.ImprimirItem --> OK
+20/05/2022 9:43:18|Articulo --> alb.vo5 acondx790 lacio lum. 5565
+20/05/2022 9:43:18|cantidadArt B --> 1
+20/05/2022 9:43:18|PrecVear --> 280
+20/05/2022 9:43:18|montoArt --> 231,404958677686
+20/05/2022 9:43:18|ivaArt --> 21
+20/05/2022 9:43:19|hasarOCX.ImprimirItem --> OK
+20/05/2022 9:43:19|Articulo --> varios
+20/05/2022 9:43:19|cantidadArt B --> 1
+20/05/2022 9:43:19|PrecVear --> 390
+20/05/2022 9:43:19|montoArt --> 322,314049586777
+20/05/2022 9:43:19|ivaArt --> 21
+20/05/2022 9:43:19|hasarOCX.ImprimirItem --> OK
+20/05/2022 9:43:19|Cerrar Comprobante B:::
+20/05/2022 9:43:22|Obtiene nrocomp
+20/05/2022 9:43:22|nrocomp --> 22486
+20/05/2022 9:43:22|Nro. de Comprobante ::: TFB ::: 22486
+20/05/2022 9:43:22|Ety.TicketFiscal: 22486
+20/05/2022 10:04:03|Comienza Facturacion B
+20/05/2022 10:04:04|Comienza Facturacion B
+20/05/2022 10:04:04|Error iniciando Factura B --> Anidamiento inválido de comandos
+20/05/2022 10:04:04|Comienza Facturacion B
+20/05/2022 10:04:04|Error iniciando Factura B --> Anidamiento inválido de comandos
+20/05/2022 10:04:04|Comienza Facturacion B
+20/05/2022 10:04:04|Error iniciando Factura B --> Anidamiento inválido de comandos
+20/05/2022 10:04:04|Comienza Facturacion B
+20/05/2022 10:04:04|Error iniciando Factura B --> Anidamiento inválido de comandos
+20/05/2022 10:04:05|Error Cerrando documento B --> Anidamiento inválido de comandos
+20/05/2022 10:04:05|Conectando..
+20/05/2022 10:04:05|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 10:04:05|Conectado con éxito!!
+20/05/2022 10:04:06|DatosCliente B
+20/05/2022 10:04:08|AbrirComprobanteFiscal B
+20/05/2022 10:04:08|Articulo --> lysoform aerox360 frutal
+20/05/2022 10:04:08|cantidadArt B --> 1
+20/05/2022 10:04:08|PrecVear --> 270
+20/05/2022 10:04:08|montoArt --> 223,140495867769
+20/05/2022 10:04:08|ivaArt --> 21
+20/05/2022 10:04:09|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:04:09|Articulo --> veritas deo aero proteccion fresca 305ml
+20/05/2022 10:04:09|cantidadArt B --> 1
+20/05/2022 10:04:09|PrecVear --> 360
+20/05/2022 10:04:09|montoArt --> 297,520661157025
+20/05/2022 10:04:09|ivaArt --> 21
+20/05/2022 10:04:09|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:04:09|Articulo --> ladysoft normx8 c/aloe c/alas
+20/05/2022 10:04:09|cantidadArt B --> 1
+20/05/2022 10:04:09|PrecVear --> 98
+20/05/2022 10:04:09|montoArt --> 80,9917355371901
+20/05/2022 10:04:09|ivaArt --> 21
+20/05/2022 10:04:09|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:04:09|Cerrar Comprobante B:::
+20/05/2022 10:04:12|Obtiene nrocomp
+20/05/2022 10:04:13|nrocomp --> 22487
+20/05/2022 10:04:13|Nro. de Comprobante ::: TFB ::: 22487
+20/05/2022 10:04:13|Ety.TicketFiscal: 22487
+20/05/2022 10:04:14|Error Cerrando documento B --> Operación no válida para el estado fiscal actual (Imposible ejecutar el comando en el estado EnJornadaFiscal)
+20/05/2022 10:04:14|Conectando..
+20/05/2022 10:04:14|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 10:04:15|Conectado con éxito!!
+20/05/2022 10:04:15|DatosCliente B
+20/05/2022 10:04:18|AbrirComprobanteFiscal B
+20/05/2022 10:04:18|Cerrar Comprobante B:::
+20/05/2022 10:04:18|Error Imprimiendo Factura B --> Subtotal cero no permitido (Subtotal es menor o igual a cero)
+20/05/2022 10:04:24|Ety.TicketFiscal: -1
+20/05/2022 10:04:26|Error Cerrando documento B --> Operación no válida para el estado fiscal actual (Imposible ejecutar el comando en el estado EnJornadaFiscal)
+20/05/2022 10:04:26|Conectando..
+20/05/2022 10:04:26|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 10:04:27|Conectado con éxito!!
+20/05/2022 10:04:27|DatosCliente B
+20/05/2022 10:04:30|AbrirComprobanteFiscal B
+20/05/2022 10:04:30|Cerrar Comprobante B:::
+20/05/2022 10:04:30|Error Imprimiendo Factura B --> Subtotal cero no permitido (Subtotal es menor o igual a cero)
+20/05/2022 10:04:33|Ety.TicketFiscal: -1
+20/05/2022 10:04:34|Error Cerrando documento B --> Operación no válida para el estado fiscal actual (Imposible ejecutar el comando en el estado EnJornadaFiscal)
+20/05/2022 10:04:34|Conectando..
+20/05/2022 10:04:34|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 10:04:35|Conectado con éxito!!
+20/05/2022 10:04:35|DatosCliente B
+20/05/2022 10:04:38|AbrirComprobanteFiscal B
+20/05/2022 10:04:38|Cerrar Comprobante B:::
+20/05/2022 10:04:38|Error Imprimiendo Factura B --> Subtotal cero no permitido (Subtotal es menor o igual a cero)
+20/05/2022 10:04:44|Ety.TicketFiscal: -1
+20/05/2022 10:04:44|DatosCliente B
+20/05/2022 10:04:44|Error Imprimiendo Factura B --> Operación no válida para el estado fiscal actual (Imposible ejecutar el comando en el estado VendiendoItems)
+20/05/2022 10:04:46|Ety.TicketFiscal: -1
+20/05/2022 10:04:48|cerrando pantalla venta
+20/05/2022 10:05:11|Conectando..
+20/05/2022 10:05:11|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 10:05:12|Conectado con éxito!!
+20/05/2022 10:05:21|Comienza Facturacion B
+20/05/2022 10:05:22|Error iniciando Factura B --> Operación no válida para el estado fiscal actual (Imposible ejecutar el comando en el estado VendiendoItems)
+20/05/2022 10:05:23|Error Cerrando documento B --> Operación no válida para el estado fiscal actual (Imposible ejecutar el comando en el estado EnJornadaFiscal)
+20/05/2022 10:05:23|Conectando..
+20/05/2022 10:05:23|IP: 127.0.0.1 - Puerto: 6500
+20/05/2022 10:05:24|Conectado con éxito!!
+20/05/2022 10:05:25|DatosCliente B
+20/05/2022 10:05:27|AbrirComprobanteFiscal B
+20/05/2022 10:05:27|Articulo --> varios
+20/05/2022 10:05:27|cantidadArt B --> 1
+20/05/2022 10:05:27|PrecVear --> 50
+20/05/2022 10:05:27|montoArt --> 41,3223140495868
+20/05/2022 10:05:27|ivaArt --> 21
+20/05/2022 10:05:28|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:05:28|Cerrar Comprobante B:::
+20/05/2022 10:05:31|Obtiene nrocomp
+20/05/2022 10:05:31|nrocomp --> 22491
+20/05/2022 10:05:31|Nro. de Comprobante ::: TFB ::: 22491
+20/05/2022 10:05:31|Ety.TicketFiscal: 22491
+20/05/2022 10:10:42|Comienza Facturacion B
+20/05/2022 10:10:42|DatosCliente B
+20/05/2022 10:10:44|AbrirComprobanteFiscal B
+20/05/2022 10:10:44|Articulo --> gillette  azul x unidad
+20/05/2022 10:10:44|cantidadArt B --> 2
+20/05/2022 10:10:44|PrecVear --> 140
+20/05/2022 10:10:44|montoArt --> 115,702479338843
+20/05/2022 10:10:44|ivaArt --> 21
+20/05/2022 10:10:45|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:10:45|Articulo --> venus simply rosada x1 unidad
+20/05/2022 10:10:45|cantidadArt B --> 1
+20/05/2022 10:10:45|PrecVear --> 170
+20/05/2022 10:10:45|montoArt --> 140,495867768595
+20/05/2022 10:10:45|ivaArt --> 21
+20/05/2022 10:10:45|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:10:45|Articulo --> syrita aposito adhesivo
+20/05/2022 10:10:45|cantidadArt B --> 1
+20/05/2022 10:10:45|PrecVear --> 70
+20/05/2022 10:10:45|montoArt --> 57,8512396694215
+20/05/2022 10:10:45|ivaArt --> 21
+20/05/2022 10:10:46|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:10:46|Articulo --> ayudin quitamanchas x400
+20/05/2022 10:10:46|cantidadArt B --> 1
+20/05/2022 10:10:46|PrecVear --> 170
+20/05/2022 10:10:46|montoArt --> 140,495867768595
+20/05/2022 10:10:46|ivaArt --> 21
+20/05/2022 10:10:46|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:10:46|Articulo --> sagarda madre sahumerios palo santo
+20/05/2022 10:10:46|cantidadArt B --> 2
+20/05/2022 10:10:46|PrecVear --> 230
+20/05/2022 10:10:46|montoArt --> 190,082644628099
+20/05/2022 10:10:46|ivaArt --> 21
+20/05/2022 10:10:46|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:10:46|Articulo --> ccondor cepillo lava espalda
+20/05/2022 10:10:46|cantidadArt B --> 1
+20/05/2022 10:10:46|PrecVear --> 390
+20/05/2022 10:10:46|montoArt --> 322,314049586777
+20/05/2022 10:10:46|ivaArt --> 21
+20/05/2022 10:10:47|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:10:47|Cerrar Comprobante B:::
+20/05/2022 10:10:50|Obtiene nrocomp
+20/05/2022 10:10:50|nrocomp --> 22492
+20/05/2022 10:10:50|Nro. de Comprobante ::: TFB ::: 22492
+20/05/2022 10:10:50|Ety.TicketFiscal: 22492
+20/05/2022 10:34:04|Comienza Facturacion B
+20/05/2022 10:34:04|DatosCliente B
+20/05/2022 10:34:07|AbrirComprobanteFiscal B
+20/05/2022 10:34:07|Articulo --> varios
+20/05/2022 10:34:07|cantidadArt B --> 1
+20/05/2022 10:34:07|PrecVear --> 360
+20/05/2022 10:34:07|montoArt --> 297,520661157025
+20/05/2022 10:34:07|ivaArt --> 21
+20/05/2022 10:34:07|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:34:07|Articulo --> key kolor kit 8.3
+20/05/2022 10:34:07|cantidadArt B --> 1
+20/05/2022 10:34:07|PrecVear --> 590
+20/05/2022 10:34:07|montoArt --> 487,603305785124
+20/05/2022 10:34:07|ivaArt --> 21
+20/05/2022 10:34:07|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:34:07|Articulo --> el coloso guantes max t8 med
+20/05/2022 10:34:07|cantidadArt B --> 1
+20/05/2022 10:34:07|PrecVear --> 230
+20/05/2022 10:34:07|montoArt --> 190,082644628099
+20/05/2022 10:34:07|ivaArt --> 21
+20/05/2022 10:34:08|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:34:08|Articulo --> lux jabx125 orquidea negra
+20/05/2022 10:34:08|cantidadArt B --> 1
+20/05/2022 10:34:08|PrecVear --> 110
+20/05/2022 10:34:08|montoArt --> 90,9090909090909
+20/05/2022 10:34:08|ivaArt --> 21
+20/05/2022 10:34:08|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:34:08|Articulo --> ponds crema 's' x100gr
+20/05/2022 10:34:08|cantidadArt B --> 1
+20/05/2022 10:34:08|PrecVear --> 380
+20/05/2022 10:34:08|montoArt --> 314,04958677686
+20/05/2022 10:34:08|ivaArt --> 21
+20/05/2022 10:34:08|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:34:08|Cerrar Comprobante B:::
+20/05/2022 10:34:11|Obtiene nrocomp
+20/05/2022 10:34:12|nrocomp --> 22493
+20/05/2022 10:34:12|Nro. de Comprobante ::: TFB ::: 22493
+20/05/2022 10:34:12|Ety.TicketFiscal: 22493
+20/05/2022 10:45:57|Comienza Facturacion B
+20/05/2022 10:45:57|DatosCliente B
+20/05/2022 10:45:59|AbrirComprobanteFiscal B
+20/05/2022 10:45:59|Articulo --> broches madera la porteña
+20/05/2022 10:45:59|cantidadArt B --> 1
+20/05/2022 10:45:59|PrecVear --> 140
+20/05/2022 10:45:59|montoArt --> 115,702479338843
+20/05/2022 10:45:59|ivaArt --> 21
+20/05/2022 10:46:00|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:46:00|Articulo --> calipso pd respirables x50
+20/05/2022 10:46:00|cantidadArt B --> 1
+20/05/2022 10:46:00|PrecVear --> 230
+20/05/2022 10:46:00|montoArt --> 190,082644628099
+20/05/2022 10:46:00|ivaArt --> 21
+20/05/2022 10:46:00|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:46:00|Articulo --> mary bosques keratina express % Dto: 20
+20/05/2022 10:46:00|cantidadArt B --> 2
+20/05/2022 10:46:00|PrecVear --> 64
+20/05/2022 10:46:00|montoArt --> 52,8925619834711
+20/05/2022 10:46:00|ivaArt --> 21
+20/05/2022 10:46:01|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:46:01|Articulo --> mary bosques 3 min x250g % Dto: 20
+20/05/2022 10:46:01|cantidadArt B --> 1
+20/05/2022 10:46:01|PrecVear --> 424
+20/05/2022 10:46:01|montoArt --> 350,413223140496
+20/05/2022 10:46:01|ivaArt --> 21
+20/05/2022 10:46:01|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:46:01|Cerrar Comprobante B:::
+20/05/2022 10:46:04|Obtiene nrocomp
+20/05/2022 10:46:04|nrocomp --> 22494
+20/05/2022 10:46:04|Nro. de Comprobante ::: TFB ::: 22494
+20/05/2022 10:46:04|Ety.TicketFiscal: 22494
+20/05/2022 10:54:29|Comienza Facturacion B
+20/05/2022 10:54:29|DatosCliente B
+20/05/2022 10:54:31|AbrirComprobanteFiscal B
+20/05/2022 10:54:31|Articulo --> q soft toallitas humedas con oleo x40 uni
+20/05/2022 10:54:31|cantidadArt B --> 2
+20/05/2022 10:54:31|PrecVear --> 320
+20/05/2022 10:54:31|montoArt --> 264,462809917355
+20/05/2022 10:54:31|ivaArt --> 21
+20/05/2022 10:54:32|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:54:32|Articulo --> alb.vo5 chx790 brillo vital
+20/05/2022 10:54:32|cantidadArt B --> 1
+20/05/2022 10:54:32|PrecVear --> 280
+20/05/2022 10:54:32|montoArt --> 231,404958677686
+20/05/2022 10:54:32|ivaArt --> 21
+20/05/2022 10:54:32|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:54:32|Articulo --> vaita tetina boca ancha
+20/05/2022 10:54:32|cantidadArt B --> 1
+20/05/2022 10:54:32|PrecVear --> 170
+20/05/2022 10:54:32|montoArt --> 140,495867768595
+20/05/2022 10:54:32|ivaArt --> 21
+20/05/2022 10:54:33|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:54:33|Cerrar Comprobante B:::
+20/05/2022 10:54:36|Obtiene nrocomp
+20/05/2022 10:54:36|nrocomp --> 22495
+20/05/2022 10:54:36|Nro. de Comprobante ::: TFB ::: 22495
+20/05/2022 10:54:36|Ety.TicketFiscal: 22495
+20/05/2022 10:57:14|Comienza Facturacion B
+20/05/2022 10:57:15|DatosCliente B
+20/05/2022 10:57:17|AbrirComprobanteFiscal B
+20/05/2022 10:57:17|Articulo --> saphirus aromatizante textil paula
+20/05/2022 10:57:17|cantidadArt B --> 1
+20/05/2022 10:57:17|PrecVear --> 260
+20/05/2022 10:57:17|montoArt --> 214,876033057851
+20/05/2022 10:57:17|ivaArt --> 21
+20/05/2022 10:57:17|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:57:17|Articulo --> estrella alcohol al 70% x500ml
+20/05/2022 10:57:17|cantidadArt B --> 1
+20/05/2022 10:57:17|PrecVear --> 120
+20/05/2022 10:57:17|montoArt --> 99,1735537190083
+20/05/2022 10:57:17|ivaArt --> 21
+20/05/2022 10:57:18|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:57:18|Articulo --> el coloso pañuelos x6 unidades
+20/05/2022 10:57:18|cantidadArt B --> 1
+20/05/2022 10:57:18|PrecVear --> 90
+20/05/2022 10:57:18|montoArt --> 74,3801652892562
+20/05/2022 10:57:18|ivaArt --> 21
+20/05/2022 10:57:18|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:57:18|Articulo --> vim canasta citrus
+20/05/2022 10:57:18|cantidadArt B --> 2
+20/05/2022 10:57:18|PrecVear --> 260
+20/05/2022 10:57:18|montoArt --> 214,876033057851
+20/05/2022 10:57:18|ivaArt --> 21
+20/05/2022 10:57:18|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:57:18|Articulo --> sussex rollo cocx3 clas
+20/05/2022 10:57:18|cantidadArt B --> 1
+20/05/2022 10:57:18|PrecVear --> 155
+20/05/2022 10:57:18|montoArt --> 128,099173553719
+20/05/2022 10:57:18|ivaArt --> 21
+20/05/2022 10:57:19|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:57:19|Articulo --> felpita para tu flia x4
+20/05/2022 10:57:19|cantidadArt B --> 1
+20/05/2022 10:57:19|PrecVear --> 160
+20/05/2022 10:57:19|montoArt --> 132,231404958678
+20/05/2022 10:57:19|ivaArt --> 21
+20/05/2022 10:57:19|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:57:19|Articulo --> sedal chx300ml d.pack bomba argan
+20/05/2022 10:57:19|cantidadArt B --> 2
+20/05/2022 10:57:19|PrecVear --> 210
+20/05/2022 10:57:19|montoArt --> 173,553719008264
+20/05/2022 10:57:19|ivaArt --> 21
+20/05/2022 10:57:20|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:57:20|Articulo --> kevin spirit deox250.6034/6
+20/05/2022 10:57:20|cantidadArt B --> 1
+20/05/2022 10:57:20|PrecVear --> 495
+20/05/2022 10:57:20|montoArt --> 409,090909090909
+20/05/2022 10:57:20|ivaArt --> 21
+20/05/2022 10:57:20|hasarOCX.ImprimirItem --> OK
+20/05/2022 10:57:20|Cerrar Comprobante B:::
+20/05/2022 10:57:23|Obtiene nrocomp
+20/05/2022 10:57:23|nrocomp --> 22496
+20/05/2022 10:57:23|Nro. de Comprobante ::: TFB ::: 22496
+20/05/2022 10:57:23|Ety.TicketFiscal: 22496

@@ -1,0 +1,2 @@
+10/08/2020 17:23:22|Insert Producto. Picada para 3 --> Instrucción INSERT en conflicto con la restricción CHECK "chk_art_rubrarti". El conflicto ha aparecido en la base de datos "LaReunion", tabla "dbo.ARTICULO", column 'RUBRARTI'.
+Se terminó la instrucción.

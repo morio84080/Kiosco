@@ -1,0 +1,1057 @@
+18/05/2020 8:42:55|Conectando..
+18/05/2020 8:42:55|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 8:44:40|Conectando..
+18/05/2020 8:44:40|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 8:45:49|Comienza Facturacion B
+18/05/2020 8:45:52|Error iniciando Factura B --> Tiempo de espera agotado
+18/05/2020 8:45:52|Conectando..
+18/05/2020 8:45:52|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 8:45:58|Comienza Facturacion B
+18/05/2020 8:45:58|Error iniciando Factura B --> Anidamiento inválido de comandos
+18/05/2020 8:45:59|Conectando..
+18/05/2020 8:45:59|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 8:46:08|Error Imprimiendo Factura B --> Tiempo de espera agotado
+18/05/2020 8:46:12|Error Diagnostico..Tiempo de espera agotado
+18/05/2020 8:46:12|Error Imprimiendo Factura B --> Tiempo de espera agotado
+18/05/2020 8:46:15|Error Diagnostico..Anidamiento inválido de comandos
+18/05/2020 8:46:16|Error Diagnostico..Tiempo de espera agotado
+18/05/2020 8:46:27|Conectando..
+18/05/2020 8:46:27|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 8:47:27|Conectando..
+18/05/2020 8:47:27|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 8:49:22|Conectando..
+18/05/2020 8:49:22|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 8:53:03|Conectando..
+18/05/2020 8:53:03|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 8:53:03|Conectado con éxito!!
+18/05/2020 8:53:19|Comienza Facturacion B
+18/05/2020 8:53:19|DatosCliente B
+18/05/2020 8:53:22|AbrirComprobanteFiscal B
+18/05/2020 8:53:22|Articulo --> varios
+18/05/2020 8:53:22|cantidadArt B --> 1
+18/05/2020 8:53:22|PrecVear --> 1361
+18/05/2020 8:53:22|montoArt --> 1124,79338842975
+18/05/2020 8:53:22|ivaArt --> 21
+18/05/2020 8:53:22|hasarOCX.ImprimirItem --> OK
+18/05/2020 8:53:22|Cerrar Comprobante B:::
+18/05/2020 8:53:25|Obtiene nrocomp
+18/05/2020 8:53:25|nrocomp --> 447
+18/05/2020 8:53:25|Nro. de Comprobante ::: TFB ::: 447
+18/05/2020 8:53:34|Comienza Facturacion B
+18/05/2020 8:53:34|DatosCliente B
+18/05/2020 8:53:37|AbrirComprobanteFiscal B
+18/05/2020 8:53:37|Articulo --> varios
+18/05/2020 8:53:37|cantidadArt B --> 1
+18/05/2020 8:53:37|PrecVear --> 1091
+18/05/2020 8:53:37|montoArt --> 901,652892561984
+18/05/2020 8:53:37|ivaArt --> 21
+18/05/2020 8:53:37|hasarOCX.ImprimirItem --> OK
+18/05/2020 8:53:37|Cerrar Comprobante B:::
+18/05/2020 8:53:40|Obtiene nrocomp
+18/05/2020 8:53:40|nrocomp --> 448
+18/05/2020 8:53:40|Nro. de Comprobante ::: TFB ::: 448
+18/05/2020 9:00:48|Comienza Facturacion B
+18/05/2020 9:00:48|DatosCliente B
+18/05/2020 9:00:51|AbrirComprobanteFiscal B
+18/05/2020 9:00:51|Articulo --> bolsas de residuos 45*60
+18/05/2020 9:00:51|cantidadArt B --> 2
+18/05/2020 9:00:51|PrecVear --> 30
+18/05/2020 9:00:51|montoArt --> 24,7933884297521
+18/05/2020 9:00:51|ivaArt --> 21
+18/05/2020 9:00:51|hasarOCX.ImprimirItem --> OK
+18/05/2020 9:00:51|Articulo --> higienol dh mas blanco 30mx4-1958
+18/05/2020 9:00:51|cantidadArt B --> 1
+18/05/2020 9:00:51|PrecVear --> 110
+18/05/2020 9:00:51|montoArt --> 90,9090909090909
+18/05/2020 9:00:51|ivaArt --> 21
+18/05/2020 9:00:52|hasarOCX.ImprimirItem --> OK
+18/05/2020 9:00:52|Articulo --> el coloso det.pvox3kg b.esp.
+18/05/2020 9:00:52|cantidadArt B --> 1
+18/05/2020 9:00:52|PrecVear --> 250
+18/05/2020 9:00:52|montoArt --> 206,611570247934
+18/05/2020 9:00:52|ivaArt --> 21
+18/05/2020 9:00:52|hasarOCX.ImprimirItem --> OK
+18/05/2020 9:00:52|Cerrar Comprobante B:::
+18/05/2020 9:00:55|Obtiene nrocomp
+18/05/2020 9:00:55|nrocomp --> 449
+18/05/2020 9:00:55|Nro. de Comprobante ::: TFB ::: 449
+18/05/2020 9:05:24|Conectando..
+18/05/2020 9:05:24|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 9:05:25|Conectado con éxito!!
+18/05/2020 9:09:07|Conectando..
+18/05/2020 9:09:07|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 9:09:08|Conectado con éxito!!
+18/05/2020 9:09:13|Comienza Facturacion B
+18/05/2020 9:09:13|DatosCliente B
+18/05/2020 9:09:15|AbrirComprobanteFiscal B
+18/05/2020 9:09:15|Articulo --> excellence creme 5
+18/05/2020 9:09:15|cantidadArt B --> 1
+18/05/2020 9:09:15|PrecVear --> 550
+18/05/2020 9:09:15|montoArt --> 454,545454545455
+18/05/2020 9:09:15|ivaArt --> 21
+18/05/2020 9:09:16|hasarOCX.ImprimirItem --> OK
+18/05/2020 9:09:16|Cerrar Comprobante B:::
+18/05/2020 9:09:19|Obtiene nrocomp
+18/05/2020 9:09:19|nrocomp --> 450
+18/05/2020 9:09:19|Nro. de Comprobante ::: TFB ::: 450
+18/05/2020 9:24:01|Conectando..
+18/05/2020 9:24:01|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 9:24:02|Conectado con éxito!!
+18/05/2020 9:34:00|Conectando..
+18/05/2020 9:34:00|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 9:34:01|Conectado con éxito!!
+18/05/2020 9:44:22|Conectando..
+18/05/2020 9:44:22|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 9:44:22|Conectado con éxito!!
+18/05/2020 9:54:34|Conectando..
+18/05/2020 9:54:34|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 9:54:35|Conectado con éxito!!
+18/05/2020 10:00:58|Conectando..
+18/05/2020 10:00:58|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 10:00:58|Conectado con éxito!!
+18/05/2020 10:01:51|Comienza Facturacion B
+18/05/2020 10:01:51|DatosCliente B
+18/05/2020 10:01:54|AbrirComprobanteFiscal B
+18/05/2020 10:01:54|Articulo --> partty jabon x 130 g
+18/05/2020 10:01:54|cantidadArt B --> 1
+18/05/2020 10:01:54|PrecVear --> 25
+18/05/2020 10:01:54|montoArt --> 20,6611570247934
+18/05/2020 10:01:54|ivaArt --> 21
+18/05/2020 10:01:54|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:01:54|Articulo --> g.federal jab.x150 trad.
+18/05/2020 10:01:54|cantidadArt B --> 1
+18/05/2020 10:01:54|PrecVear --> 39
+18/05/2020 10:01:54|montoArt --> 32,2314049586777
+18/05/2020 10:01:54|ivaArt --> 21
+18/05/2020 10:01:55|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:01:55|Articulo --> harpic remov.sarrox500 -8138
+18/05/2020 10:01:55|cantidadArt B --> 1
+18/05/2020 10:01:55|PrecVear --> 160
+18/05/2020 10:01:55|montoArt --> 132,231404958678
+18/05/2020 10:01:55|ivaArt --> 21
+18/05/2020 10:01:55|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:01:55|Articulo --> blem cerax1 l universal
+18/05/2020 10:01:55|cantidadArt B --> 1
+18/05/2020 10:01:55|PrecVear --> 340
+18/05/2020 10:01:55|montoArt --> 280,99173553719
+18/05/2020 10:01:55|ivaArt --> 21
+18/05/2020 10:01:55|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:01:55|Articulo --> cif vidriosx450 dp -589050
+18/05/2020 10:01:55|cantidadArt B --> 1
+18/05/2020 10:01:55|PrecVear --> 59
+18/05/2020 10:01:55|montoArt --> 48,7603305785124
+18/05/2020 10:01:55|ivaArt --> 21
+18/05/2020 10:01:56|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:01:56|Articulo --> pasaera marlim plastico
+18/05/2020 10:01:56|cantidadArt B --> 1
+18/05/2020 10:01:56|PrecVear --> 90
+18/05/2020 10:01:56|montoArt --> 74,3801652892562
+18/05/2020 10:01:56|ivaArt --> 21
+18/05/2020 10:01:56|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:01:56|Articulo --> el coloso limp.liqx900bebe
+18/05/2020 10:01:56|cantidadArt B --> 1
+18/05/2020 10:01:56|PrecVear --> 35
+18/05/2020 10:01:56|montoArt --> 28,9256198347107
+18/05/2020 10:01:56|ivaArt --> 21
+18/05/2020 10:01:57|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:01:57|Articulo --> cif act.gelx300 citrica-35950
+18/05/2020 10:01:57|cantidadArt B --> 1
+18/05/2020 10:01:57|PrecVear --> 65
+18/05/2020 10:01:57|montoArt --> 53,7190082644628
+18/05/2020 10:01:57|ivaArt --> 21
+18/05/2020 10:01:57|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:01:57|Articulo --> ceramicol liqx450 d.pack 2766
+18/05/2020 10:01:57|cantidadArt B --> 1
+18/05/2020 10:01:57|PrecVear --> 98
+18/05/2020 10:01:57|montoArt --> 80,9917355371901
+18/05/2020 10:01:57|ivaArt --> 21
+18/05/2020 10:01:57|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:01:57|Cerrar Comprobante B:::
+18/05/2020 10:02:00|Obtiene nrocomp
+18/05/2020 10:02:01|nrocomp --> 451
+18/05/2020 10:02:01|Nro. de Comprobante ::: TFB ::: 451
+18/05/2020 10:13:21|Conectando..
+18/05/2020 10:13:21|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 10:13:21|Conectado con éxito!!
+18/05/2020 10:17:57|Conectando..
+18/05/2020 10:17:57|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 10:17:58|Conectado con éxito!!
+18/05/2020 10:18:55|Conectando..
+18/05/2020 10:18:55|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 10:18:56|Conectado con éxito!!
+18/05/2020 10:19:14|Conectando..
+18/05/2020 10:19:14|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 10:19:15|Conectado con éxito!!
+18/05/2020 10:19:28|Comienza Facturacion B
+18/05/2020 10:19:28|DatosCliente B
+18/05/2020 10:19:31|AbrirComprobanteFiscal B
+18/05/2020 10:19:31|Articulo --> hugg toa. hum. limpieza cotidiana x96 (amarillo)
+18/05/2020 10:19:31|cantidadArt B --> 2
+18/05/2020 10:19:31|PrecVear --> 210
+18/05/2020 10:19:31|montoArt --> 173,553719008264
+18/05/2020 10:19:31|ivaArt --> 21
+18/05/2020 10:19:31|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:19:31|Articulo --> huggies act sec xxl x56u
+18/05/2020 10:19:31|cantidadArt B --> 2
+18/05/2020 10:19:31|PrecVear --> 990
+18/05/2020 10:19:31|montoArt --> 818,181818181818
+18/05/2020 10:19:31|ivaArt --> 21
+18/05/2020 10:19:32|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:19:32|Cerrar Comprobante B:::
+18/05/2020 10:19:35|Obtiene nrocomp
+18/05/2020 10:19:35|nrocomp --> 452
+18/05/2020 10:19:35|Nro. de Comprobante ::: TFB ::: 452
+18/05/2020 10:24:54|Conectando..
+18/05/2020 10:24:54|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 10:24:55|Conectado con éxito!!
+18/05/2020 10:34:21|Conectando..
+18/05/2020 10:34:21|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 10:34:22|Conectado con éxito!!
+18/05/2020 10:37:49|Comienza Facturacion B
+18/05/2020 10:37:49|DatosCliente B
+18/05/2020 10:37:53|AbrirComprobanteFiscal B
+18/05/2020 10:37:53|Articulo --> adult care rop int grande x8 80 a 115kg
+18/05/2020 10:37:53|cantidadArt B --> 1
+18/05/2020 10:37:53|PrecVear --> 471
+18/05/2020 10:37:53|montoArt --> 389,256198347107
+18/05/2020 10:37:53|ivaArt --> 21
+18/05/2020 10:37:53|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:37:53|Articulo --> hennia slip g x8
+18/05/2020 10:37:53|cantidadArt B --> 1
+18/05/2020 10:37:53|PrecVear --> 490
+18/05/2020 10:37:53|montoArt --> 404,95867768595
+18/05/2020 10:37:53|ivaArt --> 21
+18/05/2020 10:37:54|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:37:54|Articulo --> plenitud protect plus p/m x8u
+18/05/2020 10:37:54|cantidadArt B --> 1
+18/05/2020 10:37:54|PrecVear --> 725
+18/05/2020 10:37:54|montoArt --> 599,173553719008
+18/05/2020 10:37:54|ivaArt --> 21
+18/05/2020 10:37:54|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:37:54|Articulo --> el coloso suavx900 dp prem.sol vera
+18/05/2020 10:37:54|cantidadArt B --> 1
+18/05/2020 10:37:54|PrecVear --> 69
+18/05/2020 10:37:54|montoArt --> 57,0247933884298
+18/05/2020 10:37:54|ivaArt --> 21
+18/05/2020 10:37:54|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:37:54|Articulo --> estrella algodon  clasicox75
+18/05/2020 10:37:54|cantidadArt B --> 2
+18/05/2020 10:37:54|PrecVear --> 50
+18/05/2020 10:37:54|montoArt --> 41,3223140495868
+18/05/2020 10:37:54|ivaArt --> 21
+18/05/2020 10:37:55|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:37:55|Articulo --> nivea rollonx50 dry confort fem
+18/05/2020 10:37:55|cantidadArt B --> 1
+18/05/2020 10:37:55|PrecVear --> 140
+18/05/2020 10:37:55|montoArt --> 115,702479338843
+18/05/2020 10:37:55|ivaArt --> 21
+18/05/2020 10:37:55|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:37:55|Articulo --> comodin apo inc moderada (verde) x10
+18/05/2020 10:37:55|cantidadArt B --> 4
+18/05/2020 10:37:55|PrecVear --> 84
+18/05/2020 10:37:55|montoArt --> 69,4214876033058
+18/05/2020 10:37:55|ivaArt --> 21
+18/05/2020 10:37:56|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:37:56|Articulo --> varios
+18/05/2020 10:37:56|cantidadArt B --> 3
+18/05/2020 10:37:56|PrecVear --> 30
+18/05/2020 10:37:56|montoArt --> 24,7933884297521
+18/05/2020 10:37:56|ivaArt --> 21
+18/05/2020 10:37:56|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:37:56|Articulo --> ala plus cristx750 limon-53266
+18/05/2020 10:37:56|cantidadArt B --> 1
+18/05/2020 10:37:56|PrecVear --> 59
+18/05/2020 10:37:56|montoArt --> 48,7603305785124
+18/05/2020 10:37:56|ivaArt --> 21
+18/05/2020 10:37:56|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:37:56|Articulo --> dove jabon x90 blanco
+18/05/2020 10:37:56|cantidadArt B --> 2
+18/05/2020 10:37:56|PrecVear --> 64
+18/05/2020 10:37:56|montoArt --> 52,8925619834711
+18/05/2020 10:37:56|ivaArt --> 21
+18/05/2020 10:37:57|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:37:57|Cerrar Comprobante B:::
+18/05/2020 10:38:00|Obtiene nrocomp
+18/05/2020 10:38:00|nrocomp --> 453
+18/05/2020 10:38:00|Nro. de Comprobante ::: TFB ::: 453
+18/05/2020 10:42:27|Comienza Facturacion B
+18/05/2020 10:42:27|DatosCliente B
+18/05/2020 10:42:30|AbrirComprobanteFiscal B
+18/05/2020 10:42:30|Articulo --> hugg clasic pack g 2 x68
+18/05/2020 10:42:30|cantidadArt B --> 1
+18/05/2020 10:42:30|PrecVear --> 790
+18/05/2020 10:42:30|montoArt --> 652,892561983471
+18/05/2020 10:42:30|ivaArt --> 21
+18/05/2020 10:42:30|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:42:30|Articulo --> huggies limpieza cotidiana x48 (amarillas)
+18/05/2020 10:42:30|cantidadArt B --> 1
+18/05/2020 10:42:30|PrecVear --> 120
+18/05/2020 10:42:30|montoArt --> 99,1735537190083
+18/05/2020 10:42:30|ivaArt --> 21
+18/05/2020 10:42:31|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:42:31|Articulo --> elvive acondx400 rt5 extreme
+18/05/2020 10:42:31|cantidadArt B --> 1
+18/05/2020 10:42:31|PrecVear --> 310
+18/05/2020 10:42:31|montoArt --> 256,198347107438
+18/05/2020 10:42:31|ivaArt --> 21
+18/05/2020 10:42:31|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:42:31|Articulo --> sedal acondx300 d.pack balance-4330
+18/05/2020 10:42:31|cantidadArt B --> 1
+18/05/2020 10:42:31|PrecVear --> 110
+18/05/2020 10:42:31|montoArt --> 90,9090909090909
+18/05/2020 10:42:31|ivaArt --> 21
+18/05/2020 10:42:31|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:42:31|Cerrar Comprobante B:::
+18/05/2020 10:42:34|Obtiene nrocomp
+18/05/2020 10:42:35|nrocomp --> 454
+18/05/2020 10:42:35|Nro. de Comprobante ::: TFB ::: 454
+18/05/2020 10:59:21|Conectando..
+18/05/2020 10:59:21|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 10:59:22|Conectado con éxito!!
+18/05/2020 10:59:56|Comienza Facturacion B
+18/05/2020 10:59:56|DatosCliente B
+18/05/2020 10:59:59|AbrirComprobanteFiscal B
+18/05/2020 10:59:59|Articulo --> 30227917 pañal hugg clasic pack xxl 2 x56
+18/05/2020 10:59:59|cantidadArt B --> 1
+18/05/2020 10:59:59|PrecVear --> 790
+18/05/2020 10:59:59|montoArt --> 652,892561983471
+18/05/2020 10:59:59|ivaArt --> 21
+18/05/2020 10:59:59|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:59:59|Articulo --> el coloso rollo cocx3 x 40paños
+18/05/2020 10:59:59|cantidadArt B --> 1
+18/05/2020 10:59:59|PrecVear --> 45
+18/05/2020 10:59:59|montoArt --> 37,1900826446281
+18/05/2020 10:59:59|ivaArt --> 21
+18/05/2020 10:59:59|hasarOCX.ImprimirItem --> OK
+18/05/2020 10:59:59|Articulo --> el coloso hig.econ.bco.12x6 30mts "
+18/05/2020 10:59:59|cantidadArt B --> 1
+18/05/2020 10:59:59|PrecVear --> 90
+18/05/2020 10:59:59|montoArt --> 74,3801652892562
+18/05/2020 10:59:59|ivaArt --> 21
+18/05/2020 11:00:00|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:00:00|Articulo --> bolsas residuos 50*70
+18/05/2020 11:00:00|cantidadArt B --> 1
+18/05/2020 11:00:00|PrecVear --> 40
+18/05/2020 11:00:00|montoArt --> 33,0578512396694
+18/05/2020 11:00:00|ivaArt --> 21
+18/05/2020 11:00:00|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:00:00|Articulo --> party jab.3x80gr variedades
+18/05/2020 11:00:00|cantidadArt B --> 1
+18/05/2020 11:00:00|PrecVear --> 50
+18/05/2020 11:00:00|montoArt --> 41,3223140495868
+18/05/2020 11:00:00|ivaArt --> 21
+18/05/2020 11:00:01|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:00:01|Articulo --> oleo benaré x250ml
+18/05/2020 11:00:01|cantidadArt B --> 1
+18/05/2020 11:00:01|PrecVear --> 130
+18/05/2020 11:00:01|montoArt --> 107,438016528926
+18/05/2020 11:00:01|ivaArt --> 21
+18/05/2020 11:00:01|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:00:01|Cerrar Comprobante B:::
+18/05/2020 11:00:04|Obtiene nrocomp
+18/05/2020 11:00:04|nrocomp --> 455
+18/05/2020 11:00:04|Nro. de Comprobante ::: TFB ::: 455
+18/05/2020 11:09:42|Conectando..
+18/05/2020 11:09:42|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 11:09:43|Conectado con éxito!!
+18/05/2020 11:13:07|Conectando..
+18/05/2020 11:13:07|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 11:13:07|Conectado con éxito!!
+18/05/2020 11:14:07|Conectando..
+18/05/2020 11:14:07|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 11:14:08|Conectado con éxito!!
+18/05/2020 11:16:16|Comienza Facturacion B
+18/05/2020 11:16:17|DatosCliente B
+18/05/2020 11:16:19|AbrirComprobanteFiscal B
+18/05/2020 11:16:19|Articulo --> varios
+18/05/2020 11:16:19|cantidadArt B --> 1
+18/05/2020 11:16:19|PrecVear --> 250
+18/05/2020 11:16:19|montoArt --> 206,611570247934
+18/05/2020 11:16:19|ivaArt --> 21
+18/05/2020 11:16:19|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:16:19|Articulo --> 0155 estrella alcohol etilico 96  x 250 ml
+18/05/2020 11:16:19|cantidadArt B --> 1
+18/05/2020 11:16:19|PrecVear --> 95
+18/05/2020 11:16:19|montoArt --> 78,5123966942149
+18/05/2020 11:16:19|ivaArt --> 21
+18/05/2020 11:16:20|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:16:20|Articulo --> veritas jab.glicx120 nec.frut
+18/05/2020 11:16:20|cantidadArt B --> 1
+18/05/2020 11:16:20|PrecVear --> 79
+18/05/2020 11:16:20|montoArt --> 65,2892561983471
+18/05/2020 11:16:20|ivaArt --> 21
+18/05/2020 11:16:20|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:16:20|Articulo --> veritas jab.glicx120 naranj
+18/05/2020 11:16:20|cantidadArt B --> 1
+18/05/2020 11:16:20|PrecVear --> 79
+18/05/2020 11:16:20|montoArt --> 65,2892561983471
+18/05/2020 11:16:20|ivaArt --> 21
+18/05/2020 11:16:21|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:16:21|Articulo --> varios
+18/05/2020 11:16:21|cantidadArt B --> 1
+18/05/2020 11:16:21|PrecVear --> 150
+18/05/2020 11:16:21|montoArt --> 123,96694214876
+18/05/2020 11:16:21|ivaArt --> 21
+18/05/2020 11:16:21|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:16:21|Articulo --> varios
+18/05/2020 11:16:21|cantidadArt B --> 1
+18/05/2020 11:16:21|PrecVear --> 175
+18/05/2020 11:16:21|montoArt --> 144,628099173554
+18/05/2020 11:16:21|ivaArt --> 21
+18/05/2020 11:16:21|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:16:21|Articulo --> el coloso guantes max talle7 chico
+18/05/2020 11:16:21|cantidadArt B --> 1
+18/05/2020 11:16:21|PrecVear --> 130
+18/05/2020 11:16:21|montoArt --> 107,438016528926
+18/05/2020 11:16:21|ivaArt --> 21
+18/05/2020 11:16:22|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:16:22|Articulo --> bolsas residuos 50*70
+18/05/2020 11:16:22|cantidadArt B --> 1
+18/05/2020 11:16:22|PrecVear --> 40
+18/05/2020 11:16:22|montoArt --> 33,0578512396694
+18/05/2020 11:16:22|ivaArt --> 21
+18/05/2020 11:16:22|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:16:22|Articulo --> seiseme jabon en pan x 300
+18/05/2020 11:16:22|cantidadArt B --> 1
+18/05/2020 11:16:22|PrecVear --> 75
+18/05/2020 11:16:22|montoArt --> 61,9834710743802
+18/05/2020 11:16:22|ivaArt --> 21
+18/05/2020 11:16:22|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:16:22|Articulo --> procenex limpx900 original -8375
+18/05/2020 11:16:22|cantidadArt B --> 1
+18/05/2020 11:16:22|PrecVear --> 88
+18/05/2020 11:16:22|montoArt --> 72,7272727272727
+18/05/2020 11:16:22|ivaArt --> 21
+18/05/2020 11:16:23|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:16:23|Articulo --> capilatis brillo extremo sh
+18/05/2020 11:16:23|cantidadArt B --> 1
+18/05/2020 11:16:23|PrecVear --> 340
+18/05/2020 11:16:23|montoArt --> 280,99173553719
+18/05/2020 11:16:23|ivaArt --> 21
+18/05/2020 11:16:23|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:16:23|Articulo --> trenet efect.espuma dpx400 -32289
+18/05/2020 11:16:23|cantidadArt B --> 1
+18/05/2020 11:16:23|PrecVear --> 74
+18/05/2020 11:16:23|montoArt --> 61,1570247933884
+18/05/2020 11:16:23|ivaArt --> 21
+18/05/2020 11:16:23|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:16:23|Articulo --> crema dermofil humectante aloe vera x470g
+18/05/2020 11:16:23|cantidadArt B --> 1
+18/05/2020 11:16:23|PrecVear --> 255
+18/05/2020 11:16:23|montoArt --> 210,743801652893
+18/05/2020 11:16:23|ivaArt --> 21
+18/05/2020 11:16:24|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:16:24|Articulo --> varios
+18/05/2020 11:16:24|cantidadArt B --> 1
+18/05/2020 11:16:24|PrecVear --> 185
+18/05/2020 11:16:24|montoArt --> 152,892561983471
+18/05/2020 11:16:24|ivaArt --> 21
+18/05/2020 11:16:24|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:16:24|Cerrar Comprobante B:::
+18/05/2020 11:16:27|Obtiene nrocomp
+18/05/2020 11:16:27|nrocomp --> 456
+18/05/2020 11:16:27|Nro. de Comprobante ::: TFB ::: 456
+18/05/2020 11:32:05|Conectando..
+18/05/2020 11:32:05|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 11:32:05|Conectado con éxito!!
+18/05/2020 11:41:05|Conectando..
+18/05/2020 11:41:05|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 11:41:06|Conectado con éxito!!
+18/05/2020 11:51:30|Conectando..
+18/05/2020 11:51:30|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 11:51:31|Conectado con éxito!!
+18/05/2020 11:56:24|Comienza Facturacion B
+18/05/2020 11:56:24|DatosCliente B
+18/05/2020 11:56:27|AbrirComprobanteFiscal B
+18/05/2020 11:56:27|Articulo --> calipso prot.s/perf.c/manz x20
+18/05/2020 11:56:27|cantidadArt B --> 1
+18/05/2020 11:56:27|PrecVear --> 48
+18/05/2020 11:56:27|montoArt --> 39,6694214876033
+18/05/2020 11:56:27|ivaArt --> 21
+18/05/2020 11:56:27|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:56:27|Articulo --> elvive acondx200 color vive
+18/05/2020 11:56:27|cantidadArt B --> 1
+18/05/2020 11:56:27|PrecVear --> 185
+18/05/2020 11:56:27|montoArt --> 152,892561983471
+18/05/2020 11:56:27|ivaArt --> 21
+18/05/2020 11:56:28|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:56:28|Articulo --> off family activex165 aero-7923
+18/05/2020 11:56:28|cantidadArt B --> 1
+18/05/2020 11:56:28|PrecVear --> 204
+18/05/2020 11:56:28|montoArt --> 168,595041322314
+18/05/2020 11:56:28|ivaArt --> 21
+18/05/2020 11:56:28|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:56:28|Articulo --> off crx60 g family
+18/05/2020 11:56:28|cantidadArt B --> 1
+18/05/2020 11:56:28|PrecVear --> 89
+18/05/2020 11:56:28|montoArt --> 73,5537190082645
+18/05/2020 11:56:28|ivaArt --> 21
+18/05/2020 11:56:28|hasarOCX.ImprimirItem --> OK
+18/05/2020 11:56:28|Cerrar Comprobante B:::
+18/05/2020 11:56:31|Obtiene nrocomp
+18/05/2020 11:56:32|nrocomp --> 457
+18/05/2020 11:56:32|Nro. de Comprobante ::: TFB ::: 457
+18/05/2020 11:57:58|Conectando..
+18/05/2020 11:57:58|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 11:57:59|Conectado con éxito!!
+18/05/2020 12:06:47|Conectando..
+18/05/2020 12:06:47|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 12:06:48|Conectado con éxito!!
+18/05/2020 12:07:21|Conectando..
+18/05/2020 12:07:21|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 12:07:22|Conectado con éxito!!
+18/05/2020 12:11:12|Conectando..
+18/05/2020 12:11:12|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 12:11:13|Conectado con éxito!!
+18/05/2020 12:11:41|Comienza Facturacion B
+18/05/2020 12:11:41|DatosCliente B
+18/05/2020 12:11:44|AbrirComprobanteFiscal B
+18/05/2020 12:11:44|Articulo --> pampers pants premium care xxg x24
+18/05/2020 12:11:44|cantidadArt B --> 1
+18/05/2020 12:11:44|PrecVear --> 540
+18/05/2020 12:11:44|montoArt --> 446,280991735537
+18/05/2020 12:11:44|ivaArt --> 21
+18/05/2020 12:11:44|hasarOCX.ImprimirItem --> OK
+18/05/2020 12:11:44|Articulo --> dove baby ac x200ml
+18/05/2020 12:11:44|cantidadArt B --> 1
+18/05/2020 12:11:44|PrecVear --> 150
+18/05/2020 12:11:44|montoArt --> 123,96694214876
+18/05/2020 12:11:44|ivaArt --> 21
+18/05/2020 12:11:45|hasarOCX.ImprimirItem --> OK
+18/05/2020 12:11:45|Articulo --> varios
+18/05/2020 12:11:45|cantidadArt B --> 1
+18/05/2020 12:11:45|PrecVear --> 260
+18/05/2020 12:11:45|montoArt --> 214,876033057851
+18/05/2020 12:11:45|ivaArt --> 21
+18/05/2020 12:11:45|hasarOCX.ImprimirItem --> OK
+18/05/2020 12:11:45|Articulo --> varios
+18/05/2020 12:11:45|cantidadArt B --> 1
+18/05/2020 12:11:45|PrecVear --> 96
+18/05/2020 12:11:45|montoArt --> 79,3388429752066
+18/05/2020 12:11:45|ivaArt --> 21
+18/05/2020 12:11:45|hasarOCX.ImprimirItem --> OK
+18/05/2020 12:11:45|Cerrar Comprobante B:::
+18/05/2020 12:11:48|Obtiene nrocomp
+18/05/2020 12:11:49|nrocomp --> 458
+18/05/2020 12:11:49|Nro. de Comprobante ::: TFB ::: 458
+18/05/2020 12:23:05|Conectando..
+18/05/2020 12:23:05|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 12:23:06|Conectado con éxito!!
+18/05/2020 12:28:05|Conectando..
+18/05/2020 12:28:05|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 12:28:06|Conectado con éxito!!
+18/05/2020 12:30:41|Comienza Facturacion B
+18/05/2020 12:30:42|DatosCliente B
+18/05/2020 12:30:44|AbrirComprobanteFiscal B
+18/05/2020 12:30:44|Articulo --> extralimp esponja anatomica baño
+18/05/2020 12:30:44|cantidadArt B --> 1
+18/05/2020 12:30:44|PrecVear --> 55
+18/05/2020 12:30:44|montoArt --> 45,4545454545455
+18/05/2020 12:30:44|ivaArt --> 21
+18/05/2020 12:30:44|hasarOCX.ImprimirItem --> OK
+18/05/2020 12:30:44|Articulo --> bolsas de residuos 45*60
+18/05/2020 12:30:44|cantidadArt B --> 1
+18/05/2020 12:30:44|PrecVear --> 30
+18/05/2020 12:30:44|montoArt --> 24,7933884297521
+18/05/2020 12:30:44|ivaArt --> 21
+18/05/2020 12:30:45|hasarOCX.ImprimirItem --> OK
+18/05/2020 12:30:45|Articulo --> el coloso hig.bco max.10x4 80mts
+18/05/2020 12:30:45|cantidadArt B --> 1
+18/05/2020 12:30:45|PrecVear --> 130
+18/05/2020 12:30:45|montoArt --> 107,438016528926
+18/05/2020 12:30:45|ivaArt --> 21
+18/05/2020 12:30:45|hasarOCX.ImprimirItem --> OK
+18/05/2020 12:30:45|Articulo --> elegante rollo cocinax200 paños
+18/05/2020 12:30:45|cantidadArt B --> 1
+18/05/2020 12:30:45|PrecVear --> 85
+18/05/2020 12:30:45|montoArt --> 70,2479338842975
+18/05/2020 12:30:45|ivaArt --> 21
+18/05/2020 12:30:46|hasarOCX.ImprimirItem --> OK
+18/05/2020 12:30:46|Articulo --> glade aerox360 floral perfect-69823
+18/05/2020 12:30:46|cantidadArt B --> 1
+18/05/2020 12:30:46|PrecVear --> 78
+18/05/2020 12:30:46|montoArt --> 64,4628099173554
+18/05/2020 12:30:46|ivaArt --> 21
+18/05/2020 12:30:46|hasarOCX.ImprimirItem --> OK
+18/05/2020 12:30:46|Articulo --> spa cera microondas rep x200g miel
+18/05/2020 12:30:46|cantidadArt B --> 1
+18/05/2020 12:30:46|PrecVear --> 185
+18/05/2020 12:30:46|montoArt --> 152,892561983471
+18/05/2020 12:30:46|ivaArt --> 21
+18/05/2020 12:30:46|hasarOCX.ImprimirItem --> OK
+18/05/2020 12:30:46|Articulo --> issue sin amoniaco n 6
+18/05/2020 12:30:46|cantidadArt B --> 1
+18/05/2020 12:30:46|PrecVear --> 130
+18/05/2020 12:30:46|montoArt --> 107,438016528926
+18/05/2020 12:30:46|ivaArt --> 21
+18/05/2020 12:30:47|hasarOCX.ImprimirItem --> OK
+18/05/2020 12:30:47|Articulo --> magistral esp.activax750 limon-7172
+18/05/2020 12:30:47|cantidadArt B --> 1
+18/05/2020 12:30:47|PrecVear --> 240
+18/05/2020 12:30:47|montoArt --> 198,347107438017
+18/05/2020 12:30:47|ivaArt --> 21
+18/05/2020 12:30:47|hasarOCX.ImprimirItem --> OK
+18/05/2020 12:30:47|Cerrar Comprobante B:::
+18/05/2020 12:30:50|Obtiene nrocomp
+18/05/2020 12:30:50|nrocomp --> 459
+18/05/2020 12:30:50|Nro. de Comprobante ::: TFB ::: 459
+18/05/2020 12:52:20|Conectando..
+18/05/2020 12:52:20|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 12:52:20|Conectado con éxito!!
+18/05/2020 13:04:14|Conectando..
+18/05/2020 13:04:14|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 13:04:15|Conectado con éxito!!
+18/05/2020 13:19:39|Conectando..
+18/05/2020 13:19:39|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 13:19:40|Conectado con éxito!!
+18/05/2020 13:21:59|Conectando..
+18/05/2020 13:21:59|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 13:22:00|Conectado con éxito!!
+18/05/2020 13:34:32|Conectando..
+18/05/2020 13:34:32|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 13:34:32|Conectado con éxito!!
+18/05/2020 13:35:10|Comienza Facturacion B
+18/05/2020 13:35:10|DatosCliente B
+18/05/2020 13:35:12|AbrirComprobanteFiscal B
+18/05/2020 13:35:12|Articulo --> varios
+18/05/2020 13:35:12|cantidadArt B --> 1
+18/05/2020 13:35:12|PrecVear --> 15
+18/05/2020 13:35:12|montoArt --> 12,396694214876
+18/05/2020 13:35:12|ivaArt --> 21
+18/05/2020 13:35:13|hasarOCX.ImprimirItem --> OK
+18/05/2020 13:35:13|Articulo --> prix guantes ultra med.
+18/05/2020 13:35:13|cantidadArt B --> 1
+18/05/2020 13:35:13|PrecVear --> 85
+18/05/2020 13:35:13|montoArt --> 70,2479338842975
+18/05/2020 13:35:13|ivaArt --> 21
+18/05/2020 13:35:13|hasarOCX.ImprimirItem --> OK
+18/05/2020 13:35:13|Articulo --> dove jabon x90 blanco
+18/05/2020 13:35:13|cantidadArt B --> 1
+18/05/2020 13:35:13|PrecVear --> 64
+18/05/2020 13:35:13|montoArt --> 52,8925619834711
+18/05/2020 13:35:13|ivaArt --> 21
+18/05/2020 13:35:13|hasarOCX.ImprimirItem --> OK
+18/05/2020 13:35:13|Articulo --> querubin suav. x900 ml flores silv.
+18/05/2020 13:35:13|cantidadArt B --> 1
+18/05/2020 13:35:13|PrecVear --> 95
+18/05/2020 13:35:13|montoArt --> 78,5123966942149
+18/05/2020 13:35:13|ivaArt --> 21
+18/05/2020 13:35:14|hasarOCX.ImprimirItem --> OK
+18/05/2020 13:35:14|Articulo --> spa jabon liq dp x300ml
+18/05/2020 13:35:14|cantidadArt B --> 1
+18/05/2020 13:35:14|PrecVear --> 79
+18/05/2020 13:35:14|montoArt --> 65,2892561983471
+18/05/2020 13:35:14|ivaArt --> 21
+18/05/2020 13:35:14|hasarOCX.ImprimirItem --> OK
+18/05/2020 13:35:14|Articulo --> trenet oxi efect.espuma dpx250-3037
+18/05/2020 13:35:14|cantidadArt B --> 1
+18/05/2020 13:35:14|PrecVear --> 62
+18/05/2020 13:35:14|montoArt --> 51,2396694214876
+18/05/2020 13:35:14|ivaArt --> 21
+18/05/2020 13:35:14|hasarOCX.ImprimirItem --> OK
+18/05/2020 13:35:14|Articulo --> skip liq.regx800 dpack -591957
+18/05/2020 13:35:14|cantidadArt B --> 1
+18/05/2020 13:35:14|PrecVear --> 155
+18/05/2020 13:35:14|montoArt --> 128,099173553719
+18/05/2020 13:35:14|ivaArt --> 21
+18/05/2020 13:35:15|hasarOCX.ImprimirItem --> OK
+18/05/2020 13:35:15|Cerrar Comprobante B:::
+18/05/2020 13:35:18|Obtiene nrocomp
+18/05/2020 13:35:18|nrocomp --> 460
+18/05/2020 13:35:18|Nro. de Comprobante ::: TFB ::: 460
+18/05/2020 14:18:40|Comienza Facturacion B
+18/05/2020 14:18:40|DatosCliente B
+18/05/2020 14:18:43|AbrirComprobanteFiscal B
+18/05/2020 14:18:43|Articulo --> babysec ultrasec xg x36 uni
+18/05/2020 14:18:43|cantidadArt B --> 1
+18/05/2020 14:18:43|PrecVear --> 470
+18/05/2020 14:18:43|montoArt --> 388,429752066116
+18/05/2020 14:18:43|ivaArt --> 21
+18/05/2020 14:18:43|hasarOCX.ImprimirItem --> OK
+18/05/2020 14:18:43|Articulo --> varios
+18/05/2020 14:18:43|cantidadArt B --> 1
+18/05/2020 14:18:43|PrecVear --> 130
+18/05/2020 14:18:43|montoArt --> 107,438016528926
+18/05/2020 14:18:43|ivaArt --> 21
+18/05/2020 14:18:43|hasarOCX.ImprimirItem --> OK
+18/05/2020 14:18:43|Cerrar Comprobante B:::
+18/05/2020 14:18:46|Obtiene nrocomp
+18/05/2020 14:18:47|nrocomp --> 461
+18/05/2020 14:18:47|Nro. de Comprobante ::: TFB ::: 461
+18/05/2020 14:52:26|Conectando..
+18/05/2020 14:52:26|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 14:52:27|Conectado con éxito!!
+18/05/2020 14:52:44|Conectando..
+18/05/2020 14:52:44|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 14:52:45|Conectado con éxito!!
+18/05/2020 14:57:59|Conectando..
+18/05/2020 14:57:59|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 14:57:59|Conectado con éxito!!
+18/05/2020 15:07:10|Conectando..
+18/05/2020 15:07:10|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 15:07:11|Conectado con éxito!!
+18/05/2020 15:08:11|Conectando..
+18/05/2020 15:08:11|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 15:08:12|Conectado con éxito!!
+18/05/2020 15:09:11|Conectando..
+18/05/2020 15:09:11|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 15:09:11|Conectado con éxito!!
+18/05/2020 15:32:47|Conectando..
+18/05/2020 15:32:47|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 15:32:47|Conectado con éxito!!
+18/05/2020 15:38:08|Conectando..
+18/05/2020 15:38:08|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 15:38:09|Conectado con éxito!!
+18/05/2020 15:49:58|Conectando..
+18/05/2020 15:49:58|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 15:49:59|Conectado con éxito!!
+18/05/2020 15:51:06|Comienza Facturacion B
+18/05/2020 15:51:06|DatosCliente B
+18/05/2020 15:51:09|AbrirComprobanteFiscal B
+18/05/2020 15:51:09|Articulo --> pampers pants confort sec xg x34
+18/05/2020 15:51:09|cantidadArt B --> 1
+18/05/2020 15:51:09|PrecVear --> 640
+18/05/2020 15:51:09|montoArt --> 528,925619834711
+18/05/2020 15:51:09|ivaArt --> 21
+18/05/2020 15:51:09|hasarOCX.ImprimirItem --> OK
+18/05/2020 15:51:09|Articulo --> lux hwx220 rep.orq.negra-1865
+18/05/2020 15:51:09|cantidadArt B --> 1
+18/05/2020 15:51:09|PrecVear --> 125
+18/05/2020 15:51:09|montoArt --> 103,305785123967
+18/05/2020 15:51:09|ivaArt --> 21
+18/05/2020 15:51:10|hasarOCX.ImprimirItem --> OK
+18/05/2020 15:51:10|Articulo --> varios
+18/05/2020 15:51:10|cantidadArt B --> 1
+18/05/2020 15:51:10|PrecVear --> 290
+18/05/2020 15:51:10|montoArt --> 239,669421487603
+18/05/2020 15:51:10|ivaArt --> 21
+18/05/2020 15:51:10|hasarOCX.ImprimirItem --> OK
+18/05/2020 15:51:10|Articulo --> estilo spa alcohol en gel x75ml neutro
+18/05/2020 15:51:10|cantidadArt B --> 1
+18/05/2020 15:51:10|PrecVear --> 95
+18/05/2020 15:51:10|montoArt --> 78,5123966942149
+18/05/2020 15:51:10|ivaArt --> 21
+18/05/2020 15:51:10|hasarOCX.ImprimirItem --> OK
+18/05/2020 15:51:10|Articulo --> q soft toall. hum. aloe y vit. x50 u.
+18/05/2020 15:51:10|cantidadArt B --> 2
+18/05/2020 15:51:10|PrecVear --> 98
+18/05/2020 15:51:10|montoArt --> 80,9917355371901
+18/05/2020 15:51:10|ivaArt --> 21
+18/05/2020 15:51:11|hasarOCX.ImprimirItem --> OK
+18/05/2020 15:51:11|Cerrar Comprobante B:::
+18/05/2020 15:51:14|Obtiene nrocomp
+18/05/2020 15:51:14|nrocomp --> 462
+18/05/2020 15:51:14|Nro. de Comprobante ::: TFB ::: 462
+18/05/2020 15:56:59|Conectando..
+18/05/2020 15:56:59|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 15:57:00|Conectado con éxito!!
+18/05/2020 16:03:36|Conectando..
+18/05/2020 16:03:36|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 16:03:36|Conectado con éxito!!
+18/05/2020 16:04:06|Comienza Facturacion B
+18/05/2020 16:04:06|DatosCliente B
+18/05/2020 16:04:08|AbrirComprobanteFiscal B
+18/05/2020 16:04:08|Articulo --> rexona aero  apx90 hombre
+18/05/2020 16:04:08|cantidadArt B --> 1
+18/05/2020 16:04:08|PrecVear --> 130
+18/05/2020 16:04:08|montoArt --> 107,438016528926
+18/05/2020 16:04:08|ivaArt --> 21
+18/05/2020 16:04:09|hasarOCX.ImprimirItem --> OK
+18/05/2020 16:04:09|Articulo --> fructis acondx200 aloe water
+18/05/2020 16:04:09|cantidadArt B --> 1
+18/05/2020 16:04:09|PrecVear --> 160
+18/05/2020 16:04:09|montoArt --> 132,231404958678
+18/05/2020 16:04:09|ivaArt --> 21
+18/05/2020 16:04:09|hasarOCX.ImprimirItem --> OK
+18/05/2020 16:04:09|Articulo --> spa jabon liq dp
+18/05/2020 16:04:09|cantidadArt B --> 1
+18/05/2020 16:04:09|PrecVear --> 79
+18/05/2020 16:04:09|montoArt --> 65,2892561983471
+18/05/2020 16:04:09|ivaArt --> 21
+18/05/2020 16:04:09|hasarOCX.ImprimirItem --> OK
+18/05/2020 16:04:09|Articulo --> prix guantes ultra med.
+18/05/2020 16:04:09|cantidadArt B --> 1
+18/05/2020 16:04:09|PrecVear --> 85
+18/05/2020 16:04:09|montoArt --> 70,2479338842975
+18/05/2020 16:04:09|ivaArt --> 21
+18/05/2020 16:04:10|hasarOCX.ImprimirItem --> OK
+18/05/2020 16:04:10|Articulo --> varios
+18/05/2020 16:04:10|cantidadArt B --> 1
+18/05/2020 16:04:10|PrecVear --> 100
+18/05/2020 16:04:10|montoArt --> 82,6446280991736
+18/05/2020 16:04:10|ivaArt --> 21
+18/05/2020 16:04:10|hasarOCX.ImprimirItem --> OK
+18/05/2020 16:04:10|Cerrar Comprobante B:::
+18/05/2020 16:04:13|Obtiene nrocomp
+18/05/2020 16:04:13|nrocomp --> 463
+18/05/2020 16:04:13|Nro. de Comprobante ::: TFB ::: 463
+18/05/2020 16:05:23|Conectando..
+18/05/2020 16:05:23|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 16:05:23|Conectado con éxito!!
+18/05/2020 16:06:39|Comienza Facturacion B
+18/05/2020 16:06:39|DatosCliente B
+18/05/2020 16:06:42|AbrirComprobanteFiscal B
+18/05/2020 16:06:42|Articulo --> pampers confortsec m x86
+18/05/2020 16:06:42|cantidadArt B --> 1
+18/05/2020 16:06:42|PrecVear --> 1050
+18/05/2020 16:06:42|montoArt --> 867,768595041322
+18/05/2020 16:06:42|ivaArt --> 21
+18/05/2020 16:06:42|hasarOCX.ImprimirItem --> OK
+18/05/2020 16:06:42|Articulo --> higienol dh mas blanco 30mx4-1958
+18/05/2020 16:06:42|cantidadArt B --> 1
+18/05/2020 16:06:42|PrecVear --> 110
+18/05/2020 16:06:42|montoArt --> 90,9090909090909
+18/05/2020 16:06:42|ivaArt --> 21
+18/05/2020 16:06:43|hasarOCX.ImprimirItem --> OK
+18/05/2020 16:06:43|Articulo --> sussex servill.premium x 80 un. 80 un.
+18/05/2020 16:06:43|cantidadArt B --> 1
+18/05/2020 16:06:43|PrecVear --> 80
+18/05/2020 16:06:43|montoArt --> 66,1157024793389
+18/05/2020 16:06:43|ivaArt --> 21
+18/05/2020 16:06:43|hasarOCX.ImprimirItem --> OK
+18/05/2020 16:06:43|Articulo --> dove ch x400 fuerza vital
+18/05/2020 16:06:43|cantidadArt B --> 1
+18/05/2020 16:06:43|PrecVear --> 290
+18/05/2020 16:06:43|montoArt --> 239,669421487603
+18/05/2020 16:06:43|ivaArt --> 21
+18/05/2020 16:06:43|hasarOCX.ImprimirItem --> OK
+18/05/2020 16:06:43|Cerrar Comprobante B:::
+18/05/2020 16:06:46|Obtiene nrocomp
+18/05/2020 16:06:47|nrocomp --> 464
+18/05/2020 16:06:47|Nro. de Comprobante ::: TFB ::: 464
+18/05/2020 16:20:22|Conectando..
+18/05/2020 16:20:22|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 16:20:22|Conectado con éxito!!
+18/05/2020 16:22:05|Conectando..
+18/05/2020 16:22:05|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 16:22:06|Conectado con éxito!!
+18/05/2020 16:22:37|Conectando..
+18/05/2020 16:22:37|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 16:22:38|Conectado con éxito!!
+18/05/2020 16:42:21|Conectando..
+18/05/2020 16:42:21|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 16:42:22|Conectado con éxito!!
+18/05/2020 16:50:43|Conectando..
+18/05/2020 16:50:43|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 16:50:44|Conectado con éxito!!
+18/05/2020 16:50:48|Conectando..
+18/05/2020 16:50:48|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 16:50:49|Conectado con éxito!!
+18/05/2020 16:53:14|Conectando..
+18/05/2020 16:53:14|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 16:53:15|Conectado con éxito!!
+18/05/2020 16:56:06|Conectando..
+18/05/2020 16:56:06|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 16:56:07|Conectado con éxito!!
+18/05/2020 16:57:51|Conectando..
+18/05/2020 16:57:51|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 16:57:52|Conectado con éxito!!
+18/05/2020 16:59:10|Conectando..
+18/05/2020 16:59:10|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 16:59:11|Conectado con éxito!!
+18/05/2020 16:59:40|Conectando..
+18/05/2020 16:59:40|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 16:59:40|Conectado con éxito!!
+18/05/2020 17:10:17|Conectando..
+18/05/2020 17:10:17|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 17:10:17|Conectado con éxito!!
+18/05/2020 17:12:59|Comienza Facturacion B
+18/05/2020 17:12:59|DatosCliente B
+18/05/2020 17:13:01|AbrirComprobanteFiscal B
+18/05/2020 17:13:01|Articulo --> babysec ultrasec xxg x34 uni
+18/05/2020 17:13:01|cantidadArt B --> 1
+18/05/2020 17:13:01|PrecVear --> 470
+18/05/2020 17:13:01|montoArt --> 388,429752066116
+18/05/2020 17:13:01|ivaArt --> 21
+18/05/2020 17:13:02|hasarOCX.ImprimirItem --> OK
+18/05/2020 17:13:02|Articulo --> huggies toallas húmedas limpieza total18 x48
+18/05/2020 17:13:02|cantidadArt B --> 1
+18/05/2020 17:13:02|PrecVear --> 230
+18/05/2020 17:13:02|montoArt --> 190,082644628099
+18/05/2020 17:13:02|ivaArt --> 21
+18/05/2020 17:13:02|hasarOCX.ImprimirItem --> OK
+18/05/2020 17:13:02|Cerrar Comprobante B:::
+18/05/2020 17:13:05|Obtiene nrocomp
+18/05/2020 17:13:05|nrocomp --> 465
+18/05/2020 17:13:05|Nro. de Comprobante ::: TFB ::: 465
+18/05/2020 17:14:07|Conectando..
+18/05/2020 17:14:07|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 17:14:08|Conectado con éxito!!
+18/05/2020 17:19:20|Conectando..
+18/05/2020 17:19:20|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 17:19:21|Conectado con éxito!!
+18/05/2020 17:20:11|Conectando..
+18/05/2020 17:20:11|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 17:20:12|Conectado con éxito!!
+18/05/2020 17:20:20|Comienza Facturacion B
+18/05/2020 17:20:20|DatosCliente B
+18/05/2020 17:20:23|AbrirComprobanteFiscal B
+18/05/2020 17:20:23|Articulo --> saeta mmm 360 ml
+18/05/2020 17:20:23|cantidadArt B --> 1
+18/05/2020 17:20:23|PrecVear --> 99
+18/05/2020 17:20:23|montoArt --> 81,8181818181818
+18/05/2020 17:20:23|ivaArt --> 21
+18/05/2020 17:20:23|hasarOCX.ImprimirItem --> OK
+18/05/2020 17:20:23|Articulo --> raid mata hormigasx390 aero-8570
+18/05/2020 17:20:23|cantidadArt B --> 1
+18/05/2020 17:20:23|PrecVear --> 235
+18/05/2020 17:20:23|montoArt --> 194,214876033058
+18/05/2020 17:20:23|ivaArt --> 21
+18/05/2020 17:20:24|hasarOCX.ImprimirItem --> OK
+18/05/2020 17:20:24|Cerrar Comprobante B:::
+18/05/2020 17:20:27|Obtiene nrocomp
+18/05/2020 17:20:27|nrocomp --> 466
+18/05/2020 17:20:27|Nro. de Comprobante ::: TFB ::: 466
+18/05/2020 17:21:27|Conectando..
+18/05/2020 17:21:27|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 17:21:28|Conectado con éxito!!
+18/05/2020 17:22:08|Comienza Facturacion B
+18/05/2020 17:22:09|DatosCliente B
+18/05/2020 17:22:11|AbrirComprobanteFiscal B
+18/05/2020 17:22:11|Articulo --> hennia slip g x8
+18/05/2020 17:22:11|cantidadArt B --> 1
+18/05/2020 17:22:11|PrecVear --> 490
+18/05/2020 17:22:11|montoArt --> 404,95867768595
+18/05/2020 17:22:11|ivaArt --> 21
+18/05/2020 17:22:11|hasarOCX.ImprimirItem --> OK
+18/05/2020 17:22:11|Articulo --> varios
+18/05/2020 17:22:11|cantidadArt B --> 1
+18/05/2020 17:22:11|PrecVear --> 90
+18/05/2020 17:22:11|montoArt --> 74,3801652892562
+18/05/2020 17:22:11|ivaArt --> 21
+18/05/2020 17:22:12|hasarOCX.ImprimirItem --> OK
+18/05/2020 17:22:12|Articulo --> comodin apo inc moderada (verde) x10
+18/05/2020 17:22:12|cantidadArt B --> 1
+18/05/2020 17:22:12|PrecVear --> 84
+18/05/2020 17:22:12|montoArt --> 69,4214876033058
+18/05/2020 17:22:12|ivaArt --> 21
+18/05/2020 17:22:12|hasarOCX.ImprimirItem --> OK
+18/05/2020 17:22:12|Articulo --> colgate crx70 herbal whitening-975
+18/05/2020 17:22:12|cantidadArt B --> 1
+18/05/2020 17:22:12|PrecVear --> 79
+18/05/2020 17:22:12|montoArt --> 65,2892561983471
+18/05/2020 17:22:12|ivaArt --> 21
+18/05/2020 17:22:12|hasarOCX.ImprimirItem --> OK
+18/05/2020 17:22:12|Cerrar Comprobante B:::
+18/05/2020 17:22:15|Obtiene nrocomp
+18/05/2020 17:22:16|nrocomp --> 467
+18/05/2020 17:22:16|Nro. de Comprobante ::: TFB ::: 467
+18/05/2020 17:23:27|Conectando..
+18/05/2020 17:23:27|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 17:23:28|Conectado con éxito!!
+18/05/2020 17:23:42|Comienza Facturacion B
+18/05/2020 17:23:42|DatosCliente B
+18/05/2020 17:23:44|AbrirComprobanteFiscal B
+18/05/2020 17:23:44|Articulo --> pantene acondx400ml hidratación extrema
+18/05/2020 17:23:44|cantidadArt B --> 1
+18/05/2020 17:23:44|PrecVear --> 285
+18/05/2020 17:23:44|montoArt --> 235,537190082645
+18/05/2020 17:23:44|ivaArt --> 21
+18/05/2020 17:23:45|hasarOCX.ImprimirItem --> OK
+18/05/2020 17:23:45|Articulo --> h.s shampoo x180 accion humectante
+18/05/2020 17:23:45|cantidadArt B --> 1
+18/05/2020 17:23:45|PrecVear --> 170
+18/05/2020 17:23:45|montoArt --> 140,495867768595
+18/05/2020 17:23:45|ivaArt --> 21
+18/05/2020 17:23:45|hasarOCX.ImprimirItem --> OK
+18/05/2020 17:23:45|Articulo --> el coloso rollo cocx3 x 40paños
+18/05/2020 17:23:45|cantidadArt B --> 1
+18/05/2020 17:23:45|PrecVear --> 45
+18/05/2020 17:23:45|montoArt --> 37,1900826446281
+18/05/2020 17:23:45|ivaArt --> 21
+18/05/2020 17:23:45|hasarOCX.ImprimirItem --> OK
+18/05/2020 17:23:45|Cerrar Comprobante B:::
+18/05/2020 17:23:48|Obtiene nrocomp
+18/05/2020 17:23:49|nrocomp --> 468
+18/05/2020 17:23:49|Nro. de Comprobante ::: TFB ::: 468
+18/05/2020 17:24:45|Conectando..
+18/05/2020 17:24:45|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 17:24:46|Conectado con éxito!!
+18/05/2020 17:31:37|Comienza Facturacion B
+18/05/2020 17:31:37|DatosCliente B
+18/05/2020 17:31:39|AbrirComprobanteFiscal B
+18/05/2020 17:31:39|Articulo --> elvive acondx200 oleo nut.pro/coco
+18/05/2020 17:31:39|cantidadArt B --> 1
+18/05/2020 17:31:39|PrecVear --> 185
+18/05/2020 17:31:39|montoArt --> 152,892561983471
+18/05/2020 17:31:39|ivaArt --> 21
+18/05/2020 17:31:40|hasarOCX.ImprimirItem --> OK
+18/05/2020 17:31:40|Articulo --> elvive chx400ml color vive
+18/05/2020 17:31:40|cantidadArt B --> 1
+18/05/2020 17:31:40|PrecVear --> 310
+18/05/2020 17:31:40|montoArt --> 256,198347107438
+18/05/2020 17:31:40|ivaArt --> 21
+18/05/2020 17:31:40|hasarOCX.ImprimirItem --> OK
+18/05/2020 17:31:40|Articulo --> issue 1 negro
+18/05/2020 17:31:40|cantidadArt B --> 1
+18/05/2020 17:31:40|PrecVear --> 130
+18/05/2020 17:31:40|montoArt --> 107,438016528926
+18/05/2020 17:31:40|ivaArt --> 21
+18/05/2020 17:31:41|hasarOCX.ImprimirItem --> OK
+18/05/2020 17:31:41|Cerrar Comprobante B:::
+18/05/2020 17:31:44|Obtiene nrocomp
+18/05/2020 17:31:44|nrocomp --> 469
+18/05/2020 17:31:44|Nro. de Comprobante ::: TFB ::: 469
+18/05/2020 17:34:46|Conectando..
+18/05/2020 17:34:46|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 17:34:47|Conectado con éxito!!
+18/05/2020 17:39:23|Conectando..
+18/05/2020 17:39:23|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 17:39:24|Conectado con éxito!!
+18/05/2020 17:45:06|Conectando..
+18/05/2020 17:45:06|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 17:45:07|Conectado con éxito!!
+18/05/2020 17:45:41|Conectando..
+18/05/2020 17:45:41|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 17:45:42|Conectado con éxito!!
+18/05/2020 17:51:04|Conectando..
+18/05/2020 17:51:04|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 17:51:05|Conectado con éxito!!
+18/05/2020 17:55:58|Conectando..
+18/05/2020 17:55:58|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 17:55:58|Conectado con éxito!!
+18/05/2020 17:56:43|Conectando..
+18/05/2020 17:56:43|IP: 127.0.0.1 - Puerto: 6500
+18/05/2020 17:56:44|Conectado con éxito!!
+18/05/2020 17:56:56|Comienza Facturacion B
+18/05/2020 17:56:57|DatosCliente B
+18/05/2020 17:56:59|AbrirComprobanteFiscal B
+18/05/2020 17:56:59|Articulo --> babysec ultrasec xg x36 uni
+18/05/2020 17:56:59|cantidadArt B --> 1
+18/05/2020 17:56:59|PrecVear --> 470
+18/05/2020 17:56:59|montoArt --> 388,429752066116
+18/05/2020 17:56:59|ivaArt --> 21
+18/05/2020 17:56:59|hasarOCX.ImprimirItem --> OK
+18/05/2020 17:56:59|Articulo --> estrella algodon  clasicox75
+18/05/2020 17:56:59|cantidadArt B --> 1
+18/05/2020 17:56:59|PrecVear --> 50
+18/05/2020 17:56:59|montoArt --> 41,3223140495868
+18/05/2020 17:56:59|ivaArt --> 21
+18/05/2020 17:57:00|hasarOCX.ImprimirItem --> OK
+18/05/2020 17:57:00|Cerrar Comprobante B:::
+18/05/2020 17:57:03|Obtiene nrocomp
+18/05/2020 17:57:03|nrocomp --> 470
+18/05/2020 17:57:03|Nro. de Comprobante ::: TFB ::: 470
+18/05/2020 17:58:31|*************COMIENZA Cierre  Z**********
+18/05/2020 17:58:40|CIERRE Z
+Cierre Z Nº =[27]
+Fecha del Cierre        =[18/05/2020 0:00:00]
+DF Emitidos             =[24]
+DF Cancelados           =[0]
+DF Total                =[2434300]
+DF Total Gravado        =[2011818]
+DF Total No Gravado     =[0]
+DF Total Exento         =[0]
+DF Total IVA            =[422482]
+DF Total Otros Tributos =[0]
+NC Emitidas             =[0]
+NC Canceladas           =[0]
+NC Total                =[0]
+NC Total Gravado        =[0]
+NC Total No Gravado     =[0]
+NC Total Exento         =[0]
+NC Total IVA            =[0]
+NC Total Otros Tributos =[0]
+DNFH Emitidos           =[0]
+DNFH Total              =[0]
+

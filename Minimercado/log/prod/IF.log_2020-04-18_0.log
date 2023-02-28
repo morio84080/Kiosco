@@ -1,0 +1,11 @@
+18/04/2020 9:48:54|Comienza Facturacion B
+18/04/2020 9:48:54|DatosCliente B
+18/04/2020 9:48:54|AbrirComprobanteFiscal B
+18/04/2020 9:48:54|Articulo --> odorono rexona cr.potex60-5390
+18/04/2020 9:48:54|cantidadArt B --> 1
+18/04/2020 9:48:54|montoArt --> 104,36
+18/04/2020 9:48:54|ivaArt --> 21
+18/04/2020 9:48:54|hasarOCX.ImprimirItem --> OK
+18/04/2020 9:48:55|Error Obteniendo monto --> La cadena de entrada no tiene el formato correcto.
+18/04/2020 9:48:55|Subtotal Comprobante B::: $ 0
+18/04/2020 9:48:56|Error Imprimiendo Factura B --> Referencia a objeto no establecida como instancia de un objeto.
