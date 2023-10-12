@@ -39,7 +39,7 @@
             this.btnCancelar.BackColor = System.Drawing.Color.Blue;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.ForeColor = System.Drawing.Color.White;
-            this.btnCancelar.Location = new System.Drawing.Point(240, 235);
+            this.btnCancelar.Location = new System.Drawing.Point(237, 252);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(132, 32);
             this.btnCancelar.TabIndex = 10;
@@ -52,7 +52,7 @@
             this.btnAceptar.BackColor = System.Drawing.Color.Blue;
             this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
-            this.btnAceptar.Location = new System.Drawing.Point(92, 235);
+            this.btnAceptar.Location = new System.Drawing.Point(89, 252);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(132, 32);
             this.btnAceptar.TabIndex = 9;
@@ -73,10 +73,11 @@
             "Resumen Ventas por Condición de Pago",
             "Resumen Ventas por Rubro",
             "Documentos Fiscales",
-            "Stock Mínimo"});
+            "Stock Mínimo",
+            "Detalle de Ventas"});
             this.listBoxInformes.Location = new System.Drawing.Point(13, 49);
             this.listBoxInformes.Name = "listBoxInformes";
-            this.listBoxInformes.Size = new System.Drawing.Size(432, 172);
+            this.listBoxInformes.Size = new System.Drawing.Size(432, 196);
             this.listBoxInformes.TabIndex = 11;
             // 
             // label1
@@ -95,7 +96,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(457, 279);
+            this.ClientSize = new System.Drawing.Size(457, 290);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBoxInformes);
             this.Controls.Add(this.btnCancelar);

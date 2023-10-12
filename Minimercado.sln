@@ -45,7 +45,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacturaElectronica", "Factu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFIP", "AFIP\AFIP.csproj", "{10772553-040D-412F-9E4B-AD2F3B0E5518}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marca", "Marca\Marca.csproj", "{9C0A90C3-EE2F-42CC-9675-FD9EB0F67DB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marcas", "Marcas\Marcas.csproj", "{FCB79443-689A-4484-9759-5809D60CF095}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,10 +137,10 @@ Global
 		{10772553-040D-412F-9E4B-AD2F3B0E5518}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10772553-040D-412F-9E4B-AD2F3B0E5518}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10772553-040D-412F-9E4B-AD2F3B0E5518}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C0A90C3-EE2F-42CC-9675-FD9EB0F67DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C0A90C3-EE2F-42CC-9675-FD9EB0F67DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C0A90C3-EE2F-42CC-9675-FD9EB0F67DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C0A90C3-EE2F-42CC-9675-FD9EB0F67DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB79443-689A-4484-9759-5809D60CF095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB79443-689A-4484-9759-5809D60CF095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB79443-689A-4484-9759-5809D60CF095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB79443-689A-4484-9759-5809D60CF095}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

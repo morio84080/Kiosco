@@ -23,6 +23,7 @@ using FacturaElectronica.Entities;
 using FacturaElectronica.Business;
 using Articulo.Entities;
 using Articulo.Business;
+using FacturaElectronica.ar.gov.afip.servicios1;
 
 namespace Minimercado
 {
@@ -77,10 +78,12 @@ namespace Minimercado
         private int perfilId = 0;
         private List<VtaArtEntity> vtaArticulo = new List<VtaArtEntity>();
         private List<VtaArtEntity> vtaArticuloOld = new List<VtaArtEntity>();
+        private List<VtaArtEntity> vtaArticuloSinInteres = new List<VtaArtEntity>();
         NotaDeCreditoEntity notaCredito = new NotaDeCreditoEntity();
         private bool load = false;
         int idclie = -1;
         bool imprime = true;
+        int lastTipoPago = 1;
 
         public FrmVenta()
         {
@@ -2116,6 +2119,7 @@ namespace Minimercado
         private void ClearFiles()
         {
             vtaArticulo.Clear();
+            vtaArticuloSinInteres.Clear();
             //txtLocalidad.Text = string.Empty;
 
             txtCodBarra.Text = string.Empty;
@@ -2128,6 +2132,10 @@ namespace Minimercado
             txtRetira.Text = string.Empty;
             autoCompleteTxtCliente.Text = string.Empty;
             idclie = -1;
+            //vtaArticuloSinInteres = new List<VtaArtEntity>();
+            //vtaArticulo = new List<VtaArtEntity>();
+            lastTipoPago = 1;
+
             //lblTotal.Text = "0";
             ListarArticulos();
             //groupBox3.Enabled = false;
@@ -2280,6 +2288,8 @@ namespace Minimercado
         {
             dtGView.DataSource = null;
             dtGView.DataSource = vtaArticulo;
+            dtGView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dtGView.Refresh();
             dtGView.Columns[0].Visible = false; //Nume Vta
             dtGView.Columns[1].Visible = false; //ID Articulo
             dtGView.Columns[2].HeaderText = "Artículo";
@@ -2321,7 +2331,16 @@ namespace Minimercado
                     if (item.ArtiVear == IdArti && item.CantVear == cantidad && item.PrecVear == precio)
                     {
                         vtaArticulo.Remove(item);
-
+                        if (item.DescArti.ToLower() == "varios")
+                        {
+                            var index = vtaArticuloSinInteres.FindIndex(a => a.ArtiVear == item.ArtiVear && a.CantVear == item.CantVear && a.PrecVear == item.PrecVear);
+                            vtaArticuloSinInteres.RemoveAt(index);
+                        }
+                        else {
+                            var index = vtaArticuloSinInteres.FindIndex(a => a.ArtiVear == item.ArtiVear && a.CantVear == item.CantVear);
+                            vtaArticuloSinInteres.RemoveAt(index);
+                        }
+                       
                         double totalRemito = Convert.ToDouble(lblTotal.Text);
                         totalRemito -= Math.Round(item.PrecVear * item.CantVear, 2);
                         cant -= item.CantVear;
@@ -2769,7 +2788,7 @@ namespace Minimercado
             }
             else
             { 
-                int cant = 0;
+       
                 if (validarCampos())
                 {
                     if (Convert.ToDouble(txtPrecioUnitario.Text) <= 0)
@@ -2783,56 +2802,59 @@ namespace Minimercado
 
                         if (VerificarStock())
                         {
+                            decimal interes = 0;
+                            short tipoPago = (short)Convert.ToInt32(cboCondicion.SelectedValue);
+                            if (tipoPago == 1)
+                                interes = 0;
+                            else
+                            {
+                                arti = new ArticuloEntity();
+                                arti = artBus.getArticuloID(Convert.ToInt32(txtIdArticulo.Text));
+                                interes = ruBus.getInteres((short)arti.RubrArti, tipoPago);
+                            }
+
                             VtaArtEntity entity = new VtaArtEntity();
+                            VtaArtEntity entitySinInt = new VtaArtEntity();
+
                             entity.ArtiVear = Convert.ToInt32(txtIdArticulo.Text);
                             entity.CantVear = Convert.ToInt32(txtCantidad.Text);
-                            entity.PrecVear = Convert.ToDouble(txtPrecioUnitario.Text);
+                            entity.PrecVear = Math.Round(Convert.ToDouble(txtPrecioUnitario.Text) * (1+inicio/100),2);
                             entity.DescArti = lblArticulo.Text.Trim();
-                            entity.SubtotalVear = Math.Round(Convert.ToDouble(txtPrecioUnitario.Text) * Convert.ToInt32(txtCantidad.Text), 2);
+                            entity.SubtotalVear = Math.Round(entity.PrecVear * Convert.ToInt32(txtCantidad.Text), 2);
                             entity.IvaVear = arti.porcIVAArti;
                             entity.PorcDtoVear = porcDtoArt*100;
+
+                            entitySinInt.ArtiVear = Convert.ToInt32(txtIdArticulo.Text);
+                            entitySinInt.CantVear = Convert.ToInt32(txtCantidad.Text);
+                            entitySinInt.PrecVear = Convert.ToDouble(txtPrecioUnitario.Text);
+                            entitySinInt.DescArti = lblArticulo.Text.Trim();
+                            entitySinInt.SubtotalVear = Math.Round(Convert.ToDouble(txtPrecioUnitario.Text) * Convert.ToInt32(txtCantidad.Text), 2);
+                            entitySinInt.IvaVear = arti.porcIVAArti;
+                            entitySinInt.PorcDtoVear = porcDtoArt * 100;
+
+
                             var index = vtaArticulo.FindIndex(c => c.ArtiVear == entity.ArtiVear && c.PrecVear==entity.PrecVear);
                             if (index >= 0)
                             {
                                 if (!changeQuantity && !string.IsNullOrEmpty(txtCodBarra.Text.Trim()))
                                 {
                                     entity.CantVear += vtaArticulo[index].CantVear;
-                                    entity.SubtotalVear = Math.Round(Convert.ToDouble(txtPrecioUnitario.Text) * entity.CantVear, 2);
+                                    entity.SubtotalVear = Math.Round(entity.PrecVear * entity.CantVear, 2);
+
+                                    entitySinInt.CantVear += vtaArticulo[index].CantVear;
+                                    entitySinInt.SubtotalVear = Math.Round(Convert.ToDouble(txtPrecioUnitario.Text) * entity.CantVear, 2);
                                 }
                                 vtaArticulo[index] = entity;
+                                vtaArticuloSinInteres[index] = entitySinInt;
                             }
-                            else
+                            else {
                                 //vtaArticulo.Add(entity);
-                                vtaArticulo.Insert(0,entity);
-
-                            //****************************************************
-                            //CALCULA EL TOTAL
-                            //****************************************************
-                            if (nuevo) lblTotal.Text = "0";
-                            nuevo = false;
-                            double totalRemito = Convert.ToDouble(lblTotal.Text);
-                            //if (!changeQuantity)
-                            //    totalRemito += Math.Round(entity.PrecVear * entity.CantVear, 2);
-                            //else
-                            //{
-                            totalRemito = 0;
-                            foreach (VtaArtEntity articulo in vtaArticulo)
-                            {
-                                totalRemito += articulo.SubtotalVear;
-                                cant += articulo.CantVear;
-
+                                vtaArticulo.Insert(0, entity);
+                                vtaArticuloSinInteres.Insert(0, entitySinInt);
                             }
-                            //}
-                            lblTotal.Text = totalRemito.ToString();
 
-                            lblCantidad.Text = cant.ToString();
-                            //****************************************************
 
-                            if (string.IsNullOrEmpty(txtRecibido.Text)) txtRecibido.Text = "0";
-                            double recibido = Convert.ToDouble(txtRecibido.Text);
-                            recibido = recibido - totalRemito;
-                            lblVuelto.Text = Math.Round(recibido, 2).ToString();
-
+                            calcularTotal();
                             ListarArticulos();
                             limpiarSubCampos();
 
@@ -2841,6 +2863,37 @@ namespace Minimercado
                 }
                 changeQuantity = false;
             }
+        }
+
+        private void calcularTotal() {
+            //****************************************************
+            //CALCULA EL TOTAL
+            //****************************************************
+            int cant = 0;
+            if (nuevo) lblTotal.Text = "0";
+            nuevo = false;
+            double totalRemito = Convert.ToDouble(lblTotal.Text);
+            //if (!changeQuantity)
+            //    totalRemito += Math.Round(entity.PrecVear * entity.CantVear, 2);
+            //else
+            //{
+            totalRemito = 0;
+            foreach (VtaArtEntity articulo in vtaArticulo)
+            {
+                totalRemito += articulo.SubtotalVear;
+                cant += articulo.CantVear;
+
+            }
+            //}
+            lblTotal.Text = totalRemito.ToString();
+
+            lblCantidad.Text = cant.ToString();
+            //****************************************************
+
+            if (string.IsNullOrEmpty(txtRecibido.Text)) txtRecibido.Text = "0";
+            double recibido = Convert.ToDouble(txtRecibido.Text);
+            recibido = recibido - totalRemito;
+            lblVuelto.Text = Math.Round(recibido, 2).ToString();
         }
 
         private void btnNoFiscal_Click(object sender, EventArgs e)
@@ -3681,6 +3734,78 @@ namespace Minimercado
 
                 if (!IsNumeric(e.KeyChar)) e.KeyChar = Convert.ToChar(0);
             }
+        }
+
+        private void cboCondicion_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            actualizarInteres();
+        }
+
+        private void actualizarInteres() {
+            try
+            {
+                List<VtaArtEntity> newListVtaArticulo = new List<VtaArtEntity>();
+                short tipoPago = (short)Convert.ToInt32(cboCondicion.SelectedValue);
+                VtaArtEntity vtaArt = new VtaArtEntity();
+                decimal interes = 0;
+                if (vtaArticuloSinInteres.Count > 0)
+                {
+                    foreach (VtaArtEntity item in vtaArticuloSinInteres)
+                    {
+                        vtaArt = new VtaArtEntity();
+                        if (lastTipoPago == 1)
+                        {
+                            if (tipoPago != 1)
+                            {
+
+                                arti = new ArticuloEntity();
+                                arti = artBus.getArticuloID(item.ArtiVear);
+                                interes = ruBus.getInteres((short)arti.RubrArti, tipoPago);
+                                vtaArt.ArtiVear = item.ArtiVear;
+                                vtaArt.DescArti = item.DescArti;
+                                vtaArt.CantVear = item.CantVear;
+                                vtaArt.IvaVear = item.IvaVear;
+                                vtaArt.PrecVear = Math.Round(item.PrecVear * (double)(1 + (interes / 100)), 2);
+                                vtaArt.PorcDtoVear = item.PorcDtoVear;
+                                vtaArt.NumeVear = item.NumeVear;
+                                vtaArt.SubtotalVear = Math.Round(vtaArt.PrecVear * vtaArt.CantVear, 2);
+                                newListVtaArticulo.Add(vtaArt);
+                            }
+                        }
+                        else
+                        {
+                            if (tipoPago == 1)
+                                interes = 0;
+                            else
+                            {
+                                arti = new ArticuloEntity();
+                                arti = artBus.getArticuloID(item.ArtiVear);
+                                interes = ruBus.getInteres((short)arti.RubrArti, tipoPago);
+                            }
+                            vtaArt.ArtiVear = item.ArtiVear;
+                            vtaArt.DescArti = item.DescArti;
+                            vtaArt.CantVear = item.CantVear;
+                            vtaArt.IvaVear = item.IvaVear;
+                            vtaArt.PrecVear = Math.Round(item.PrecVear * (double)(1 + (interes / 100)), 2);
+                            vtaArt.PorcDtoVear = item.PorcDtoVear;
+                            vtaArt.NumeVear = item.NumeVear;
+                            vtaArt.SubtotalVear = Math.Round(vtaArt.PrecVear * vtaArt.CantVear, 2);
+                            newListVtaArticulo.Add(vtaArt);
+                        }
+
+                    }
+                    vtaArticulo = new List<VtaArtEntity>();
+                    vtaArticulo = newListVtaArticulo;
+                    lastTipoPago = tipoPago;
+                    calcularTotal();
+                    ListarArticulos();
+                }
+                else {
+                    calcularTotal();
+                }
+
+            } catch { }
+
         }
     }
 }

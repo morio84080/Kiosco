@@ -30,12 +30,16 @@
       <FullPath>ResumenVentasPorRubro.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
+      <Name>StockMinimo.rdl</Name>
+      <FullPath>StockMinimo.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>VentasPorFecha.rdl</Name>
       <FullPath>VentasPorFecha.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>StockMinimo.rdl</Name>
-      <FullPath>StockMinimo.rdl</FullPath>
+      <Name>VentaDetalle.rdl</Name>
+      <FullPath>VentaDetalle.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>

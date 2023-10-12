@@ -102,6 +102,11 @@ namespace Articulo.Business
         {
             return new ArticuloDALC().DS_GetByRubros(rubros).Tables[0];
         }
+
+        public DataTable getByRubrosParaPrint_DT(int rubroId)
+        {
+            return new ArticuloDALC().DS_GetByRubrosParaPrint(rubroId).Tables[0];
+        }
         public DataTable getByCodBarra_DT(string CodBarra)
         {
             return new ArticuloDALC().DS_GetByCodBarra(CodBarra).Tables[0];

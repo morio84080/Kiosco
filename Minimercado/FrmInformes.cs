@@ -50,6 +50,10 @@ namespace Minimercado
                     RptStockMinimo rtpStockMin = new RptStockMinimo();
                     rtpStockMin.ShowDialog();
                     break;
+                case 6:
+                    RptDetalleVentaPage rptDetalleVta = new RptDetalleVentaPage();
+                    rptDetalleVta.ShowDialog();
+                    break;
                 default:
                     MessageBox.Show("Opción Incorrecta");
                     break;

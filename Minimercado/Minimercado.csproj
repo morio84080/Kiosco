@@ -217,6 +217,18 @@
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMarca.Designer.cs">
+      <DependentUpon>FrmMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMarcaList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMarcaList.Designer.cs">
+      <DependentUpon>FrmMarcaList.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMovCajaList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -352,6 +364,18 @@
     <Compile Include="RptCtaCteClientePage.Designer.cs">
       <DependentUpon>RptCtaCteClientePage.cs</DependentUpon>
     </Compile>
+    <Compile Include="RptDetalleVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RptDetalleVenta.Designer.cs">
+      <DependentUpon>RptDetalleVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RptDetalleVentaPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RptDetalleVentaPage.Designer.cs">
+      <DependentUpon>RptDetalleVentaPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="RptDocElectronicos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -472,6 +496,12 @@
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmMarca.resx">
+      <DependentUpon>FrmMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMarcaList.resx">
+      <DependentUpon>FrmMarcaList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMovCajaList.resx">
       <DependentUpon>FrmMovCajaList.cs</DependentUpon>
     </EmbeddedResource>
@@ -544,6 +574,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RptCtaCteClientePage.resx">
       <DependentUpon>RptCtaCteClientePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RptDetalleVenta.resx">
+      <DependentUpon>RptDetalleVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RptDetalleVentaPage.resx">
+      <DependentUpon>RptDetalleVentaPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RptDocElectronicos.resx">
       <DependentUpon>RptDocElectronicos.cs</DependentUpon>
@@ -633,9 +669,9 @@
       <Project>{8c5a6dd4-54db-44df-9520-583c2440c12c}</Project>
       <Name>Logger</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Marca\Marca.csproj">
-      <Project>{9c0a90c3-ee2f-42cc-9675-fd9eb0f67db2}</Project>
-      <Name>Marca</Name>
+    <ProjectReference Include="..\Marcas\Marcas.csproj">
+      <Project>{fcb79443-689a-4484-9759-5809d60cf095}</Project>
+      <Name>Marcas</Name>
     </ProjectReference>
     <ProjectReference Include="..\Movimiento\Movimiento.csproj">
       <Project>{2fa2e75c-0833-45a2-89fc-37efacb9f1e8}</Project>

@@ -2,7 +2,7 @@
 <RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CNN_Reports">
   <ConnectionProperties>
     <Extension>SQL</Extension>
-    <ConnectString>Data Source=NBK-MARTIN\SQLEXPRESS;Initial Catalog=Kiosco</ConnectString>
+    <ConnectString>Data Source=NBK-MARTIN\SQLEXPRESS;Initial Catalog=Denari</ConnectString>
   </ConnectionProperties>
   <DataSourceID>49c9a2ca-84b0-4308-b0bb-810101a89167</DataSourceID>
 </RptDataSource>

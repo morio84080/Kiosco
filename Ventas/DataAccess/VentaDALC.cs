@@ -178,5 +178,26 @@ namespace Ventas.DataAccess
             }
 
         }
+
+        public decimal ObtenerInteres(short rubroId, short tipoPagoId)
+        {
+            try
+            {
+                SqlCommand cmd = new SqlCommand("SPinteresPorRubroTipoPago");
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@RubroId", SqlDbType.SmallInt).Value = rubroId;
+                cmd.Parameters.Add("@TipoPagoId", SqlDbType.SmallInt).Value = tipoPagoId;
+                cmd.Parameters.Add(new SqlParameter("@PorcInteres", SqlDbType.Decimal));
+                cmd.Parameters["@PorcInteres"].Direction = ParameterDirection.Output;
+
+                this.ExecuteNonQuery(cmd);
+                return Convert.ToDecimal(cmd.Parameters["@PorcInteres"].Value);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
     }
 }

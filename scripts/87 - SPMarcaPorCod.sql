@@ -1,0 +1,17 @@
+
+/****** Object:  StoredProcedure [dbo].[SPMarcaPorCod]    Script Date: 06/04/2023 09:30:33 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[SPMarcaPorCod](
+    @CODIGO NUMERIC(4,0)
+)
+AS
+SELECT * FROM MARCA WHERE CODIMARC=@CODIGO
+
+GO
+
+

@@ -282,6 +282,7 @@
             this.cboCondicion.Name = "cboCondicion";
             this.cboCondicion.Size = new System.Drawing.Size(133, 21);
             this.cboCondicion.TabIndex = 203;
+            this.cboCondicion.SelectedIndexChanged += new System.EventHandler(this.cboCondicion_SelectedIndexChanged);
             // 
             // picNuevoCobrador
             // 

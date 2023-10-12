@@ -43,6 +43,17 @@ namespace Articulo.DataAccess
             return ds;
         }
 
+        public DataSet DS_GetByRubrosParaPrint(int rubroID)
+        {
+            DataSet ds = new DataSet();
+            SqlCommand cmd = new SqlCommand("SParticuloPorRubroParaPrint");
+            cmd.Parameters.Add("RubrArti", SqlDbType.SmallInt).Value = rubroID;
+            cmd.CommandType = CommandType.StoredProcedure;
+            ds = this.ExecuteDataSet(cmd);
+            CloseConexion();
+            return ds;
+        }
+
         public DataSet DS_GetByCodBarra(string CodBarra)
         {
             DataSet ds = new DataSet();

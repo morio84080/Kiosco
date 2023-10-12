@@ -278,5 +278,10 @@ namespace Ventas.Business
                 throw ex;
             }
         }
+
+        public decimal getInteres(short rubroId, short tipoPagoId) { 
+
+            return new VentaDALC().ObtenerInteres(rubroId, tipoPagoId);
+        }
     }
 }

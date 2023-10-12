@@ -62,10 +62,10 @@ namespace Minimercado
             dtGView.Columns[2].HeaderText = "Efectivo $";
             dtGView.Columns[2].DefaultCellStyle.Format = "$ #,#.##";
             dtGView.Columns[2].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dtGView.Columns[3].HeaderText = "T. Crédito $";
+            dtGView.Columns[3].HeaderText = "Cuenta DNI $";
             dtGView.Columns[3].DefaultCellStyle.Format = "$ #,#.##";
             dtGView.Columns[3].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
-            dtGView.Columns[4].HeaderText = "T. Débito $";
+            dtGView.Columns[4].HeaderText = "T. Débito/Crédito $";
             dtGView.Columns[4].DefaultCellStyle.Format = "$ #,#.##";
             dtGView.Columns[4].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
 

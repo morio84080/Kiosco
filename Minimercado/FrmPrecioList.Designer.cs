@@ -137,6 +137,8 @@
             // checkBoxTodos
             // 
             this.checkBoxTodos.AutoSize = true;
+            this.checkBoxTodos.Checked = true;
+            this.checkBoxTodos.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxTodos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxTodos.Location = new System.Drawing.Point(918, 10);
             this.checkBoxTodos.Name = "checkBoxTodos";
@@ -210,8 +212,6 @@
             // checkBoxMantenerSeleccion
             // 
             this.checkBoxMantenerSeleccion.AutoSize = true;
-            this.checkBoxMantenerSeleccion.Checked = true;
-            this.checkBoxMantenerSeleccion.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxMantenerSeleccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxMantenerSeleccion.ForeColor = System.Drawing.Color.Navy;
             this.checkBoxMantenerSeleccion.Location = new System.Drawing.Point(86, 448);
@@ -220,6 +220,7 @@
             this.checkBoxMantenerSeleccion.TabIndex = 95;
             this.checkBoxMantenerSeleccion.Text = "Mantener Seleccion";
             this.checkBoxMantenerSeleccion.UseVisualStyleBackColor = true;
+            this.checkBoxMantenerSeleccion.Visible = false;
             // 
             // FrmPrecioList
             // 

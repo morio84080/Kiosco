@@ -351,7 +351,7 @@ namespace Minimercado
                         while (cnt < dtGView.RowCount)
                         {
 
-                            if (Convert.ToBoolean(dtGView.Rows[cnt].Cells[14].Value))
+                            if (Convert.ToBoolean(dtGView.Rows[cnt].Cells[15].Value))
                             {
                                 Ety = new ArticuloEntity();
                                 Ety = Bus.getArticuloID(Convert.ToInt32(dtGView.Rows[cnt].Cells[0].Value));
@@ -385,7 +385,7 @@ namespace Minimercado
         {
             foreach (DataGridViewRow fila in dtGView.Rows)
             {
-                fila.Cells[14].Value = checkBoxTodos.Checked;
+                fila.Cells[15].Value = checkBoxTodos.Checked;
             }
         }
 
@@ -399,7 +399,7 @@ namespace Minimercado
                 while (cnt < dtGView.RowCount)
                 {
 
-                    if (Convert.ToBoolean(dtGView.Rows[cnt].Cells[14].Value))
+                    if (Convert.ToBoolean(dtGView.Rows[cnt].Cells[15].Value))
                     {
                         idsArti = new IdsArticuloEntity();
                         idsArti.idArti=Convert.ToInt32(dtGView.Rows[cnt].Cells[0].Value);

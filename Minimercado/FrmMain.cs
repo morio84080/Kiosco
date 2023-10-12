@@ -30,18 +30,29 @@ namespace Minimercado
             tableLayoutPanel1.SetColumnSpan(c, 3);
             SetPermisos();
 
-            StockBUS stockBus = new StockBUS();
-            int AlarmaStock = stockBus.AlarmaStockMinimo();
-            if (AlarmaStock > 0) {
-                DialogResult dr = MessageBox.Show("Hay Productos que alcanzaron el Stock Mínimo, ¿Desea verlos?", "Alerta Stock Mínimo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-                switch (dr)
+            bool stock = false;
+            try
+            {
+              stock=  Convert.ToBoolean(System.Configuration.ConfigurationManager.AppSettings["stock"].ToString());
+            }
+            catch {}
+
+            if (stock) {
+                StockBUS stockBus = new StockBUS();
+                int AlarmaStock = stockBus.AlarmaStockMinimo();
+                if (AlarmaStock > 0)
                 {
-                    case DialogResult.OK:
-                        RptStockMinimo rpt = new RptStockMinimo();
-                        rpt.ShowDialog();
-                        break;
+                    DialogResult dr = MessageBox.Show("Hay Productos que alcanzaron el Stock Mínimo, ¿Desea verlos?", "Alerta Stock Mínimo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                    switch (dr)
+                    {
+                        case DialogResult.OK:
+                            RptStockMinimo rpt = new RptStockMinimo();
+                            rpt.ShowDialog();
+                            break;
+                    }
                 }
             }
+
 
             //bool generaArchivosAFIP = false;
 
@@ -483,6 +494,12 @@ namespace Minimercado
         private void testFactElectrónicaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmTest_FactElectronica frm = new FrmTest_FactElectronica();
+            frm.ShowDialog();
+        }
+
+        private void marcasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmMarcaList frm = new FrmMarcaList();
             frm.ShowDialog();
         }
     }

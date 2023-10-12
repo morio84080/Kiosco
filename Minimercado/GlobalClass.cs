@@ -6,6 +6,7 @@ using Cliente.Entities;
 using Rubros.Entities;
 using Articulo.Entities;
 using Proveedor.Entities;
+using Marcas.Entities;
 
 namespace Minimercado
 {
@@ -29,6 +30,7 @@ namespace Minimercado
         private static ClienteEntity _clieGlobal;
         private static RubroEntity _rubroGlobal;
         private static ProveedorEntity _provGlobal;
+        private static MarcaEntity _marcaGlobal;
         private static string _UserRS;
         private static string _PasswordRS;
         private static string _RS_url;
@@ -141,6 +143,11 @@ namespace Minimercado
             set { _provGlobal = value; }
         }
 
+        public static MarcaEntity marcaGlobal
+        {
+            get { return _marcaGlobal; }
+            set { _marcaGlobal = value; }
+        }
         public static string UserRS
         {
             get { return _UserRS; }

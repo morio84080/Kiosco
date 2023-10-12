@@ -8,7 +8,7 @@ using System.Windows.Forms;
 using Articulo.Business;
 using Articulo.Entities;
 using Rubros.Business;
-using Marca.Business;
+using Marcas.Business;
 using Movimiento.Business;
 
 namespace Minimercado
@@ -19,13 +19,14 @@ namespace Minimercado
         ArticuloEntity Ety = new ArticuloEntity();
         ArticuloEntity oldEty = new ArticuloEntity();
         RubroBusiness rubroBus = new RubroBusiness();
-        MarcaBUS marcaBus = new MarcaBUS();
+        MarcaBusiness marcaBus = new MarcaBusiness();
         MovimientoBus movBus = new MovimientoBus();
         bool close = false;
         int codRubro = 0;
         int codArti = 0;
         int actionType = 1;
         int calculo = 0;
+
 
         private bool formLoad;
         public FrmArticulo()
@@ -272,11 +273,11 @@ namespace Minimercado
                 //    this.txtCodBarra.Focus();
                 e.Handled = true;
             }
-            else
-            {
+            //else
+            //{
 
-                if (!IsNumeric(e.KeyChar)) e.KeyChar = Convert.ToChar(0);
-            }
+            //    if (!IsNumeric(e.KeyChar)) e.KeyChar = Convert.ToChar(0);
+            //}
             
         }
 
@@ -731,6 +732,24 @@ namespace Minimercado
         {
             txtStockMínimo.SelectionStart = 0;
             txtStockMínimo.SelectionLength = txtStockMínimo.Text.Length;
+        }
+
+        private void picNuevoRubro_Click(object sender, EventArgs e)
+        {
+            GlobalClass.ActionType = 1;
+            FrmRubro frm = new FrmRubro();
+            frm.ShowDialog();
+            GlobalClass.ActionType = actionType;
+            LlenarCboRubro();
+        }
+
+        private void picNuevaMarca_Click(object sender, EventArgs e)
+        {
+            GlobalClass.ActionType = 1;
+            FrmMarca frm = new FrmMarca();
+            frm.ShowDialog();
+            GlobalClass.ActionType = actionType;
+            LlenarCboMarca();
         }
     }
 }

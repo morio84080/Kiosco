@@ -209,12 +209,13 @@ namespace Minimercado
             int valor = -1;
             try { valor= Convert.ToInt32(cboRubro.SelectedValue); } catch { }
 
-            DataTable dt = new DataTable();           
-            
+            DataTable dt = new DataTable();
+
+            checkBoxTodos.Checked = false;
             if (checkBoxMantenerSeleccion.Checked)
             {
                 int v = 999;
-                dt = Bus.getByRubro_DT(v);
+                dt = Bus.getByRubrosParaPrint_DT(v);
                 DataRow dr;
                 int cnt = 0;
                 while (cnt < dtGView.RowCount)
@@ -236,25 +237,21 @@ namespace Minimercado
                         dr[10] = dtGView.Rows[cnt].Cells[10].Value;
                         dr[11] = dtGView.Rows[cnt].Cells[11].Value;
                         dr[12] = dtGView.Rows[cnt].Cells[12].Value;
+                        dr[13] = dtGView.Rows[cnt].Cells[13].Value;
 
                         dt.Rows.Add(dr);
                     }
                     cnt++;
                 }
                 DataTable dt2 = new DataTable();
-                dt2 = Bus.getByRubro_DT(valor);
+                dt2 = Bus.getByRubrosParaPrint_DT(valor);
                 dt.Merge(dt2);
             }
             else
             {
-                dt= Bus.getByRubro_DT(valor);
+                dt= Bus.getByRubrosParaPrint_DT(valor);
             }
             ListArticulos(dt);
-        }
-
-        private void ArticulosPorRubros(string rubros)
-        {
-            ListArticulos(Bus.getByRubros_DT(rubros));
         }
 
         private void ArticulosPorDesc()
@@ -294,7 +291,8 @@ namespace Minimercado
             dtGView.Columns[9].Width = 50;
             dtGView.Columns[10].Visible = false; // Porc. iva
             dtGView.Columns[11].Visible = false; // Porc. ganancia
-            dtGView.Columns[12].Visible = false; //bit de seleccion
+            dtGView.Columns[12].Visible = false; // stock minimo
+            dtGView.Columns[13].Visible = false; //bit de seleccion
 
 
             //dtGView.Refresh();

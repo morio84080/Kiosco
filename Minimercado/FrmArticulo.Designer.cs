@@ -28,11 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmArticulo));
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txtCodBarra = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtStockMínimo = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.cboMarca = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.txtLastUpdate = new System.Windows.Forms.TextBox();
@@ -54,9 +57,11 @@
             this.txtDesc = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblMensaje = new System.Windows.Forms.Label();
-            this.txtStockMínimo = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.picNuevoRubro = new System.Windows.Forms.PictureBox();
+            this.picNuevaMarca = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picNuevoRubro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picNuevaMarca)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCancelar
@@ -64,7 +69,7 @@
             this.btnCancelar.BackColor = System.Drawing.Color.Blue;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.ForeColor = System.Drawing.Color.White;
-            this.btnCancelar.Location = new System.Drawing.Point(254, 383);
+            this.btnCancelar.Location = new System.Drawing.Point(269, 383);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(90, 32);
             this.btnCancelar.TabIndex = 11;
@@ -77,7 +82,7 @@
             this.btnAceptar.BackColor = System.Drawing.Color.Blue;
             this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
-            this.btnAceptar.Location = new System.Drawing.Point(141, 383);
+            this.btnAceptar.Location = new System.Drawing.Point(156, 383);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(90, 32);
             this.btnAceptar.TabIndex = 10;
@@ -110,6 +115,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.picNuevaMarca);
+            this.groupBox1.Controls.Add(this.picNuevoRubro);
             this.groupBox1.Controls.Add(this.txtStockMínimo);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.cboMarca);
@@ -137,10 +144,33 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 24);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(476, 353);
+            this.groupBox1.Size = new System.Drawing.Size(493, 353);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Detalles";
+            // 
+            // txtStockMínimo
+            // 
+            this.txtStockMínimo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtStockMínimo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStockMínimo.Location = new System.Drawing.Point(162, 284);
+            this.txtStockMínimo.MaxLength = 10;
+            this.txtStockMínimo.Name = "txtStockMínimo";
+            this.txtStockMínimo.Size = new System.Drawing.Size(289, 21);
+            this.txtStockMínimo.TabIndex = 9;
+            this.txtStockMínimo.Text = "0";
+            this.txtStockMínimo.GotFocus += new System.EventHandler(this.txtStockMínimo_GotFocus);
+            this.txtStockMínimo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtStockMínimo_KeyPress);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(13, 284);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(91, 17);
+            this.label11.TabIndex = 56;
+            this.label11.Text = "Stock Mínimo";
             // 
             // cboMarca
             // 
@@ -390,35 +420,32 @@
             this.lblMensaje.Text = "ESC --> PARA CANCELAR";
             this.lblMensaje.Visible = false;
             // 
-            // txtStockMínimo
+            // picNuevoRubro
             // 
-            this.txtStockMínimo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtStockMínimo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStockMínimo.Location = new System.Drawing.Point(162, 284);
-            this.txtStockMínimo.MaxLength = 10;
-            this.txtStockMínimo.Name = "txtStockMínimo";
-            this.txtStockMínimo.Size = new System.Drawing.Size(289, 21);
-            this.txtStockMínimo.TabIndex = 9;
-            this.txtStockMínimo.Text = "0";
-            this.txtStockMínimo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtStockMínimo_KeyPress);
-            this.txtStockMínimo.GotFocus += new System.EventHandler(this.txtStockMínimo_GotFocus);
+            this.picNuevoRubro.Image = ((System.Drawing.Image)(resources.GetObject("picNuevoRubro.Image")));
+            this.picNuevoRubro.Location = new System.Drawing.Point(457, 37);
+            this.picNuevoRubro.Name = "picNuevoRubro";
+            this.picNuevoRubro.Size = new System.Drawing.Size(23, 23);
+            this.picNuevoRubro.TabIndex = 203;
+            this.picNuevoRubro.TabStop = false;
+            this.picNuevoRubro.Click += new System.EventHandler(this.picNuevoRubro_Click);
             // 
-            // label11
+            // picNuevaMarca
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(13, 284);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(91, 17);
-            this.label11.TabIndex = 56;
-            this.label11.Text = "Stock Mínimo";
+            this.picNuevaMarca.Image = ((System.Drawing.Image)(resources.GetObject("picNuevaMarca.Image")));
+            this.picNuevaMarca.Location = new System.Drawing.Point(457, 66);
+            this.picNuevaMarca.Name = "picNuevaMarca";
+            this.picNuevaMarca.Size = new System.Drawing.Size(23, 23);
+            this.picNuevaMarca.TabIndex = 204;
+            this.picNuevaMarca.TabStop = false;
+            this.picNuevaMarca.Click += new System.EventHandler(this.picNuevaMarca_Click);
             // 
             // FrmArticulo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(498, 422);
+            this.ClientSize = new System.Drawing.Size(517, 422);
             this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
@@ -436,6 +463,8 @@
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmArticulo_KeyDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picNuevoRubro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picNuevaMarca)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -471,5 +500,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtStockMínimo;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.PictureBox picNuevoRubro;
+        private System.Windows.Forms.PictureBox picNuevaMarca;
     }
 }
