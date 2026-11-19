@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -3195,7 +3195,7 @@ namespace Minimercado
                 line += 15;
                 ev.Graphics.DrawString("Orientación al Consumidor Provincia de", printFont, Brushes.Black, 70, line, new StringFormat());
                 line += 15;
-                ev.Graphics.DrawString("Buenos Aires 0800-222-9042", printFont, Brushes.Black, 70, line, new StringFormat());
+                ev.Graphics.DrawString("Buenos Aires - Linea 148", printFont, Brushes.Black, 70, line, new StringFormat());
                 line += 15;
                 ev.Graphics.DrawLine(blackPen, 50, line, 500, line);
                 line += 15;
@@ -3350,7 +3350,7 @@ namespace Minimercado
                 line += 15;
                 ev.Graphics.DrawString("Orientación al Consumidor Provincia de", printFont, Brushes.Black, 70, line, new StringFormat());
                 line += 15;
-                ev.Graphics.DrawString("Buenos Aires 0800-222-9042", printFont, Brushes.Black, 70, line, new StringFormat());
+                ev.Graphics.DrawString("Buenos Aires - Linea 148", printFont, Brushes.Black, 70, line, new StringFormat());
                 line += 15;
                 ev.Graphics.DrawLine(blackPen, 50, line, 500, line);
                 line += 15;
@@ -3573,7 +3573,7 @@ namespace Minimercado
                 line += 15;
                 ev.Graphics.DrawString("Orientación al Consumidor Provincia de", printFont, Brushes.Black, 20, line, new StringFormat());
                 line += 15;
-                ev.Graphics.DrawString("Buenos Aires 0800-222-9042", printFont, Brushes.Black, 20, line, new StringFormat());
+                ev.Graphics.DrawString("Buenos Aires - Linea 148", printFont, Brushes.Black, 20, line, new StringFormat());
                 line += 15;
                 ev.Graphics.DrawLine(blackPen, 20, line, 500, line);
                 line += 15;
@@ -3737,7 +3737,7 @@ namespace Minimercado
                 line += 15;
                 ev.Graphics.DrawString("Orientación al Consumidor Provincia de", printFont, Brushes.Black, 5, line, new StringFormat());
                 line += 15;
-                ev.Graphics.DrawString("Buenos Aires 0800-222-9042", printFont, Brushes.Black, 5, line, new StringFormat());
+                ev.Graphics.DrawString("Buenos Aires - Linea 148", printFont, Brushes.Black, 5, line, new StringFormat());
                 line += 15;
                 ev.Graphics.DrawLine(blackPen, 5, line, 500, line);
                 line += 15;
@@ -3860,7 +3860,7 @@ namespace Minimercado
                 line += 15;
                 ev.Graphics.DrawString("Orientación al Consumidor Provincia de", printFont, Brushes.Black, 70, line, new StringFormat());
                 line += 15;
-                ev.Graphics.DrawString("Buenos Aires 0800-222-9042", printFont, Brushes.Black, 70, line, new StringFormat());
+                ev.Graphics.DrawString("Buenos Aires - Linea 148", printFont, Brushes.Black, 70, line, new StringFormat());
                 line += 15;
                 ev.Graphics.DrawLine(blackPen, 50, line, 500, line);
                 line += 15;
