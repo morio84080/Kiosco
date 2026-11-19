@@ -24,6 +24,7 @@ using FacturaElectronica.Business;
 using Articulo.Entities;
 using Articulo.Business;
 using FacturaElectronica.ar.gov.afip.servicios1;
+using System.Linq;
 
 namespace Minimercado
 {
@@ -52,6 +53,10 @@ namespace Minimercado
         static string FechaIniActividades = System.Configuration.ConfigurationManager.AppSettings["FechaIniActividades"].ToString();
         static string PtoVta = System.Configuration.ConfigurationManager.AppSettings["PtoVta"].ToString();
         static string DomicilioComercial = System.Configuration.ConfigurationManager.AppSettings["DomicilioComercial"].ToString();
+        static bool rubroExento = Convert.ToBoolean( System.Configuration.ConfigurationManager.AppSettings["rubroExento"].ToString());
+        static bool impuestoCigarrillos = Convert.ToBoolean(System.Configuration.ConfigurationManager.AppSettings["impuestoCigarrillos"].ToString());
+        static int formula = Convert.ToInt32(System.Configuration.ConfigurationManager.AppSettings["formulaCigarrillos"].ToString());
+
         string nombreImpresora = string.Empty;
         bool esC = false;
         int cantPage = 0;
@@ -83,6 +88,7 @@ namespace Minimercado
         private bool load = false;
         int idclie = -1;
         bool imprime = true;
+        bool btnFiscalActivo = false;
         int lastTipoPago = 1;
 
         public FrmVenta()
@@ -94,9 +100,15 @@ namespace Minimercado
         {
             try
             {
-                ComanderaAlternativa = Convert.ToBoolean(System.Configuration.ConfigurationManager.AppSettings["ComanderaAlternativa"]);
+                btnFiscalActivo = Convert.ToBoolean(System.Configuration.ConfigurationManager.AppSettings["btnFiscalActivo"]);
             }
             catch {}
+
+            try
+            {
+                ComanderaAlternativa = Convert.ToBoolean(System.Configuration.ConfigurationManager.AppSettings["ComanderaAlternativa"]);
+            }
+            catch { }
 
             try {
                nombreImpresora = System.Configuration.ConfigurationManager.AppSettings["nombreComandera"].ToString();
@@ -142,6 +154,11 @@ namespace Minimercado
                 LlenarCboTipoFactura();
 
             autocompleteClient();
+
+            if (btnFiscalActivo)
+                btnAceptar.Enabled = true;
+            else
+                btnAceptar.Enabled = false;
         }
 
         void FrmVenta_Resize(object sender, EventArgs e)
@@ -331,7 +348,9 @@ namespace Minimercado
             }
             else if (e.KeyCode == System.Windows.Forms.Keys.F1)
             {
-                btnAceptar_Click(sender, e);
+                if (btnFiscalActivo)
+                    btnAceptar_Click(sender, e);
+                
             }
             else if (e.KeyCode == System.Windows.Forms.Keys.F5)
             {
@@ -1147,6 +1166,7 @@ namespace Minimercado
                     return -1;
                 }
 
+                int CodIvaReceptorId = cliente.CondIvaClie;
 
                 RespuestaAbrirDocumento respAbrir = new RespuestaAbrirDocumento();
                 try
@@ -1450,11 +1470,13 @@ namespace Minimercado
             double magnitudImpuestoInterno = 0;
             try
             {
-
+                int CodIvaReceptorId = 5;
+                   
                 if (venta.IdClie > 0)
                 {
                     ClienteEntity cliente = new ClienteEntity();
                     cliente = new ClienteBUS().getClienteID(venta.IdClie);
+                    CodIvaReceptorId = cliente.CondIvaClie;
                     if (cliente == null)
                     {
 
@@ -1647,7 +1669,11 @@ namespace Minimercado
                     //}
                     clienteId = idclie;
 
-                    
+                    int CodIvaReceptorId = 5; 
+                    if (idclie != -1)
+                        CodIvaReceptorId = clieBus.getClienteID(idclie).CondIvaClie;
+
+
 
                     VentaEntity Ety = new VentaEntity();
                     Ety.TipoVta = tipoVta;
@@ -1692,11 +1718,13 @@ namespace Minimercado
                                     AlicIvaEntity etyIva = new AlicIvaEntity();
                                     int idIVA = 0;
                                     double BaseImp21 = 0;
-                                    double BaseImp0 = 0;
+                                    //double BaseImp0 = 0;
                                     double BaseImpReal = 0;
                                     double importe = 0;
                                     double impuestoInterno = 0;
                                     double IvaExento = 0;
+                                    double netoII = 0; // neto acumulado de cigarrillos (formula 2)
+                                    double ivaII = 0;  // iva acumulado de cigarrillos (formula 2)
                                     /*
                                     3 - 0
                                     4 - 10.5
@@ -1712,53 +1740,101 @@ namespace Minimercado
                                     {
                                         arti = new ArticuloEntity();
                                         arti = artBus.getArticuloID(articulo.ArtiVear);
-                                        if (arti.RubrArti == 3)
+                                        if (arti.RubrArti == 3 && rubroExento && tipoFact!=3)
                                         {
-                                            BaseImp0 +=  articulo.SubtotalVear;
+                                            //BaseImp0 +=  articulo.SubtotalVear;
                                             //IvaExento += 0;// articulo.SubtotalVear;
                                             IvaExento +=  articulo.SubtotalVear;
                                         }                                            
-                                        else if (arti.RubrArti == 2)
+                                        else if (arti.RubrArti == 2 && impuestoCigarrillos) // solo cigarrillos
                                         {
-                                            impuesto = new ImpuestoInternoEntity();
-                                            impuesto = getNetoImpuestoInterno((decimal)articulo.SubtotalVear);
-                                            BaseImp21 += (double)(impuesto.Neto + impuesto.Neto * 0.21m);
-                                            impuestoInterno += (double)impuesto.ImpuestoInterno;
+                                            if (formula == 1)
+                                            {
+                                                impuesto = new ImpuestoInternoEntity();
+                                                impuesto = getNetoImpuestoInterno((decimal)articulo.SubtotalVear);
+                                                BaseImp21 += (double)(impuesto.Neto + impuesto.Neto * 0.21m);
+                                                impuestoInterno += (double)impuesto.ImpuestoInterno;
+                                            }
+                                            else
+                                            {
+                                                impuesto = new ImpuestoInternoEntity();
+                                                impuesto = getNetoImpuestoInterno2((decimal)articulo.SubtotalVear);
+                                                impuestoInterno += (double)impuesto.ImpuestoInterno;
+                                                netoII += (double)impuesto.Neto;
+                                                ivaII += (double)impuesto.Iva;
+                                            }
 
                                         }
                                         else
                                             BaseImp21 += articulo.SubtotalVear;                                        
 
                                     }
+                                    if (formula == 2 && impuestoInterno>0)
+                                    {
+                                        idIVA = 5;
+                                        etyIva = new AlicIvaEntity();
+
+                                        etyIva.id = idIVA;
+                                        etyIva.Importe = Math.Round(ivaII, 2);
+                                        etyIva.BaseImp = Math.Round(netoII, 2);
+                                        totalIva += etyIva.Importe;
+
+                                        ivas.Add(etyIva);
+                                        Logger.Log.LogInFile("etyIva.id: " + etyIva.id, "borrarVta");
+                                        Logger.Log.LogInFile("etyIva.Importe: " + etyIva.Importe, "borrarVta");
+                                        Logger.Log.LogInFile("etyIva.BaseImp: " + etyIva.BaseImp, "borrarVta");
+                                        Logger.Log.LogInFile("impuesto.ImpuestoInterno: " + impuesto.ImpuestoInterno, "borrarVta");
+                                        Logger.Log.LogInFile("ImpuestoInterno: " + impuestoInterno, "borrarVta");
+                                    }
 
                                     if (BaseImp21>0)
                                     {
                                         BaseImpReal = Math.Round(BaseImp21 / 1.21, 2);
-                                        importe = Math.Round(BaseImp21 - (BaseImp21 / 1.21), 2);
-                  
-                                        idIVA = 5;
+                                        // El IVA se obtiene por diferencia para que BaseImp + Importe == BaseImp21 sin error de redondeo
+                                        importe = Math.Round(BaseImp21 - BaseImpReal, 2);
 
-                                        etyIva.id = idIVA;
-                                        etyIva.Importe = importe;
-                                        etyIva.BaseImp = BaseImpReal;
+                                        idIVA = 5;
+                                        // Si ya existe un registro con el mismo id, acumular los importes en lugar de agregar uno nuevo
+                                        var existente = ivas.FirstOrDefault(x => x.id == idIVA);
+                                        if (existente != null)
+                                        {
+                                            existente.Importe = Math.Round(existente.Importe + importe, 2);
+                                            existente.BaseImp = Math.Round(existente.BaseImp + BaseImpReal, 2);
+                                        }
+                                        else
+                                        {
+                                            etyIva = new AlicIvaEntity();
+                                            etyIva.id = idIVA;
+                                            etyIva.Importe = importe;
+                                            etyIva.BaseImp = BaseImpReal;
+                                            ivas.Add(etyIva);
+                                        }
+
                                         totalIva += importe;
- 
-                                        ivas.Add(etyIva);
-                                        //Logger.Log.LogInFile("etyIva.id: " + etyIva.id, "borrarVta");
-                                        //Logger.Log.LogInFile("etyIva.Importe: " + etyIva.Importe, "borrarVta");
-                                        //Logger.Log.LogInFile("etyIva.BaseImp: " + etyIva.BaseImp, "borrarVta");
+                                        //Logger.Log.LogInFile("etyIva.id: " + idIVA, "borrarVta");
+                                        //Logger.Log.LogInFile("etyIva.Importe: " + importe, "borrarVta");
+                                        //Logger.Log.LogInFile("etyIva.BaseImp: " + BaseImpReal, "borrarVta");
                                     }
 
 
 
                                     IvaExento = Math.Round(IvaExento, 2);
-                                    impuestoInterno = Math.Round(impuestoInterno, 2);
+                                    totalIva = Math.Round(totalIva, 2);
+
+                                    // AFIP exige que ImpNeto sea igual a la suma de los BaseImp de AlicIva (error 10061)
+                                    double netoAfip = Math.Round(ivas.Sum(x => x.BaseImp), 2);
+
+                                    // La diferencia de redondeo la absorbe el impuesto interno para que ImpTotal cuadre
+                                    if (impuestoInterno > 0)
+                                        impuestoInterno = Math.Round((double)Ety.TotaVta - netoAfip - totalIva - IvaExento, 2);
+                                    else
+                                        impuestoInterno = 0;
 
 
-                                    //Logger.Log.LogInFile("totalIva: " + totalIva, "borrarVta");
-                                    //Logger.Log.LogInFile("impuestoInterno: " + impuestoInterno, "borrarVta");
-                                    //Logger.Log.LogInFile("IvaExento: " + IvaExento, "borrarVta");
-                                    //Logger.Log.LogInFile("neto: " + Math.Round((double)(Ety.TotaVta - totalIva - impuestoInterno-IvaExento), 2).ToString(), "borrarVta");
+                                    Logger.Log.LogInFile("totalIva: " + totalIva, "borrarVta");
+                                    Logger.Log.LogInFile("impuestoInterno: " + impuestoInterno, "borrarVta");
+                                    Logger.Log.LogInFile("IvaExento: " + IvaExento, "borrarVta");
+                                    Logger.Log.LogInFile("neto: " + netoAfip, "borrarVta");
                                     
 
                                     //string cuitClie = "20222222223";
@@ -1788,7 +1864,7 @@ namespace Minimercado
                                         //*******************************************************************************************
                                         wsassSystem wasass = new wsassSystem(); //TESTING
                                         FacturaElectronica.ar.gov.afip.wswhomo.FECAEResponse res = new FacturaElectronica.ar.gov.afip.wswhomo.FECAEResponse(); //TESTING                                    
-                                        res = wasass.FECAESolicitar(1, (tipoFact == 3 ? 1 : 6), 1, (cuitClie.Length >= 11 ? 80 : (cuitClie.Length==1?99:96)), long.Parse(cuitClie), (double)Ety.TotaVta, Math.Round((double)(Ety.TotaVta - totalIva), 2), totalIva, ivas, DateTime.Now, "PES", venta,impuestoInterno,IvaExento);
+                                        res = wasass.FECAESolicitar(1, (tipoFact == 3 ? 1 : 6), 1, (cuitClie.Length >= 11 ? 80 : (cuitClie.Length==1?99:96)), long.Parse(cuitClie), (double)Ety.TotaVta, netoAfip, totalIva, ivas, DateTime.Now, "PES", venta,impuestoInterno,IvaExento);
 
                                         if (res.FeCabResp.Resultado != "A")
                                         {
@@ -1831,7 +1907,7 @@ namespace Minimercado
                                         catch { }
                                         wsaaProdSystem wasass = new wsaaProdSystem(); // PRODUCCION
                                         FacturaElectronica.ar.gov.afip.servicios1.FECAEResponse res = new FacturaElectronica.ar.gov.afip.servicios1.FECAEResponse(); //PRODUCCION
-                                        res = wasass.FECAESolicitar(1, (tipoFact == 3 ? 1 : 6), 1, (cuitClie.Length >= 11 ? 80 : (cuitClie.Length == 1 ? 99 : 96)), long.Parse(cuitClie), (double)Ety.TotaVta, Math.Round((double)(Ety.TotaVta - totalIva-impuestoInterno-IvaExento), 2), totalIva, ivas, DateTime.Now, "PES", venta, impuestoInterno, IvaExento);
+                                        res = wasass.FECAESolicitar(1, (tipoFact == 3 ? 1 : 6), 1, (cuitClie.Length >= 11 ? 80 : (cuitClie.Length == 1 ? 99 : 96)), long.Parse(cuitClie), (double)Ety.TotaVta, netoAfip, totalIva, ivas, DateTime.Now, "PES", venta, impuestoInterno, IvaExento, CodIvaReceptorId);
                                         try { Logger.Log.LogInFile("Response FECAESolicitar --> " + res, "IF.log"); }
                                         catch { }
 
@@ -1950,7 +2026,7 @@ namespace Minimercado
                                         catch { }
                                         wsaaProdSystem wasass = new wsaaProdSystem(); // PRODUCCION
                                         FacturaElectronica.ar.gov.afip.servicios1.FECAEResponse res = new FacturaElectronica.ar.gov.afip.servicios1.FECAEResponse(); //PRODUCCION
-                                        res = wasass.FECAESolicitar(1, 11, 1, 96, long.Parse(cuitClie), (double)Ety.TotaVta, Math.Round((double)(Ety.TotaVta - etyIva.Importe), 2), etyIva.Importe, ivas, DateTime.Now, "PES", venta,0,0);
+                                        res = wasass.FECAESolicitar(1, 11, 1, 96, long.Parse(cuitClie), (double)Ety.TotaVta, Math.Round((double)(Ety.TotaVta - etyIva.Importe), 2), etyIva.Importe, ivas, DateTime.Now, "PES", venta,0,0, CodIvaReceptorId);
                                         try { Logger.Log.LogInFile("Response FECAESolicitar --> " + res, "IF.log"); }
                                         catch { }
 
@@ -2047,6 +2123,28 @@ namespace Minimercado
                 dummy = total - ii.ImpuestoInterno;
                 ii.Neto = dummy / 1.21m;
                 ii.Iva = ii.Neto * 0.21m;
+            }
+            catch (Exception)
+            {
+
+                ii = null;
+            }
+            return ii;
+
+        }
+
+        private Ventas.Entities.ImpuestoInternoEntity getNetoImpuestoInterno2(decimal total)
+        {
+            ImpuestoInternoEntity ii = new ImpuestoInternoEntity();
+
+            try
+            {
+                decimal tasaEfectiva = 6.6923m;
+                decimal tasaEfectivaIva = tasaEfectiva+1.21m;
+                decimal dummy = 0;
+                ii.Neto = total / tasaEfectivaIva;
+                ii.Iva = ii.Neto * 0.21m;
+                ii.ImpuestoInterno =ii.Neto * tasaEfectiva;
             }
             catch (Exception)
             {
@@ -2405,6 +2503,10 @@ namespace Minimercado
                         string fecVtoCae = string.Empty;
                         notaCredito.NumeVtaNocr = venta.NumeVta;
 
+                        int CodIvaReceptorId = 5;
+                        if (venta.IdClie>0)
+                            CodIvaReceptorId = clieBus.getClienteID(venta.IdClie).CondIvaClie;
+
                         if (!tipoVta)
                         {
                             string letra = venta.LetraVta;
@@ -2497,7 +2599,7 @@ namespace Minimercado
                                             wsaaProdSystem wasass = new wsaaProdSystem(); // PRODUCCION
                                             FacturaElectronica.ar.gov.afip.servicios1.FECAEResponse res = new FacturaElectronica.ar.gov.afip.servicios1.FECAEResponse(); //PRODUCCION
 
-                                            res = wasass.FECAESolicitar(1, (venta.LetraVta == "FEA" ? 3 : 8), 1, (cuitClie.Length >= 11 ? 80 : (cuitClie.Length == 1 ? 99 : 96)), long.Parse(cuitClie), (double)venta.TotaVta, etyIVA.BaseImp, etyIVA.Importe, ivas, DateTime.Now, "PES", venta,0,0);
+                                            res = wasass.FECAESolicitar(1, (venta.LetraVta == "FEA" ? 3 : 8), 1, (cuitClie.Length >= 11 ? 80 : (cuitClie.Length == 1 ? 99 : 96)), long.Parse(cuitClie), (double)venta.TotaVta, etyIVA.BaseImp, etyIVA.Importe, ivas, DateTime.Now, "PES", venta,0,0,CodIvaReceptorId);
 
                                             if (res.FeCabResp.Resultado != "A")
                                             {
@@ -2628,7 +2730,7 @@ namespace Minimercado
                                             wsaaProdSystem wasass = new wsaaProdSystem(); // PRODUCCION
                                             FacturaElectronica.ar.gov.afip.servicios1.FECAEResponse res = new FacturaElectronica.ar.gov.afip.servicios1.FECAEResponse(); //PRODUCCION
 
-                                            res = wasass.FECAESolicitar(1, 13, 1, 96, long.Parse(cuitClie), (double)venta.TotaVta, etyIVA.BaseImp, etyIVA.Importe, ivas, DateTime.Now, "PES", venta,0,0);
+                                            res = wasass.FECAESolicitar(1, 13, 1, 96, long.Parse(cuitClie), (double)venta.TotaVta, etyIVA.BaseImp, etyIVA.Importe, ivas, DateTime.Now, "PES", venta,0,0,CodIvaReceptorId);
 
                                             if (res.FeCabResp.Resultado != "A")
                                             {
@@ -3089,6 +3191,14 @@ namespace Minimercado
                 ev.Graphics.DrawString(venta.TotaVta.ToString("0.00"), printFontTitulo, Brushes.Black, 235, line, new StringFormat());
                 line += 30;
                 //CAE
+                ev.Graphics.DrawLine(blackPen, 50, line, 500, line);
+                line += 15;
+                ev.Graphics.DrawString("Orientación al Consumidor Provincia de", printFont, Brushes.Black, 70, line, new StringFormat());
+                line += 15;
+                ev.Graphics.DrawString("Buenos Aires 0800-222-9042", printFont, Brushes.Black, 70, line, new StringFormat());
+                line += 15;
+                ev.Graphics.DrawLine(blackPen, 50, line, 500, line);
+                line += 15;
                 ev.Graphics.DrawString("CAE: " + notaCredito.CaeNocr, printFont, Brushes.Black, 70, line, new StringFormat());
                 line += 15;
                 //FECHA VTO
@@ -3236,6 +3346,14 @@ namespace Minimercado
                 ev.Graphics.DrawString(venta.TotaVta.ToString("0.00"), printFontTitulo, Brushes.Black, 235, line, new StringFormat());
                 line += 30;
                 //CAE
+                ev.Graphics.DrawLine(blackPen, 50, line, 500, line);
+                line += 15;
+                ev.Graphics.DrawString("Orientación al Consumidor Provincia de", printFont, Brushes.Black, 70, line, new StringFormat());
+                line += 15;
+                ev.Graphics.DrawString("Buenos Aires 0800-222-9042", printFont, Brushes.Black, 70, line, new StringFormat());
+                line += 15;
+                ev.Graphics.DrawLine(blackPen, 50, line, 500, line);
+                line += 15;
                 ev.Graphics.DrawString("CAE: " + notaCredito.CaeNocr, printFont, Brushes.Black, 70, line, new StringFormat());
                 line += 15;
                 //FECHA VTO
@@ -3339,7 +3457,8 @@ namespace Minimercado
                 linesPerPage = ev.MarginBounds.Height / printFont.GetHeight(ev.Graphics);
 
 
-                string cuitClie = "20222222223";
+                //string cuitClie = "20222222223";
+                string cuitClie = "0";
                 string rasoClie = "CONSUMIDOR FINAL";
                 string domicilioClie = "-";
                 string CondicionIVA = "CONSUMIDOR FINAL";
@@ -3391,13 +3510,18 @@ namespace Minimercado
                 line += 15;
                 int x = 1;
                 inicio++;
+                string porcIVA = string.Empty;
+                decimal alicuotaIva = 0;
+                double subtotal = 0;
                 foreach (VtaArtEntity vtaArt in vtaArticulo)
                 {
                     if (x>=inicio && x<=fin)
                     {
                         ev.Graphics.DrawString(vtaArt.CantVear.ToString() + " X " + vtaArt.PrecVear.ToString("0.00"), printFont, Brushes.Black, 20, line, new StringFormat());
-                        ev.Graphics.DrawString("(" + vtaArt.IvaVear.ToString() + ")", printFont, Brushes.Black, 215, line, new StringFormat());
-
+                        porcIVA = (vtaArt.IvaVear == 0 ? "21" : vtaArt.IvaVear.ToString());
+                        ev.Graphics.DrawString("(" + porcIVA + ")", printFont, Brushes.Black, 215, line, new StringFormat());
+                        alicuotaIva = (vtaArt.IvaVear == 0 ? 1.21m : 1 + (vtaArt.IvaVear / 100));
+                        subtotal += vtaArt.SubtotalVear / (double)alicuotaIva;
                         line = line + 15;
                         ev.Graphics.DrawString((vtaArt.DescArti.Length > 22 ? vtaArt.DescArti.Substring(0, 22) : vtaArt.DescArti), printFont, Brushes.Black, 20, line, new StringFormat());
                         ev.Graphics.DrawString(vtaArt.SubtotalVear.ToString("0.00"), printFont, Brushes.Black, 235, line, new StringFormat());
@@ -3429,8 +3553,30 @@ namespace Minimercado
                 line += 15;
                 ev.Graphics.DrawString("TOTAL", printFontTitulo, Brushes.Black, 20, line, new StringFormat());
                 ev.Graphics.DrawString(venta.TotaVta.ToString("0.00"), printFontTitulo, Brushes.Black, 235, line, new StringFormat());
+
+                if (venta.LetraVta == "FEB")
+                {
+                    line += 30;
+                    ev.Graphics.DrawLine(blackPen, 20, line, 500, line);
+                    line += 15;
+                    ev.Graphics.DrawString("Reg. de transparencia fiscal al consumidor final", printFontTitulo, Brushes.Black, 20, line, new StringFormat());
+                    line += 15;
+                    ev.Graphics.DrawString("Iva Contenido:", printFontTitulo, Brushes.Black, 20, line, new StringFormat());
+                    ev.Graphics.DrawString((venta.TotaVta - subtotal).ToString("0.00"), printFontTitulo, Brushes.Black, 235, line, new StringFormat());
+                    line += 15;
+                    ev.Graphics.DrawLine(blackPen, 20, line, 500, line);
+                }
+
                 line += 30;
                 //CAE
+                ev.Graphics.DrawLine(blackPen, 20, line, 500, line);
+                line += 15;
+                ev.Graphics.DrawString("Orientación al Consumidor Provincia de", printFont, Brushes.Black, 20, line, new StringFormat());
+                line += 15;
+                ev.Graphics.DrawString("Buenos Aires 0800-222-9042", printFont, Brushes.Black, 20, line, new StringFormat());
+                line += 15;
+                ev.Graphics.DrawLine(blackPen, 20, line, 500, line);
+                line += 15;
                 ev.Graphics.DrawString("CAE: " + venta.CAEVta, printFont, Brushes.Black, 20, line, new StringFormat());
                 line += 15;
                 //FECHA VTO
@@ -3525,12 +3671,18 @@ namespace Minimercado
                 line += 15;
                 int x = 1;
                 inicio++;
+                string porcIVA = string.Empty;
+                decimal alicuotaIva = 0;
+                double subtotal = 0;
                 foreach (VtaArtEntity vtaArt in vtaArticulo)
                 {
                     if (x >= inicio && x <= fin)
                     {
                         ev.Graphics.DrawString(vtaArt.CantVear.ToString() + " X " + vtaArt.PrecVear.ToString("0.00"), printFont, Brushes.Black, 5, line, new StringFormat());
-                        ev.Graphics.DrawString("(" + vtaArt.IvaVear.ToString() + ")", printFont, Brushes.Black, 115, line, new StringFormat());
+                        porcIVA = (vtaArt.IvaVear == 0 ? "21" : vtaArt.IvaVear.ToString());
+                        alicuotaIva = (vtaArt.IvaVear == 0 ? 1.21m : 1 + (vtaArt.IvaVear / 100));
+                        ev.Graphics.DrawString("(" + porcIVA + ")", printFont, Brushes.Black, 115, line, new StringFormat());
+                        subtotal += vtaArt.SubtotalVear / (double)alicuotaIva;
 
                         line = line + 15;
                         ev.Graphics.DrawString((vtaArt.DescArti.Length > 22 ? vtaArt.DescArti.Substring(0, 22) : vtaArt.DescArti), printFont, Brushes.Black, 5, line, new StringFormat());
@@ -3563,8 +3715,32 @@ namespace Minimercado
                 line += 15;
                 ev.Graphics.DrawString("TOTAL", printFontTitulo, Brushes.Black, 5, line, new StringFormat());
                 ev.Graphics.DrawString(venta.TotaVta.ToString("0.00"), printFontTitulo, Brushes.Black, 147, line, new StringFormat());
+
+                if (venta.LetraVta == "FEB")
+                {
+                    line += 30;
+                    ev.Graphics.DrawLine(blackPen, 20, line, 500, line);
+                    line += 15;
+                    ev.Graphics.DrawString("Reg. de transparencia fiscal", printFontTitulo, Brushes.Black, 20, line, new StringFormat());
+                    line += 15;
+                    ev.Graphics.DrawString("al consumidor final", printFontTitulo, Brushes.Black, 20, line, new StringFormat());
+                    line += 15;
+                    ev.Graphics.DrawString("Iva Contenido:", printFontTitulo, Brushes.Black, 20, line, new StringFormat());
+                    ev.Graphics.DrawString((venta.TotaVta - subtotal).ToString("0.00"), printFontTitulo, Brushes.Black, 145, line, new StringFormat());
+                    line += 15;
+                    ev.Graphics.DrawLine(blackPen, 20, line, 500, line);
+                }
+
                 line += 30;
                 //CAE
+                ev.Graphics.DrawLine(blackPen, 5, line, 500, line);
+                line += 15;
+                ev.Graphics.DrawString("Orientación al Consumidor Provincia de", printFont, Brushes.Black, 5, line, new StringFormat());
+                line += 15;
+                ev.Graphics.DrawString("Buenos Aires 0800-222-9042", printFont, Brushes.Black, 5, line, new StringFormat());
+                line += 15;
+                ev.Graphics.DrawLine(blackPen, 5, line, 500, line);
+                line += 15;
                 ev.Graphics.DrawString("CAE: " + venta.CAEVta, printFont, Brushes.Black, 5, line, new StringFormat());
                 line += 15;
                 //FECHA VTO
@@ -3680,6 +3856,14 @@ namespace Minimercado
                 ev.Graphics.DrawString(venta.TotaVta.ToString("0.00"), printFontTitulo, Brushes.Black, 235, line, new StringFormat());
                 line += 30;
                 //CAE
+                ev.Graphics.DrawLine(blackPen, 50, line, 500, line);
+                line += 15;
+                ev.Graphics.DrawString("Orientación al Consumidor Provincia de", printFont, Brushes.Black, 70, line, new StringFormat());
+                line += 15;
+                ev.Graphics.DrawString("Buenos Aires 0800-222-9042", printFont, Brushes.Black, 70, line, new StringFormat());
+                line += 15;
+                ev.Graphics.DrawLine(blackPen, 50, line, 500, line);
+                line += 15;
                 ev.Graphics.DrawString("CAE: " + venta.CAEVta, printFont, Brushes.Black, 70, line, new StringFormat());
                 line += 15;
                 //FECHA VTO
